@@ -1,0 +1,7 @@
+[user]
+	name = adgai19
+	email = gaitondeaditya@gmail.com
+[core]
+	editor = nano
+[credential]
+	helper = store

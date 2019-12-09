@@ -1,0 +1,63 @@
+"*":
+  Hydrogen:
+    debug: true
+    kernelNotifications: true
+    wrapOutput: true
+  "atom-beautify":
+    general:
+      _analyticsUserId: "c655c3e3-fd2b-4a08-a169-ef7fe0f6584d"
+  "atom-python-virtualenv":
+    additionalVirtualEnvPaths: "~/chatbotwkop"
+  core:
+    disabledPackages: [
+      "linter-ui-default"
+      "go-plus"
+      "tool-bar"
+      "build"
+      "busy-signal"
+      "intentions"
+      "script"
+      "term3"
+    ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "desktop.ini"
+      ".pioenvs"
+      ".piolibdeps"
+      ".clang_complete"
+      ".gcc-flags.json"
+    ]
+    packagesWithKeymapsDisabled: []
+    telemetryConsent: "limited"
+    themes: [
+      "city-lights-ui"
+      "city-lights-syntax"
+    ]
+    useTreeSitterParsers: false
+  editor:
+    fontSize: 10
+    scrollPastEnd: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "9b1a9ff7-cad5-469c-87a1-5f30dbc4ffda"
+  "file-icons":
+    coloured: false
+  kite:
+    showWelcomeNotificationOnStartup: false
+  "linter-ui-default":
+    useBusySignal: false
+  "sync-settings":
+    _lastBackupHash: "4af83478b581ce4d990bb059e12b58374b06b592"
+    gistId: "2a5dd7cf5c61bf44327c05edf6bb512a"
+    personalAccessToken: "b3776a892476f3258fed1ed215bb2c1ca3461ef2"
+    removeObsoletePackages: true
+  "tool-bar":
+    position: "Left"
+  "tree-view":
+    hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
