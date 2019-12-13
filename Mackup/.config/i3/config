@@ -204,7 +204,7 @@ bindsym $mod+x move workspace to output right
 bindsym $mod+Shift+x move workspace to output left
 
 #background image
-exec feh --bg-fill ~/Pictures/abstraction_sharp_figure_101902_1920x1080.jpg
+exec feh --bg-fill /usr/share/backgrounds/Ubuntu_80s_glitch_by_Abubakar_NK.jpg
 #bindsym $mod+p move workspace to output right
 #bindsym $mod++p exec xrandr --output HDMI-1 --auto --right-of eDP
 #bindsym $mod+Shift+p exec xrandr --output HDMI-1 --off

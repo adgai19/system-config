@@ -141,7 +141,7 @@
 		<Setting name="Cache directory" />
 		<Setting name="Tab data">
 			<Tabs>
-				<Tab connected="1" selected="1">
+				<Tab selected="1">
 					<Host>192.168.43.1</Host>
 					<Port>1025</Port>
 					<Protocol>0</Protocol>
