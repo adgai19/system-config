@@ -4,3 +4,5 @@ fi
 eval "$(pyenv virtualenv-init -)"
 
 export PATH="$HOME/.cargo/bin:$PATH"
+
+source /home/adgai/.config/broot/launcher/bash/br

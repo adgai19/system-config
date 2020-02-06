@@ -5,7 +5,7 @@ alias l="exa -lahF"
 alias matlab="/usr/local/MATLAB/R2018a/bin/matlab"
 alias upgrade="sudo apt update; and apt upgrade"
 alias z="cd -"
-
+alias exconmir="xrandr --output HDMI-1 --auto --same-as eDP-1"
 thefuck --alias | source
 begin
     set --local AUTOJUMP_PATH $HOME/.autojump/share/autojump/autojump.fish
@@ -27,3 +27,4 @@ begin
 end
 
 source /usr/share/autojump/autojump.fish
+set PATH /root/.cargo/bin /home/adgai/.cargo/bin /home/adgai/.local/bin /usr/local/sbin /usr/local/bin /usr/sbin /usr/bin /sbin /bin /usr/games /usr/local/games /snap/bin

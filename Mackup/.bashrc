@@ -131,3 +131,5 @@ eval "$(pyenv virtualenv-init -)"
 eval $(thefuck --alias)
 # You can use whatever you want as an alias, like for Mondays:
 eval $(thefuck --alias FUCK)
+
+source /home/adgai/.config/broot/launcher/bash/br
