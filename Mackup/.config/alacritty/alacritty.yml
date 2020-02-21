@@ -231,7 +231,7 @@ visual_bell:
   duration: 0
 
 # Background opacity
-background_opacity: 0.5
+background_opacity: 0.25
 
 # Key bindings
 #
@@ -328,7 +328,7 @@ background_opacity: 0.5
 #	Control
 key_bindings:
   - { key: V,        mods: Control,       action: Paste                        }
-  - { key: C,        mods: Control,       action: Copy                         }
+  - { key: C,        mods: Alt,       action: Copy                         }
   - { key: Q,        mods: Control,       action: Quit                         }
   - { key: N,        mods: Control,       action: SpawnNewInstance             }
   - { key: Return,   mods: Control,       action: ToggleFullscreen             }
