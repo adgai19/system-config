@@ -207,7 +207,7 @@ bar {
 	position top 
 	tray_output none 
 	workspace_buttons no
-	status_command bumblebee-status  -m amixer brightness nic indicator -p interval=5 -t dracula-powerline
+status_command bumblebee-status  -m amixer brightness nic indicator -p interval=5 nic.left-click="nmcli device wifi rescan" -t dracula-powerline
 }
 #HDMI-1
 bar {
@@ -293,5 +293,5 @@ bindsym $mod+t workspace prev
 bindsym $mod+Ctrl+l exec i3lock && xset dpms 5
 
 bindsym $mod2+u brightness+
-#exec_always --no-startup-id exec i3-workspace-names-daemon
+exec_always --no-startup-id exec i3-workspace-names-daemon
 
