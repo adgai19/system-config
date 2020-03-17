@@ -146,16 +146,15 @@
 					<Port>1025</Port>
 					<Protocol>0</Protocol>
 					<Type>0</Type>
-					<User>adgai</User>
-					<Logontype>2</Logontype>
+					<Logontype>0</Logontype>
 					<TimezoneOffset>0</TimezoneOffset>
 					<PasvMode>MODE_DEFAULT</PasvMode>
 					<MaximumMultipleConnections>0</MaximumMultipleConnections>
 					<EncodingType>Auto</EncodingType>
 					<BypassProxy>0</BypassProxy>
 					<Site></Site>
-					<RemotePath>1 0 8 Download</RemotePath>
-					<LocalPath>/media/adgai/03CF877355886DD3/</LocalPath>
+					<RemotePath>1 0</RemotePath>
+					<LocalPath>/home/adgai/Pictures/</LocalPath>
 				</Tab>
 			</Tabs>
 		</Setting>
