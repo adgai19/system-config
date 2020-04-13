@@ -312,3 +312,4 @@ client.unfocused	#c5c8c6 #1d1f21 #c5c8c6 #5f819d #5f819d
 client.focused_inactive #c5c8c6 #1d1f21 #c5c8c6 #5f819d #5f819d
 client.urgent		#c5c8c6 #1d1f21 #c5c8c6 #5f819d #5f819d
 client.placeholder	#c5c8c6 #1d1f21 #c5c8c6 #5f819d #5f819d
+exec --no-startup-id nm-applet
