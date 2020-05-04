@@ -306,8 +306,8 @@ background_opacity: 0.5
 #   - AppKeypad
 #	Control
 key_bindings:
-  - { key: V,        mods: Control,       action: Paste                        }
-  - { key: C,        mods: Alt,       action: Copy                         }
+  - { key: V,        mods: Control|Shift,       action: Paste                        }
+  - { key: C,        mods: Control|Shift,       action: Copy                         }
   - { key: Q,        mods: Control,       action: Quit                         }
   - { key: N,        mods: Control,       action: SpawnNewInstance             }
   - { key: Return,   mods: Control,       action: ToggleFullscreen             }
