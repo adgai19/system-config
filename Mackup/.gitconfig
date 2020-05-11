@@ -2,6 +2,6 @@
 	name = adgai19
 	email = gaitondeaditya@gmail.com
 [core]
-	editor = nano
+	editor = nvim
 [credential]
 	helper = store
