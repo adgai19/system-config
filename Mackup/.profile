@@ -31,3 +31,4 @@ export QSYS_ROOTDIR="/home/adgai/intelFPGA_lite/18.1/quartus/sopc_builder/bin"
 
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="/root/.cargo/bin:$PATH"
+export QT_QPA_PLATFORMTHEME="qt5ct"

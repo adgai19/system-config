@@ -32,3 +32,5 @@ set PATH /root/.cargo/bin /home/adgai/.cargo/bin /home/adgai/.local/bin /usr/loc
 #powerline-setup
 export MANPAGER="sh -c 'col -bx | batcat -l man -p'"
 #alias dismic="sudo sh -c "echo 'blacklist snd_hda_intel' >> /etc/modprobe.d/blacklist.conf"
+setxkbmap -option caps:swapescape
+/usr/bin/xcape -e 'Shift_L=Control_L|B'
