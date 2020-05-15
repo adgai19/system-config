@@ -34,3 +34,4 @@ export MANPAGER="sh -c 'col -bx | batcat -l man -p'"
 #alias dismic="sudo sh -c "echo 'blacklist snd_hda_intel' >> /etc/modprobe.d/blacklist.conf"
 #setxkbmap -option caps:swapescape
 #/usr/bin/xcape -e 'Shift_L=Control_L|B'
+alias vi=nvim
