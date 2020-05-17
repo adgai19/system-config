@@ -35,3 +35,13 @@ export MANPAGER="sh -c 'col -bx | batcat -l man -p'"
 #setxkbmap -option caps:swapescape
 #/usr/bin/xcape -e 'Shift_L=Control_L|B'
 alias vi=nvim
+alias t=tmux
+alias ta="tmux a"
+alias tl="tmux ls"
+#
+##set -Ux PYENV_ROOT $HOME/.pyenv
+#set -Ux fish_user_paths $PYENV_ROOT/bin $fish_user_paths
+#if command -v pyenv 1>/dev/null 2>&1; 
+#source (pyenv init - | psub)
+#end
+  #pyenv init - | source"
