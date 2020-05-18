@@ -142,7 +142,7 @@
 		<Setting name="Tab data">
 			<Tabs>
 				<Tab connected="1" selected="1">
-					<Host>192.168.43.90</Host>
+					<Host>192.168.43.1</Host>
 					<Port>1025</Port>
 					<Protocol>0</Protocol>
 					<Type>0</Type>
@@ -153,8 +153,8 @@
 					<EncodingType>Auto</EncodingType>
 					<BypassProxy>0</BypassProxy>
 					<Site></Site>
-					<RemotePath>1 0</RemotePath>
-					<LocalPath>/mnt/external/</LocalPath>
+					<RemotePath>1 0 8 Download</RemotePath>
+					<LocalPath>/mnt/adgai/mkv/movie/</LocalPath>
 				</Tab>
 			</Tabs>
 		</Setting>
