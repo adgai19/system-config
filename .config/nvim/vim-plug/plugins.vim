@@ -28,4 +28,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'scrooloose/NERDTree'
 Plug 'jiangmiao/auto-pairs'
 Plug 'ianks/vim-tsx'
+Plug 'gko/vim-coloresque'
+"Plug 'chrisbra/Colorizer'
+Plug 'lilydjwg/colorizer'
 call plug#end()
