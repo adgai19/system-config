@@ -1,0 +1,17 @@
+{
+    "firefox": "firefox",
+    "chromium": "chrome",
+    "google-chrome": "chrome",
+    "alacritty": "terminal",
+    "thunderbird": "envelope",
+    "jetbrains-idea-ce": "edit",
+    "nautilus": "folder-open",
+    "clementine": "music",
+    "vlc": "play",
+    "signal": "comment",
+    "org.gnome.nautilus":"folder",
+    "libreoffice-impress":"file",
+    "code":"code",
+    "acroread":"file",
+    "libreoffice-writer":"file"
+}
