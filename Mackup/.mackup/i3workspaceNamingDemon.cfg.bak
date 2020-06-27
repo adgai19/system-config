@@ -1,5 +1,0 @@
-[application]
-name = i3workspaceNamingDaemon
-
-[configuration_files]
-.config/i3/app-icons.json
