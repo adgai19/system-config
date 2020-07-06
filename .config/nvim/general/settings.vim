@@ -34,7 +34,7 @@ set timeoutlen=500                      " By default timeoutlen is 1000 ms
 set formatoptions-=cro                  " Stop newline continution of comments
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 "set autochdir                           " Your working directory will always be the same as your working directory
-
+let g:airline#extensions#tabline#enabled = 1
 set wildmode=longest,list,full
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
 "autocmd VimEnter *
@@ -43,3 +43,23 @@ au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm al
 "  \| endif
 " You can't stop me
 "cmap w!! w !sudo tee %
+let g:airline#extensions#tabline#formatter = 'default'
+let g:airline_powerline_fonts = 1
+set showtabline=0
+set nocompatible
+let g:CtrlSpaceDefaultMappingKey = "<C-space> "
+"if has('win32')
+"    let s:vimfiles = '~/vimfiles'
+"    let s:os   = 'windows'
+"else
+"    let s:vimfiles = '~/.vim'
+"    if has('mac') || has('gui_macvim')
+"        let s:os = 'darwin'
+"    else
+"    " elseif has('gui_gtk2') || has('gui_gtk3')
+"        let s:os = 'linux'
+"    endif
+"endif
+
+let g:CtrlSpaceFileEngine = "auto"" 
+au ColorScheme * hi Normal ctermbg=none guibg=none
