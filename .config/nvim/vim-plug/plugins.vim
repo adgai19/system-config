@@ -39,7 +39,10 @@ Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
 Plug 'voldikss/vim-floaterm'
 Plug 'rbgrouleff/bclose.vim'
 Plug 'francoiscabrol/ranger.vim'
+"Plug 'mitermayer/vim-prettier'
 Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'lilydjwg/colorizer'
+Plug 'aben20807/vim-runner'
+Plug 'sheerun/vim-polyglot'
 Plug 'vim-ctrlspace/vim-ctrlspace'
 call plug#end()

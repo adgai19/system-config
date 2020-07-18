@@ -3,6 +3,7 @@ source $HOME/.config/nvim/general/settings.vim
 source $HOME/.config/nvim/plug-config/start-screen.vim
 source $HOME/.config/nvim/plug-config/rnvimr.vim
 source $HOME/.config/nvim/keys/which-key.vim
+source $HOME/.config/nvim/plug-config/coc.vim
 colorscheme nord
 autocmd vimenter * NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
@@ -19,3 +20,4 @@ inoremap <silent><expr> <Tab>
       \ <SID>check_back_space() ? "\<Tab>" :
       \ coc#refresh()
 autocmd VimEnter * NERDTree | wincmd p
+"highlight Normal ctermbg=None

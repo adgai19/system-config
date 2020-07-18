@@ -160,6 +160,7 @@ bindsym $mod+Shift+a exec i3-msg exit
 # resize window (you can also use the mouse for that)
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
+        #
 
         # Pressing left will shrink the window’s width.
         # Pressing right will grow the window’s width.
@@ -318,4 +319,4 @@ exec_always --no-startup-id exec i3-workspace-names-daemon
 #i3 border control
 bindsym mod+o exec /bin/bash ~/.config/i3grid/manager.sh
 
-
+ for_window [class=".*"] title_format " "
