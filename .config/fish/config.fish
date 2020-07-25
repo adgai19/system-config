@@ -7,13 +7,13 @@ alias matlab="/usr/local/MATLAB/R2018a/bin/matlab"
 alias upgrade="sudo apt update; and apt upgrade"
 alias z="cd -"
 alias exconmir="xrandr --output HDMI-1 --auto --same-as eDP-1"
-thefuck --alias | source
-begin
-    set --local AUTOJUMP_PATH $HOME/.autojump/share/autojump/autojump.fish
-    if test -e $AUTOJUMP_PATH
-        source $AUTOJUMP_PATH
-    end
-end
+#thefuck --alias | source
+#begin
+#    set --local AUTOJUMP_PATH $HOME/.autojump/share/autojump/autojump.fish
+#    if test -e $AUTOJUMP_PATH
+#        source $AUTOJUMP_PATH
+#    end
+#end
 alias gca="git commit -a"
 alias gcm="git commit -m"
 alias gcma="git commit -a -m"
@@ -46,4 +46,17 @@ alias tl="tmux ls"
 #if command -v pyenv 1>/dev/null 2>&1; 
 #source (pyenv init - | psub)
 #end
-  #pyenv init - | source"
+#pyenv init - | source"
+
+alias brightness="xrandr --output DP-4 --brightness"
+export GEM_HOME="$HOME/gems"
+export PATH="$HOME/anaconda3/bin:$PATH"
+
+#export PATH="$PATH:/usr/local/cuda/bin"
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+#eval /home/adgai/anaconda3/bin/conda "shell.fish" "hook" $argv | source
+# <<< conda initialize <<<
+#export LD_LIBRARY_PATH=/usr/local/cuda-10.1/lib64:$LD_LIBRARY_PATH
+#export LD_LIBRARY_PATH=/usr/local/cuda-10.1/include:$LD_LIBRARY_PATH

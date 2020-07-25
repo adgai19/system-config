@@ -205,9 +205,9 @@ set $nord15  #B48EAD
 # finds out, if available)
 bar {
 font pango:Inconsolata 6
-	output eDP-1
+	output DP-4
 	tray_output none
-        status_command bumblebee-status  -m  load cpu memory battery date time pasink system  -p interval=1 time.format="%H:%M CW %V" date.format="%a, %b %d %Y" home.path=/home system.lock="i3lock && xset dpms 5" system.logout="i3 msg exit" -t nord-powerline
+        status_command bumblebee-status  -m  disk load cpu memory battery date time pasink system  -p interval=1 time.format="%H:%M CW %V" date.format="%a, %b %d %Y" home.path=/home system.lock="i3lock && xset dpms 5" system.logout="i3 msg exit" -t nord-powerline
         
        colors {
 
@@ -270,8 +270,7 @@ bindsym $mod+x move workspace to output right
 bindsym $mod+Shift+x move workspace to output left
 
 #background image
-#exec_always feh --bg-fill /home/adgai/wallpapers/*
-
+exec_always feh --bg-fill "/home/adgai/wallpapers/NordPeeks.png"
 #numlock on startup
 exec_always --no-startup-id numlockx on #numlock setting
 
