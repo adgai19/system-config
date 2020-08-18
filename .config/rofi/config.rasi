@@ -1,6 +1,6 @@
 configuration {
 /*	width: 50;*/
-	modi: "drun,window,run,ssh,file-browser";
+	modi: "drun,window,run,ssh,combi";
 /*	modi: "combi";*/
 /*	lines: 15;*/
 /*	columns: 1;*/
@@ -32,7 +32,7 @@ configuration {
 /*	auto-select: false;*/
 /*	parse-hosts: false;*/
 /*	parse-known-hosts: true;*/
-	combi-modi: "run,window,web-search,FloatingSwitcher:~/.config/i3grid/manager.sh,WebSearch:~/script/web-search.sh";
+/*	combi-modi: "run,window,web-search,FloatingSwitcher:~/.config/i3grid/manager.sh,WebSearch:~/script/web-search.sh";*/
 /*	matching: "normal";*/
 /*	tokenize: true;*/
 /*	m: "-5";*/
@@ -141,3 +141,4 @@ configuration {
 	menu_arguments: [-dmenu,-i]*/
 }
 @import "/home/adgai/.local/share/rofi/themes/nord.rasi"
+
