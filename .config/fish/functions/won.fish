@@ -1,4 +1,4 @@
 # Defined in - @ line 1
-function won --description 'alias won nmcli networking on'
-	nmcli networking on $argv;
+function won --wraps='nmcli networking on' --description 'alias won nmcli networking on'
+  nmcli networking on $argv;
 end

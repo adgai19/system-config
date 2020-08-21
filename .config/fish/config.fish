@@ -43,14 +43,15 @@ alias tl="tmux ls"
 #
 ##set -Ux PYENV_ROOT $HOME/.pyenv
 #set -Ux fish_user_paths $PYENV_ROOT/bin $fish_user_paths
-#if command -v pyenv 1>/dev/null 2>&1; 
+#if command -v pyenv 1>/dev/null 2>&1;
 #source (pyenv init - | psub)
 #end
 #pyenv init - | source"
 
 alias brightness="xrandr --output DP-4 --brightness"
 export GEM_HOME="$HOME/gems"
-export PATH="$HOME/anaconda3/bin:$PATH"
+
+export PATH="$HOME/anaconda3/bin:$PATH:/usr/local/bin"
 
 #export PATH="$PATH:/usr/local/cuda/bin"
 

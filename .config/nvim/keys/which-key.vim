@@ -21,7 +21,7 @@ highlight default link WhichKeyDesc      Function
 " Hide status line
 autocmd! FileType which_key
 autocmd  FileType which_key set laststatus=0 noshowmode noruler
-  \| autocmd BufLeave <buffer> set laststatus=2 noshowmode ruler
+      \| autocmd BufLeave <buffer> set laststatus=2 noshowmode ruler
 let g:mapleader = "\<Space>"
 let g:maplocalleader = ','
 nnoremap <silent> <leader>      :<c-u>WhichKey '<Space>'<CR>
@@ -41,9 +41,9 @@ let g:which_key_map['n'] = [ ':NERDTreeToggle'                     , 'toggle ner
 
 " s is for search
 let g:which_key_map.s = {
-     \ 'name' : '+search' ,
-     \ '/' : [':History/'     , 'history'],
-     \ ';' : [':Commands'     , 'commands'],
+      \ 'name' : '+search' ,
+      \ '/' : [':History/'     , 'history'],
+      \ ';' : [':Commands'     , 'commands'],
       \ 'a' : [':Ag'           , 'text Ag'],
       \ 'b' : [':BLines'       , 'current buffer'],
       \ 'B' : [':Buffers'      , 'open buffers'],
@@ -67,6 +67,19 @@ let g:which_key_map.s = {
       \ 'y' : [':Filetypes'    , 'file types'],
       \ 'z' : [':FZF'          , 'FZF'],
       \ }
-
+let g:which_key_map.t = {
+      \ 'name' : '+terminal' ,
+      \ ';' : [':FloatermNew --wintype=popup --height=6'        , 'terminal'],
+      \ 'f' : [':FloatermNew fzf'                               , 'fzf'],
+      \ 'g' : [':FloatermNew lazygit'                           , 'git'],
+      \ 'd' : [':FloatermNew lazydocker'                        , 'docker'],
+      \ 'n' : [':FloatermNew node'                              , 'node'],
+      \ 'N' : [':FloatermNew nnn'                               , 'nnn'],
+      \ 'p' : [':FloatermNew python'                            , 'python'],
+      \ 'r' : [':FloatermNew ranger'                            , 'ranger'],
+      \ 't' : [':FloatermToggle'                                , 'toggle'],
+      \ 'y' : [':FloatermNew ytop'                              , 'ytop'],
+      \ 's' : [':FloatermNew ncdu'                              , 'ncdu'],
+      \ }
 " Register which key map
 call which_key#register('<Space>', "g:which_key_map")

@@ -65,4 +65,7 @@ let g:CtrlSpaceFileEngine = "auto""
 au ColorScheme * hi Normal ctermbg=none guibg=none
 let g:kite_supported_languages = ['python', 'javascript']
 au BufWrite * :Autoformat
+autocmd FileType javascript let b:coc_suggest_disable=1
+let g:auto_comma_or_semicolon_events = ["InsertLeave"]
+let g:tmux_navigator_save_on_switch = 2
 
