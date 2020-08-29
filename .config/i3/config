@@ -37,7 +37,7 @@ floating_modifier $mod
 
 # start a terminal
 #bindsym $mod+Return exec i3-sensible-terminal
-bindsym $mod+Shift+Return exec gnome-terminal 
+bindsym $mod+Shift+Return exec gnome-terminal
 bindsym $mod+Return exec alacritty
 #bindsym $mod+Ctrl+Return exec xfce4-terminal
 # kill focused window
@@ -160,28 +160,28 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 bindsym $mod+Shift+a exec i3-msg exit
 # resize window (you can also use the mouse for that)
 mode "resize" {
-        # These bindings trigger as soon as you enter the resize mode
-        #
+# These bindings trigger as soon as you enter the resize mode
+#
 
-        # Pressing left will shrink the window’s width.
-        # Pressing right will grow the window’s width.
-        # Pressing up will shrink the window’s height.
-        # Pressing down will grow the window’s height.
-        bindsym j resize shrink width 10 px or 10 ppt
-        bindsym k resize grow height 10 px or 10 ppt
-        bindsym l resize shrink height 10 px or 10 ppt
-        bindsym semicolon resize grow width 10 px or 10 ppt
+# Pressing left will shrink the window’s width.
+# Pressing right will grow the window’s width.
+# Pressing up will shrink the window’s height.
+# Pressing down will grow the window’s height.
+  bindsym j resize shrink width 10 px or 10 ppt
+    bindsym k resize grow height 10 px or 10 ppt
+    bindsym l resize shrink height 10 px or 10 ppt
+    bindsym semicolon resize grow width 10 px or 10 ppt
 
-        # same bindings, but for the arrow keys
-        bindsym Left resize shrink width 10 px or 10 ppt
-        bindsym Down resize grow height 10 px or 10 ppt
-        bindsym Up resize shrink height 10 px or 10 ppt
-        bindsym Right resize grow width 10 px or 10 ppt
+# same bindings, but for the arrow keys
+    bindsym Left resize shrink width 10 px or 10 ppt
+    bindsym Down resize grow height 10 px or 10 ppt
+    bindsym Up resize shrink height 10 px or 10 ppt
+    bindsym Right resize grow width 10 px or 10 ppt
 
-        # back to normal: Enter or Escape or $mod+r
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
-        bindsym $mod+r mode "default"
+# back to normal: Enter or Escape or $mod+r
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+    bindsym $mod+r mode "default"
 }
 
 bindsym $mod+r mode "resize"
@@ -205,68 +205,68 @@ set $nord15  #B48EAD
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
-font pango:Inconsolata 6
-	output DP-4
-	tray_output none
-        status_command bumblebee-status  -m  disk load cpu memory battery date time pasink system  -p interval=1 time.format="%H:%M CW %V" date.format="%a, %b %d %Y" home.path=/home system.lock="i3lock && xset dpms 5" system.logout="i3 msg exit" -t nord-powerline
-        
-       colors {
+  font pango:Inconsolata 6
+    output DP-4
+    tray_output none
+    status_command bumblebee-status  -m  disk load cpu memory battery date time pasink system  -p interval=1 time.format="%H:%M CW %V" date.format="%a, %b %d %Y" home.path=/home system.lock="i3lock && xset dpms 5" system.logout="i3 msg exit" -t nord-powerline
 
-    background $nord0
-	  statusline $nord8
-    focused_workspace  $nord3  $nord8
-	  active_workspace   $nord3  $nord6
-	  inactive_workspace $nord8  $nord3
-	  urgent_workspace   $nord3 $nord15 
+    colors {
 
-        }
+      background $nord0
+        statusline $nord8
+        focused_workspace  $nord3  $nord8
+        active_workspace   $nord3  $nord6
+        inactive_workspace $nord8  $nord3
+        urgent_workspace   $nord3 $nord15
+
+    }
 }
 #top bar
 bar {
-	font pango:Inconsolata 6
-	position top 
-	tray_output none 
-	workspace_buttons no
-status_command bumblebee-status  -m amixer brightness nic indicator -p interval=1 nic.left-click="nmcli device wifi rescan" -t nord-powerline 
-colors {
+  font pango:Inconsolata 6
+    position top
+    tray_output none
+    workspace_buttons no
+    status_command bumblebee-status  -m amixer brightness nic indicator -p interval=1 nic.left-click="nmcli device wifi rescan" -t nord-powerline
+    colors {
 
-          background $nord0
-	  statusline $nord8
+      background $nord0
+        statusline $nord8
 
-          focused_workspace  $nord3  $nord8
-	  active_workspace   $nord3  $nord6
-	  inactive_workspace $nord8  $nord3
-	  urgent_workspace   $nord3 $nord15 
+        focused_workspace  $nord3  $nord8
+        active_workspace   $nord3  $nord6
+        inactive_workspace $nord8  $nord3
+        urgent_workspace   $nord3 $nord15
 
-        }}
+    }}
 #HDMI-1
 bar {
-font pango:Inconsolata 6
+  font pango:Inconsolata 6
     output HDMI-0
     tray_output none
-    status_command bumblebee-status  -m load cpu memory battery date time pasink system  -p interval=1 time.format="%H:%M CW %V" date.format="%a, %b %d %Y" home.path=/home system.lock="i3lock && xset dpms 5" system.logout="i3 msg exit" -t nord-powerline 
-   colors{ background $nord0
-	  statusline $nord8
-    focused_workspace  $nord3  $nord8
-	  active_workspace   $nord3  $nord6
-	  inactive_workspace $nord8  $nord3
-	  urgent_workspace   $nord3 $nord15 
+    status_command bumblebee-status  -m load cpu memory battery date time pasink system  -p interval=1 time.format="%H:%M CW %V" date.format="%a, %b %d %Y" home.path=/home system.lock="i3lock && xset dpms 5" system.logout="i3 msg exit" -t nord-powerline
+    colors{ background $nord0
+      statusline $nord8
+        focused_workspace  $nord3  $nord8
+        active_workspace   $nord3  $nord6
+        inactive_workspace $nord8  $nord3
+        urgent_workspace   $nord3 $nord15
 
-        }
+    }
 }
-client.background $nord3	
-client.focused 		$nord0 $nord3 $nord8 $nord10 $nord9
-client.unfocused	$nord $nord $nord #5f819d
+client.background $nord3
+client.focused    $nord0 $nord3 $nord8 $nord10 $nord9
+client.unfocused  $nord $nord $nord #5f819d
 client.focused_inactive #c5c8c6 #1d1f21 #c5c8c6 #5f819d #5f819d
-client.urgent		#c5c8c6 #1d1f21 #c5c8c6 #5f819d #5f819d
-client.placeholder	#c5c8c6 #1d1f21 #c5c8c6 #5f819d #5f819d
+client.urgent   #c5c8c6 #1d1f21 #c5c8c6 #5f819d #5f819d
+client.placeholder  #c5c8c6 #1d1f21 #c5c8c6 #5f819d #5f819d
 
 
 # Brightness control (without any fuzz)
 bindsym XF86MonBrightnessUp exec --no-startup-id   brightness.sh + DP-4
 bindsym XF86MonBrightnessDown exec --no-startup-id  brightness.sh - DP-4
 
-# Moving workspaces between screens 
+# Moving workspaces between screens
 bindsym $mod+x move workspace to output right
 bindsym $mod+Shift+x move workspace to output left
 
@@ -286,7 +286,7 @@ bindsym Print exec gnome-screenshot -i
 #some shortcuts that are used on daily basis
 bindsym $mod+c exec chromium #starts chromium
 bindsym $mod+Shift+w exec nmcli device wifi rescan
-bindsym $mod+Shift+v exec code #starts vscode 
+bindsym $mod+Shift+v exec code #starts vscode
 
 #volume control
 #bindsym XF86AudioRaiseVolume exec --no-startup-id pactl -- set-sink-volume 0 +5% #increase sound volume
@@ -315,10 +315,14 @@ bindsym $mod+Shift+Tab workspace prev
 bindsym $mod+Ctrl+l exec i3lock && xset dpms 5
 
 #workspace renaming tool
-exec_always --no-startup-id i3-workspace-names-daemon 
+exec_always --no-startup-id i3-workspace-names-daemon
 #i3 border control
 bindsym mod+o exec /bin/bash ~/.config/i3grid/manager.sh
 
- for_window [class=".*"] title_format " "
- exec_always --no-startup-id xrandr --output DP-4 --brightness 0.4
- exec --no-startup-id i3-msg workspace 0
+for_window [class=".*"] title_format " "
+exec_always --no-startup-id xrandr --output DP-4 --brightness 0.4
+exec --no-startup-id i3-msg workspace 0
+
+bindsym $mod+F5 exec ~/script/brightness.sh - DP-4
+bindsym $mod+F6 exec ~/script/brightness.sh + DP-4
+

@@ -7,7 +7,13 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
+Plug 'vim-scripts/loremipsum'
+Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
+
+Plug 'yuezk/vim-js'
+Plug 'maxmellon/vim-jsx-pretty'
 Plug 'arcticicestudio/nord-vim'
+Plug 'AndrewRadev/tagalong.vim'
 Plug 'neomake/neomake'
 Plug 'tmux-plugins/vim-tmux'
 Plug 'junegunn/rainbow_parentheses.vim'
