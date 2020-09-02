@@ -9,7 +9,6 @@ endif
 call plug#begin('~/.config/nvim/autoload/plugged')
 Plug 'vim-scripts/loremipsum'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
-
 Plug 'yuezk/vim-js'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'arcticicestudio/nord-vim'
@@ -26,7 +25,6 @@ Plug 'vim-airline/vim-airline'
 "Plug 'honza/vim-snippets'
 Plug 'lfilho/cosco.vim'
 "Plug 'frazrepo/vim-rainbow'
-Plug 'preservim/nerdtree'
 Plug 'preservim/nerdcommenter'
 "Plug 'mkitt/tabline.vim'
 "Plug 'junegunn/fzf.vim'
@@ -35,20 +33,19 @@ Plug 'w0rp/ale'
 Plug 'wokalski/autocomplete-flow'
 "Plug 'Shougo/neosnippet'
 "Plug 'Shougo/neosnippet-snippets'
-Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+Plug 'preservim/nerdtree' |
+      \ Plug 'Xuyuanp/nerdtree-git-plugin' |
+      \ Plug 'ryanoasis/vim-devicons'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'ryanoasis/vim-devicons'
 Plug 'sheerun/vim-polyglot'
 Plug 'scrooloose/NERDTree'
 Plug 'jiangmiao/auto-pairs'
 Plug 'mhinz/vim-startify'
 Plug 'ianks/vim-tsx'
-"Plug 'gko/vim-coloresque'
-"Plug 'chrisbra/Colorizer'
 Plug 'norcalli/nvim-colorizer.lua'
 Plug 'liuchengxu/vim-which-key'
 Plug 'ctrlpvim/ctrlp.vim'
-"Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
 "Plug 'voldikss/vim-floaterm'
 Plug 'rbgrouleff/bclose.vim'
 Plug 'francoiscabrol/ranger.vim'

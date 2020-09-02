@@ -39,7 +39,7 @@ floating_modifier $mod
 #bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Shift+Return exec gnome-terminal
 bindsym $mod+Return exec alacritty
-#bindsym $mod+Ctrl+Return exec xfce4-terminal
+bindsym $mod+Ctrl+Return exec kitty
 # kill focused window
 #bindsym $mod+Shift+q kill
 bindsym $mod+q kill
@@ -315,10 +315,12 @@ bindsym $mod+Shift+Tab workspace prev
 bindsym $mod+Ctrl+l exec i3lock && xset dpms 5
 
 #workspace renaming tool
-exec_always --no-startup-id i3-workspace-names-daemon
 #i3 border control
 bindsym mod+o exec /bin/bash ~/.config/i3grid/manager.sh
 
+exec --no-startup-id /usr/bin/alacritty
+exec --no-startup-id /snap/bin/chromium
+exec --no-startup-id /usr/bin/firefox
 for_window [class=".*"] title_format " "
 exec_always --no-startup-id xrandr --output DP-4 --brightness 0.4
 exec --no-startup-id i3-msg workspace 0
@@ -326,3 +328,11 @@ exec --no-startup-id i3-msg workspace 0
 bindsym $mod+F5 exec ~/script/brightness.sh - DP-4
 bindsym $mod+F6 exec ~/script/brightness.sh + DP-4
 
+assign [class="Alacritty"]  number 0
+assign [class="Chromium"]  number 1
+
+assign [class="Firefox"]  number 2
+
+for_window [class="matplotlib"] floating enable
+for_window [class="*.py"] floating enable
+exec_always --no-startup-id sleep 0.2;i3-workspace-names-daemon

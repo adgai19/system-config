@@ -1,11 +1,12 @@
 let g:startify_session_dir = '~/.config/nvim/session'
 let g:startify_lists = [
-          \ { 'type': 'files',     'header': ['   Files']            },
-          \ { 'type': 'dir',       'header': ['   Current Directory '. getcwd()] },
-          \ { 'type': 'sessions',  'header': ['   Sessions']       },
-          \ { 'type': 'bookmarks', 'header': ['   Bookmarks']      },
-          \ ]
-let g:startify_bookmarks = [{'c':'~/.config/i3/config'},{'i':'~/.config/nvim'}]
+      \ { 'type': 'files',     'header': ['   Files']            },
+      \ { 'type': 'dir',       'header': ['   Current Directory '. getcwd()] },
+      \ { 'type': 'sessions',  'header': ['   Sessions']       },
+      \ { 'type': 'commands',  'header': ['   Commands']       },
+      \ { 'type': 'bookmarks', 'header': ['   Bookmarks']      },
+      \ ]
+let g:startify_bookmarks = [{'c':'~/.config/i3/config'},{'i':'~/.config/nvim'},{'t':'~/.tmux.conf'},{"k":'~/.config/kitty/kitty.conf'},{'a':'~/.config/alacritty/alacritty.yml'}]
 let g:startify_session_autoload = 1
 "let g:startify_custom_header = [
 "      \'               .-.                                .-.                   .-.              _  .-.                                          .-.            ',
