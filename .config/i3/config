@@ -321,6 +321,9 @@ bindsym mod+o exec /bin/bash ~/.config/i3grid/manager.sh
 exec --no-startup-id /usr/bin/alacritty
 exec --no-startup-id /snap/bin/chromium
 exec --no-startup-id /usr/bin/firefox
+exec --no-startup-id /snap/bin/slack
+exec --no-startup-id /snap/bin/spotify
+
 for_window [class=".*"] title_format " "
 exec_always --no-startup-id xrandr --output DP-4 --brightness 0.4
 exec --no-startup-id i3-msg workspace 0
@@ -332,6 +335,9 @@ assign [class="Alacritty"]  number 0
 assign [class="Chromium"]  number 1
 
 assign [class="Firefox"]  number 2
+assign [class="Slack"]  number 3
+#assign [class="Spotify"]  number 4
+for_window [class="Spotify"] move to workspace number 10
 
 for_window [class="matplotlib"] floating enable
 for_window [class="*.py"] floating enable
