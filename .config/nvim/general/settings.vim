@@ -68,4 +68,5 @@ au BufWrite * :Autoformat
 autocmd FileType javascript let b:coc_suggest_disable=1
 let g:auto_comma_or_semicolon_events = ["InsertLeave"]
 let g:tmux_navigator_save_on_switch = 2
+"autocmd FileType markdown setlocal spell
 
