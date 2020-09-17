@@ -11,9 +11,11 @@ Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plug 'yuezk/vim-js'
 Plug 'maxmellon/vim-jsx-pretty'
 "Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'morhetz/gruvbox'
 Plug 'arcticicestudio/nord-vim'
 Plug 'AndrewRadev/tagalong.vim'
 Plug 'neomake/neomake'
+Plug 'tpope/vim-fugitive'
 Plug 'tmux-plugins/vim-tmux'
 Plug 'junegunn/rainbow_parentheses.vim'
 Plug 'christoomey/vim-tmux-navigator'
@@ -45,9 +47,6 @@ Plug 'w0rp/ale'
 Plug 'wokalski/autocomplete-flow'
 "Plug 'Shougo/neosnippet'
 "Plug 'Shougo/neosnippet-snippets'
-Plug 'preservim/nerdtree' |
-      \ Plug 'Xuyuanp/nerdtree-git-plugin' |
-      \ Plug 'ryanoasis/vim-devicons'
 Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
 Plug 'sheerun/vim-polyglot'
 Plug 'scrooloose/NERDTree'
@@ -69,4 +68,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'jiangmiao/auto-pairs'
 Plug 'alvan/vim-closetag'
 Plug 'vim-ctrlspace/vim-ctrlspace'
+Plug 'preservim/nerdtree' |
+      \ Plug 'Xuyuanp/nerdtree-git-plugin' |
+      \ Plug 'ryanoasis/vim-devicons'
 call plug#end()

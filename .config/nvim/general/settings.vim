@@ -70,3 +70,10 @@ let g:auto_comma_or_semicolon_events = ["InsertLeave"]
 let g:tmux_navigator_save_on_switch = 2
 "autocmd FileType markdown setlocal spell
 
+set number relativenumber
+
+augroup numbertoggle
+   autocmd!
+   autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
+   autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
+augroup END

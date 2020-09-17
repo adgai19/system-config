@@ -1,4 +1,4 @@
-alias cat="batcat"
+alias cat="bat"
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 #alias vlc="devour vlc"
 alias ls="exa"
@@ -52,7 +52,7 @@ alias brightness="xrandr --output DP-4 --brightness"
 export GEM_HOME="$HOME/gems"
 
 export PATH="$HOME/anaconda3/bin:$PATH:/usr/local/bin"
-
+export LANG=en_IN.UTF-8
 #export PATH="$PATH:/usr/local/cuda/bin"
 
 # >>> conda initialize >>>
