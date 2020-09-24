@@ -77,3 +77,5 @@ augroup numbertoggle
    autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
    autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
 augroup END
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
+

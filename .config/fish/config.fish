@@ -6,7 +6,9 @@ alias l="exa -lahF"
 alias matlab="/usr/local/MATLAB/R2018a/bin/matlab"
 alias upgrade="sudo apt update; and apt upgrade"
 alias z="cd -"
+alias tree "tree -C"
 alias exconmir="xrandr --output HDMI-0 --auto --same-as eDP-1"
+alias fd=fdfind
 #thefuck --alias | source
 #begin
 #    set --local AUTOJUMP_PATH $HOME/.autojump/share/autojump/autojump.fish

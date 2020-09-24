@@ -328,7 +328,7 @@ bindsym $mod+x move workspace to output right
 bindsym $mod+Shift+x move workspace to output left
 
 #background image
-exec_always feh --bg-fill "/home/adgai/wallpapers/NordPeeks.png"
+#exec_always feh --bg-fill "/home/adgai/wallpapers/NordPeeks.png"
 #numlock on startup
 exec_always --no-startup-id numlockx on #numlock setting
 
@@ -381,6 +381,8 @@ exec --no-startup-id /snap/bin/spotify
 exec_always --no-startup-id sleep 0.2;i3-workspace-names-daemon
 exec --no-startup-id google-drive-ocamlfuse ~/google-drive
 
+bindsym $mod+Shift+minus [class="Pulseeffect"] move scratchpad
+bindsym $mod+minus [class="Pulseeffect"] scratchpad show
 #common settings
 for_window [class=".*"] title_format " "
 exec_always --no-startup-id xrandr --output DP-4 --brightness 0.4
@@ -392,6 +394,7 @@ bindsym $mod+F6 exec ~/script/brightness.sh + DP-4
 
 # assign workspaces
 assign [class="Alacritty"]  number 0
+assign [class="kitty"]  number 0
 assign [class="Chromium"]  number 1
 assign [class="vlc"]  number 3
 assign [class="Firefox"]  number 2
@@ -405,4 +408,15 @@ for_window [class="matplotlib"] floating enable
 for_window [class="Blueman-manager"] floating enable
 for_window [class="Gnome-calculator"] floating enable
 for_window [class="Xclock"] floating enable
+for_window [class="Pulseeffect"] floating enable
+for_window [class="PacketTracer7"] floating enable resize 1900 1000
 for_window [class="*.py"] floating enable
+
+#gaps inner 10
+#gaps outer 0
+#gaps horizontal 0
+#gaps vertical 0
+#gaps top 0
+#gaps right 0
+#gaps bottom 0
+#gaps left 0
