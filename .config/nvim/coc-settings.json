@@ -1,11 +1,11 @@
 {
+  "npm.binPath": "yarn",
   "coc.preferences.formatOnSaveFiletypes": [
     "css",
     "markdown",
     "javascript",
     "graphql",
     "html",
-    "yaml",
     "json",
     "python"
   ],
@@ -25,5 +25,6 @@
   "snippets.ultisnips.directories": [
     "UltiSnips",
     "~/.config/nvim/utils/snips"
-  ]
+  ],
+  "clangd.path": "/home/adgai/.config/coc/extensions/coc-clangd-data/install/10.0.0/clangd_10.0.0/bin/clangd"
 }

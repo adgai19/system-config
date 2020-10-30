@@ -106,7 +106,7 @@ font:
     # Italic font face
     #italic:
     # Font family
-    #
+    #q
     # If the italic family is not specified, it will fall back to the
     # value specified for the normal font.
     #family: monospace
@@ -123,7 +123,7 @@ font:
     #style: Bold Italic
     # Point size
   size:
-    6.0
+    10.0
     # Offset is the extra space around each character. `offset.y` can be thought of
     # as modifying the line spacing, and `offset.x` as modifying the letter spacing.
     #offset:
@@ -314,7 +314,7 @@ bell:
   # Example:
   command:
     program: notify-send
-    args: ["check/ufc83"]
+    args: ["check "]
 #
 #command: None
 

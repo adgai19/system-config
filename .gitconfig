@@ -5,3 +5,7 @@
 	editor = nvim
 [credential]
 	helper = store
+[merge]
+	tool = vimdiff
+[mergetool]
+	path = nvim

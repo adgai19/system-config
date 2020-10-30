@@ -124,18 +124,18 @@ PATH=$PATH:/usr/local/MATLAB/R2018a/bin:/snap/bin
 #enable root access for gnome on wayland
 alias raxh="xhost+SI:localuser:root"
 #pyenv settings
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv virtualenv-init -)"
+#export PYENV_ROOT="$HOME/.pyenv"
+#export PATH="$PYENV_ROOT/bin:$PATH"
+#eval "$(pyenv virtualenv-init -)"
 #to enable and disable external output for hdmi output
-eval $(thefuck --alias)
+#eval $(thefuck --alias)
 # You can use whatever you want as an alias, like for Mondays:
-eval $(thefuck --alias FUCK)
+#eval $(thefuck --alias FUCK)
 
-source /home/adgai/.config/broot/launcher/bash/br
-export PATH="$HOME/.pyenv/bin:$PATH"
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
+#source /home/adgai/.config/broot/launcher/bash/br
+#export PATH="$HOME/.pyenv/bin:$PATH"
+#eval "$(pyenv init -)"
+#eval "$(pyenv virtualenv-init -)"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!

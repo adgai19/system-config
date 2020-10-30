@@ -42,6 +42,7 @@ alias vi=nvim
 alias t=tmux
 alias ta="tmux a"
 alias tl="tmux ls"
+alias drivemount="google-drive-ocamlfuse ~/google-drive"
 #
 ##set -Ux PYENV_ROOT $HOME/.pyenv
 #set -Ux fish_user_paths $PYENV_ROOT/bin $fish_user_paths

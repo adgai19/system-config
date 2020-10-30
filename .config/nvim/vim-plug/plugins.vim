@@ -9,8 +9,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 Plug 'vim-scripts/loremipsum'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plug 'yuezk/vim-js'
+Plug 'matze/vim-move'
+Plug 'nvie/vim-flake8'
+Plug 'severin-lemaignan/vim-minimap'
 Plug 'maxmellon/vim-jsx-pretty'
-"Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'rafcamlet/coc-nvim-lua'
+Plug 'xolox/vim-lua-ftplugin'
 Plug 'morhetz/gruvbox'
 Plug 'arcticicestudio/nord-vim'
 Plug 'AndrewRadev/tagalong.vim'
@@ -22,7 +26,6 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'tpope/vim-obsession'
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
-"Plug 'SirVer/ultisnips'
 Plug 'voldikss/vim-floaterm'
 Plug 'Chiel92/vim-autoformat'
 Plug 'vim-airline/vim-airline'
@@ -30,45 +33,57 @@ Plug '/Asheq/close-buffers.vim'
 Plug 'JamshedVesuna/vim-markdown-preview'
 Plug 'Shougo/denite.nvim'
 Plug 'chemzqm/denite-extra'
-"Plug 'rust-lang/rust.vim'
-
+Plug 'josa42/coc-lua', {'do': 'yarn install --frozen-lockfile'}
+Plug 'xolox/vim-misc'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'
-"Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
-
-"Plug 'honza/vim-snippets'
+Plug 'tbastos/vim-lua'
 Plug 'lfilho/cosco.vim'
-"Plug 'frazrepo/vim-rainbow'
 Plug 'preservim/nerdcommenter'
-"Plug 'mkitt/tabline.vim'
 Plug 'junegunn/fzf.vim'
 Plug 'w0rp/ale'
-Plug 'wokalski/autocomplete-flow'
-"Plug 'Shougo/neosnippet'
-"Plug 'Shougo/neosnippet-snippets'
 Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
 Plug 'sheerun/vim-polyglot'
 Plug 'scrooloose/NERDTree'
 Plug 'jiangmiao/auto-pairs'
 Plug 'mhinz/vim-startify'
 Plug 'ianks/vim-tsx'
-Plug 'norcalli/nvim-colorizer.lua'
 Plug 'liuchengxu/vim-which-key'
+Plug 'norcalli/nvim-colorizer.lua'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
-"Plug 'voldikss/vim-floaterm'
 Plug 'rbgrouleff/bclose.vim'
 Plug 'francoiscabrol/ranger.vim'
-"Plug 'mitermayer/vim-prettier'
 Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'lilydjwg/colorizer'
 Plug 'aben20807/vim-runner'
 Plug 'sheerun/vim-polyglot'
 Plug 'jiangmiao/auto-pairs'
 Plug 'alvan/vim-closetag'
+Plug 'mattn/vim-lsp-settings'
+Plug 'prabirshrestha/vim-lsp'
 Plug 'vim-ctrlspace/vim-ctrlspace'
 Plug 'preservim/nerdtree' |
       \ Plug 'Xuyuanp/nerdtree-git-plugin' |
       \ Plug 'ryanoasis/vim-devicons'
 call plug#end()
+
+" not installed plugins
+" "Plug 'mkitt/tabline.vim'
+"Plug 'SirVer/ultisnips'
+"Plug 'honza/vim-snippets'
+"Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
+"Plug 'wokalski/autocomplete-flow'
+"Plug 'Shougo/neosnippet'
+"Plug 'xolox/vim-lua-inspect'
+"Plug 'frazrepo/vim-rainbow'
+"Plug 'lifepillar/vim-mucomplete'
+"Plug 'rust-lang/rust.vim'
+"Plug 'Shougo/neosnippet-snippets'
+"Plug 'mitermayer/vim-prettier'
+"Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+"Plug 'voldikss/vim-floaterm'
+"Plug 'prabirshrestha/async.vim'
+"Plug 'prabirshrestha/asyncomplete-lsp.vim'
+"Plug 'prabirshrestha/asyncomplete.vim'

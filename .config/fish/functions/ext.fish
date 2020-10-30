@@ -33,7 +33,7 @@ function ext
         echo "'$argv[1]' cannot be extracted via ex()" ;;
       end
     else
-      echo "'$argv[1]' is not a valid file"
+      echo "'rgv[1]' is not a valid file"
     end
   end
 

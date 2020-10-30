@@ -2,6 +2,7 @@
   "firefox": "firefox",
   "chromium": "chrome",
   "google-chrome": "chrome",
+  "qutebrowser": "chrome",
   "alacritty": "terminal",
   "kitty": "terminal",
   "thunderbird": "envelope",
