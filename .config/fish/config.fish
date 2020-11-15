@@ -28,7 +28,7 @@ alias ga="git add -A"
 #        source $AUTOJUMP_PATH
 #    end
 #end
-
+set fish_greeting
 #source /usr/share/autojump/autojump.fish
 set PATH /root/.cargo/bin /home/adgai/.cargo/bin /home/adgai/.local/bin /usr/local/sbin /usr/local/bin /usr/sbin /usr/bin /sbin /bin /usr/games /usr/local/games /snap/bin $HOME/script
 #set fish_function_path $fish_function_path " /home/adgai/.local/lib/python3.8/site-packages/powerline/bindings/fish"

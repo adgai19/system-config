@@ -10,6 +10,7 @@ Plug 'vim-scripts/loremipsum'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plug 'yuezk/vim-js'
 Plug 'matze/vim-move'
+Plug 'luochen1990/rainbow'
 Plug 'nvie/vim-flake8'
 Plug 'severin-lemaignan/vim-minimap'
 Plug 'maxmellon/vim-jsx-pretty'

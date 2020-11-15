@@ -15,5 +15,6 @@
   "libreoffice-impress": "file",
   "code": "code",
   "acroread": "file",
+  "evince": "file",
   "libreoffice-writer": "file"
 }
