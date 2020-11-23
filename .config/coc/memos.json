@@ -1,0 +1,2662 @@
+{
+  "coc-python|/home/adgai/projects/my-site": {
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService:6aa40d718c2090f3f0de116091a05f12": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:6aa40d718c2090f3f0de116091a05f12": []
+  },
+  "coc-python|global": {
+    "INTERPRETERS_CACHE_v3_VirtualEnvService": [],
+    "/bin/python2.7.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "fdeda553fe7ce94de6e392f43eda268eaf074dcc56b3c7802ae39a46322894f24a9682571a76d22c3a0cd35379cda08a13055b743f6b6437f0afa21b6a2816fc"
+      },
+      "expiry": 1603597365642
+    },
+    "/bin/python2.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "7057419913e8a36dd86ae588b627cacee1a9ecb650f9ba370bbb6faa96b95d9a73ece273f9fb90d48f97c8d31c0fde86866ab3e8e6415add044a5381ff9a0409"
+      },
+      "expiry": 1603597365643
+    },
+    "/usr/bin/python3.8.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.6-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.6-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "0c2d6759bf307b0a3edb075d2114a544bba26cd2d91edc30cb8ca70c3f5735d58c931ef8fd6b1e4a4a4e745eb2788dc7f3650d82edec23b072e60ba881b76ae8"
+      },
+      "expiry": 1603597365646
+    },
+    "/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "4bbe3ad7fbf0eed2a799125bb373b6c8076c6d836015a7c180a5249668cf73d6dbdae71f6e0d214b9d7fcb321b2ee82363e465a95b6aad75973f00cfd4322ef4"
+      },
+      "expiry": 1603597365645
+    },
+    "/usr/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.6-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.6-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "1f0ef648c6ec88831f7b5ac6e66a15363f91e2e34a73a0b0d77a4458b2ab40e22fcb4fac82d23dc1b9a6f0d3aa0e98a9fb926f2c8dced12d303b8f7bedbaae66"
+      },
+      "expiry": 1603597365647
+    },
+    "/usr/bin/python2.7.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "fdeda553fe7ce94de6e392f43eda268eaf074dcc56b3c7802ae39a46322894f24a9682571a76d22c3a0cd35379cda08a13055b743f6b6437f0afa21b6a2816fc"
+      },
+      "expiry": 1603597365648
+    },
+    "/usr/bin/python2.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "7057419913e8a36dd86ae588b627cacee1a9ecb650f9ba370bbb6faa96b95d9a73ece273f9fb90d48f97c8d31c0fde86866ab3e8e6415add044a5381ff9a0409"
+      },
+      "expiry": 1603597365665
+    },
+    "/bin/python3.8.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.6-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.6-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "0c2d6759bf307b0a3edb075d2114a544bba26cd2d91edc30cb8ca70c3f5735d58c931ef8fd6b1e4a4a4e745eb2788dc7f3650d82edec23b072e60ba881b76ae8"
+      },
+      "expiry": 1603597365669
+    },
+    "/usr/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "4bbe3ad7fbf0eed2a799125bb373b6c8076c6d836015a7c180a5249668cf73d6dbdae71f6e0d214b9d7fcb321b2ee82363e465a95b6aad75973f00cfd4322ef4"
+      },
+      "expiry": 1603597365650
+    },
+    "/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.6-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.6-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "1f0ef648c6ec88831f7b5ac6e66a15363f91e2e34a73a0b0d77a4458b2ab40e22fcb4fac82d23dc1b9a6f0d3aa0e98a9fb926f2c8dced12d303b8f7bedbaae66"
+      },
+      "expiry": 1603597365670
+    },
+    "/home/adgai/anaconda3/bin/python3.7.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/bin/python3.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3",
+        "fileHash": "94286df1c37c7d97be2313248cbe01563fa3d876256957fa21d4cad39a9343f0b238c9dfb34f71d00ee078e3f937bb60f94265daa9923a2c84515b8a1971e52d"
+      },
+      "expiry": 1603597365667
+    },
+    "/home/adgai/anaconda3/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3",
+        "fileHash": "4bffbd580742853477b7796e3c3b3ca2849344dea9306ad6f16517eb110d60e7f49ae3b08372ed3e95245023df214b03ed75815bf9f22ff90d9c0227e3ec3f13"
+      },
+      "expiry": 1603597365666
+    },
+    "/home/adgai/anaconda3/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3",
+        "fileHash": "4bffbd580742853477b7796e3c3b3ca2849344dea9306ad6f16517eb110d60e7f49ae3b08372ed3e95245023df214b03ed75815bf9f22ff90d9c0227e3ec3f13"
+      },
+      "expiry": 1603597365665
+    },
+    "INTERPRETERS_CACHE_v3_CurrentPathService": [
+      {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/bin/python3.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3",
+        "fileHash": "94286df1c37c7d97be2313248cbe01563fa3d876256957fa21d4cad39a9343f0b238c9dfb34f71d00ee078e3f937bb60f94265daa9923a2c84515b8a1971e52d",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3",
+        "fileHash": "4bffbd580742853477b7796e3c3b3ca2849344dea9306ad6f16517eb110d60e7f49ae3b08372ed3e95245023df214b03ed75815bf9f22ff90d9c0227e3ec3f13",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "7057419913e8a36dd86ae588b627cacee1a9ecb650f9ba370bbb6faa96b95d9a73ece273f9fb90d48f97c8d31c0fde86866ab3e8e6415add044a5381ff9a0409",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3",
+        "fileHash": "4bffbd580742853477b7796e3c3b3ca2849344dea9306ad6f16517eb110d60e7f49ae3b08372ed3e95245023df214b03ed75815bf9f22ff90d9c0227e3ec3f13",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3",
+        "fileHash": "4bffbd580742853477b7796e3c3b3ca2849344dea9306ad6f16517eb110d60e7f49ae3b08372ed3e95245023df214b03ed75815bf9f22ff90d9c0227e3ec3f13",
+        "type": "Unknown"
+      }
+    ],
+    "InterpreterAutoSeletionRule-currentPath": {
+      "architecture": 3,
+      "path": "/home/adgai/anaconda3/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.7.6-final",
+        "major": 3,
+        "minor": 7,
+        "patch": 6,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.7.6-final"
+      },
+      "sysPrefix": "/home/adgai/anaconda3",
+      "fileHash": "4bffbd580742853477b7796e3c3b3ca2849344dea9306ad6f16517eb110d60e7f49ae3b08372ed3e95245023df214b03ed75815bf9f22ff90d9c0227e3ec3f13",
+      "type": "Unknown"
+    },
+    "preferredGlobalPyInterpreter": {
+      "architecture": 3,
+      "path": "/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.6-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 6,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.6-final"
+      },
+      "sysPrefix": "/usr",
+      "fileHash": "1f0ef648c6ec88831f7b5ac6e66a15363f91e2e34a73a0b0d77a4458b2ab40e22fcb4fac82d23dc1b9a6f0d3aa0e98a9fb926f2c8dced12d303b8f7bedbaae66",
+      "type": "Unknown",
+      "displayName": "Python 3.8.6 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_KnownPathsService": [
+      {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3",
+        "fileHash": "4bffbd580742853477b7796e3c3b3ca2849344dea9306ad6f16517eb110d60e7f49ae3b08372ed3e95245023df214b03ed75815bf9f22ff90d9c0227e3ec3f13",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3",
+        "fileHash": "4bffbd580742853477b7796e3c3b3ca2849344dea9306ad6f16517eb110d60e7f49ae3b08372ed3e95245023df214b03ed75815bf9f22ff90d9c0227e3ec3f13",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/bin/python3.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3",
+        "fileHash": "94286df1c37c7d97be2313248cbe01563fa3d876256957fa21d4cad39a9343f0b238c9dfb34f71d00ee078e3f937bb60f94265daa9923a2c84515b8a1971e52d",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "4bbe3ad7fbf0eed2a799125bb373b6c8076c6d836015a7c180a5249668cf73d6dbdae71f6e0d214b9d7fcb321b2ee82363e465a95b6aad75973f00cfd4322ef4",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "7057419913e8a36dd86ae588b627cacee1a9ecb650f9ba370bbb6faa96b95d9a73ece273f9fb90d48f97c8d31c0fde86866ab3e8e6415add044a5381ff9a0409",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "fdeda553fe7ce94de6e392f43eda268eaf074dcc56b3c7802ae39a46322894f24a9682571a76d22c3a0cd35379cda08a13055b743f6b6437f0afa21b6a2816fc",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.6-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.6-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "1f0ef648c6ec88831f7b5ac6e66a15363f91e2e34a73a0b0d77a4458b2ab40e22fcb4fac82d23dc1b9a6f0d3aa0e98a9fb926f2c8dced12d303b8f7bedbaae66",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.6-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.6-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "0c2d6759bf307b0a3edb075d2114a544bba26cd2d91edc30cb8ca70c3f5735d58c931ef8fd6b1e4a4a4e745eb2788dc7f3650d82edec23b072e60ba881b76ae8",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "4bbe3ad7fbf0eed2a799125bb373b6c8076c6d836015a7c180a5249668cf73d6dbdae71f6e0d214b9d7fcb321b2ee82363e465a95b6aad75973f00cfd4322ef4",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "7057419913e8a36dd86ae588b627cacee1a9ecb650f9ba370bbb6faa96b95d9a73ece273f9fb90d48f97c8d31c0fde86866ab3e8e6415add044a5381ff9a0409",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "fdeda553fe7ce94de6e392f43eda268eaf074dcc56b3c7802ae39a46322894f24a9682571a76d22c3a0cd35379cda08a13055b743f6b6437f0afa21b6a2816fc",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.6-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.6-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "1f0ef648c6ec88831f7b5ac6e66a15363f91e2e34a73a0b0d77a4458b2ab40e22fcb4fac82d23dc1b9a6f0d3aa0e98a9fb926f2c8dced12d303b8f7bedbaae66",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.6-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.6-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "0c2d6759bf307b0a3edb075d2114a544bba26cd2d91edc30cb8ca70c3f5735d58c931ef8fd6b1e4a4a4e745eb2788dc7f3650d82edec23b072e60ba881b76ae8",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "4bbe3ad7fbf0eed2a799125bb373b6c8076c6d836015a7c180a5249668cf73d6dbdae71f6e0d214b9d7fcb321b2ee82363e465a95b6aad75973f00cfd4322ef4",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "7057419913e8a36dd86ae588b627cacee1a9ecb650f9ba370bbb6faa96b95d9a73ece273f9fb90d48f97c8d31c0fde86866ab3e8e6415add044a5381ff9a0409",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "fdeda553fe7ce94de6e392f43eda268eaf074dcc56b3c7802ae39a46322894f24a9682571a76d22c3a0cd35379cda08a13055b743f6b6437f0afa21b6a2816fc",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.6-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.6-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "1f0ef648c6ec88831f7b5ac6e66a15363f91e2e34a73a0b0d77a4458b2ab40e22fcb4fac82d23dc1b9a6f0d3aa0e98a9fb926f2c8dced12d303b8f7bedbaae66",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.6-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.6-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "0c2d6759bf307b0a3edb075d2114a544bba26cd2d91edc30cb8ca70c3f5735d58c931ef8fd6b1e4a4a4e745eb2788dc7f3650d82edec23b072e60ba881b76ae8",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "4bbe3ad7fbf0eed2a799125bb373b6c8076c6d836015a7c180a5249668cf73d6dbdae71f6e0d214b9d7fcb321b2ee82363e465a95b6aad75973f00cfd4322ef4",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "7057419913e8a36dd86ae588b627cacee1a9ecb650f9ba370bbb6faa96b95d9a73ece273f9fb90d48f97c8d31c0fde86866ab3e8e6415add044a5381ff9a0409",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "fdeda553fe7ce94de6e392f43eda268eaf074dcc56b3c7802ae39a46322894f24a9682571a76d22c3a0cd35379cda08a13055b743f6b6437f0afa21b6a2816fc",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.6-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.6-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "1f0ef648c6ec88831f7b5ac6e66a15363f91e2e34a73a0b0d77a4458b2ab40e22fcb4fac82d23dc1b9a6f0d3aa0e98a9fb926f2c8dced12d303b8f7bedbaae66",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.6-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.6-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "0c2d6759bf307b0a3edb075d2114a544bba26cd2d91edc30cb8ca70c3f5735d58c931ef8fd6b1e4a4a4e745eb2788dc7f3650d82edec23b072e60ba881b76ae8",
+        "type": "Unknown"
+      }
+    ],
+    "/home/adgai/anaconda3/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "4bffbd580742853477b7796e3c3b3ca2849344dea9306ad6f16517eb110d60e7f49ae3b08372ed3e95245023df214b03ed75815bf9f22ff90d9c0227e3ec3f13",
+        "info": {
+          "architecture": 3,
+          "path": "/home/adgai/anaconda3/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.7.6-final",
+            "major": 3,
+            "minor": 7,
+            "patch": 6,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.7.6-final"
+          },
+          "sysPrefix": "/home/adgai/anaconda3",
+          "fileHash": "4bffbd580742853477b7796e3c3b3ca2849344dea9306ad6f16517eb110d60e7f49ae3b08372ed3e95245023df214b03ed75815bf9f22ff90d9c0227e3ec3f13",
+          "companyDisplayName": "Anaconda, Inc.",
+          "type": "Conda",
+          "envPath": "/home/adgai/anaconda3",
+          "envName": "base",
+          "displayName": "Python 3.7.6 64-bit ('base': conda)",
+          "__store": true
+        }
+      },
+      "expiry": 1597774924531
+    },
+    "/home/adgai/anaconda3/envs/ThinkDSP/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/envs/ThinkDSP/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3/envs/ThinkDSP",
+        "fileHash": "332556632fa79240675f723586a9b0c835634abbb9982c6966514ab59a92a11ba99f3a526990b7bbde824066afbb743a98cbe1de56b8e4ea127f282bbfa52909"
+      },
+      "expiry": 1603597365849
+    },
+    "/home/adgai/anaconda3/envs/pydsp/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/envs/pydsp/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3/envs/pydsp",
+        "fileHash": "b4bfe6560be0fbffdc1a6c49bdd930b76ea8798c950595746e70f9f651ae058d42cff9097f00dd13849b18f8dd474a646b21aa0cff66978235af1f92402a1e1e"
+      },
+      "expiry": 1603597365850
+    },
+    "/home/adgai/anaconda3/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.7.6 64-bit ('base': conda)",
+        "hash": "4bffbd580742853477b7796e3c3b3ca2849344dea9306ad6f16517eb110d60e7f49ae3b08372ed3e95245023df214b03ed75815bf9f22ff90d9c0227e3ec3f13-36c35e121127d5658b40a3505ad1793b"
+      },
+      "expiry": 1597774924530
+    },
+    "/home/adgai/anaconda3/envs/tf-gpu/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/envs/tf-gpu/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.3-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.3-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3/envs/tf-gpu",
+        "fileHash": "2be4b244f2c31870a6323a533c77e32930ec435ced95b67c1b7530c6f03c5dc8ba357551208dc3158e05e7eb6474c25b4dc79ee40633f9ac22cb8a00a69d5e07"
+      },
+      "expiry": 1603597365877
+    },
+    "/home/adgai/anaconda3/envs/ds/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/envs/ds/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3/envs/ds",
+        "fileHash": "f38705f019e6391662612696187d9e474d6af84906370d0a9a4575839ee5b05827416add6dfbe7809fb6c8c4620adb4fb775a8c09213136489c20c210573c5b1"
+      },
+      "expiry": 1603597365874
+    },
+    "CONDA_ENVIRONMENTS": {
+      "data": [
+        {
+          "name": "base",
+          "path": "/home/adgai/anaconda3"
+        },
+        {
+          "name": "ThinkDSP",
+          "path": "/home/adgai/anaconda3/envs/ThinkDSP"
+        },
+        {
+          "name": "ds",
+          "path": "/home/adgai/anaconda3/envs/ds"
+        },
+        {
+          "name": "final-pro",
+          "path": "/home/adgai/anaconda3/envs/final-pro"
+        },
+        {
+          "name": "isc-pracs",
+          "path": "/home/adgai/anaconda3/envs/isc-pracs"
+        },
+        {
+          "name": "pydsp",
+          "path": "/home/adgai/anaconda3/envs/pydsp"
+        },
+        {
+          "name": "pytorch",
+          "path": "/home/adgai/anaconda3/envs/pytorch"
+        },
+        {
+          "name": "tf-gpu",
+          "path": "/home/adgai/anaconda3/envs/tf-gpu"
+        }
+      ]
+    },
+    "INTERPRETERS_CACHE_v3_CondaEnvFileService": [
+      {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3",
+        "fileHash": "4bffbd580742853477b7796e3c3b3ca2849344dea9306ad6f16517eb110d60e7f49ae3b08372ed3e95245023df214b03ed75815bf9f22ff90d9c0227e3ec3f13",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/home/adgai/anaconda3",
+        "envName": "base"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/envs/ds/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3/envs/ds",
+        "fileHash": "f38705f019e6391662612696187d9e474d6af84906370d0a9a4575839ee5b05827416add6dfbe7809fb6c8c4620adb4fb775a8c09213136489c20c210573c5b1",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/home/adgai/anaconda3/envs/ds",
+        "envName": "ds"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/envs/tf-gpu/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.3-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.3-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3/envs/tf-gpu",
+        "fileHash": "2be4b244f2c31870a6323a533c77e32930ec435ced95b67c1b7530c6f03c5dc8ba357551208dc3158e05e7eb6474c25b4dc79ee40633f9ac22cb8a00a69d5e07",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/home/adgai/anaconda3/envs/tf-gpu",
+        "envName": "tf-gpu"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/envs/pydsp/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3/envs/pydsp",
+        "fileHash": "b4bfe6560be0fbffdc1a6c49bdd930b76ea8798c950595746e70f9f651ae058d42cff9097f00dd13849b18f8dd474a646b21aa0cff66978235af1f92402a1e1e",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/home/adgai/anaconda3/envs/pydsp",
+        "envName": "pydsp"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/envs/ThinkDSP/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3/envs/ThinkDSP",
+        "fileHash": "332556632fa79240675f723586a9b0c835634abbb9982c6966514ab59a92a11ba99f3a526990b7bbde824066afbb743a98cbe1de56b8e4ea127f282bbfa52909",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/home/adgai/anaconda3/envs/ThinkDSP",
+        "envName": "ThinkDSP"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/envs/isc-pracs/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3/envs/isc-pracs",
+        "fileHash": "88597cb4e7b0ffe27cdf021ffbcff5c4a153054c8d0d3afe529b33c093d611eed51907141c7156d087fe57215eea46cb06100623407897fc7411ee8938804b8b",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/home/adgai/anaconda3/envs/isc-pracs",
+        "envName": "isc-pracs"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/envs/final-pro/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3/envs/final-pro",
+        "fileHash": "7d28863f86828427ad65e4117cb60b68fff9c66fcb56e10460e9a03f24a0199c35d6e2077b3c8916f3cb38585e29e048310deadabadb6712773cc6aeea216279",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/home/adgai/anaconda3/envs/final-pro",
+        "envName": "final-pro"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/envs/pytorch/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3/envs/pytorch",
+        "fileHash": "eb8d0aebe197c122e4202c5c968e7093e9341674e6ce6ccc36e1b8048d414a54ce831de4a37b271770e293766d8b504b781ff5436b5684bc883d3bdd394ce9ef",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/home/adgai/anaconda3/envs/pytorch",
+        "envName": "pytorch"
+      }
+    ],
+    "INTERPRETERS_CACHE_v3_CondaEnvService": [
+      {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3",
+        "fileHash": "4bffbd580742853477b7796e3c3b3ca2849344dea9306ad6f16517eb110d60e7f49ae3b08372ed3e95245023df214b03ed75815bf9f22ff90d9c0227e3ec3f13",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/home/adgai/anaconda3",
+        "envName": "base"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/envs/ThinkDSP/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3/envs/ThinkDSP",
+        "fileHash": "332556632fa79240675f723586a9b0c835634abbb9982c6966514ab59a92a11ba99f3a526990b7bbde824066afbb743a98cbe1de56b8e4ea127f282bbfa52909",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/home/adgai/anaconda3/envs/ThinkDSP",
+        "envName": "ThinkDSP"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/envs/ds/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3/envs/ds",
+        "fileHash": "f38705f019e6391662612696187d9e474d6af84906370d0a9a4575839ee5b05827416add6dfbe7809fb6c8c4620adb4fb775a8c09213136489c20c210573c5b1",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/home/adgai/anaconda3/envs/ds",
+        "envName": "ds"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/envs/final-pro/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3/envs/final-pro",
+        "fileHash": "7d28863f86828427ad65e4117cb60b68fff9c66fcb56e10460e9a03f24a0199c35d6e2077b3c8916f3cb38585e29e048310deadabadb6712773cc6aeea216279",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/home/adgai/anaconda3/envs/final-pro",
+        "envName": "final-pro"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/envs/isc-pracs/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3/envs/isc-pracs",
+        "fileHash": "88597cb4e7b0ffe27cdf021ffbcff5c4a153054c8d0d3afe529b33c093d611eed51907141c7156d087fe57215eea46cb06100623407897fc7411ee8938804b8b",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/home/adgai/anaconda3/envs/isc-pracs",
+        "envName": "isc-pracs"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/envs/pydsp/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3/envs/pydsp",
+        "fileHash": "b4bfe6560be0fbffdc1a6c49bdd930b76ea8798c950595746e70f9f651ae058d42cff9097f00dd13849b18f8dd474a646b21aa0cff66978235af1f92402a1e1e",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/home/adgai/anaconda3/envs/pydsp",
+        "envName": "pydsp"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/envs/pytorch/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3/envs/pytorch",
+        "fileHash": "eb8d0aebe197c122e4202c5c968e7093e9341674e6ce6ccc36e1b8048d414a54ce831de4a37b271770e293766d8b504b781ff5436b5684bc883d3bdd394ce9ef",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/home/adgai/anaconda3/envs/pytorch",
+        "envName": "pytorch"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/envs/tf-gpu/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.3-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.3-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3/envs/tf-gpu",
+        "fileHash": "2be4b244f2c31870a6323a533c77e32930ec435ced95b67c1b7530c6f03c5dc8ba357551208dc3158e05e7eb6474c25b4dc79ee40633f9ac22cb8a00a69d5e07",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/home/adgai/anaconda3/envs/tf-gpu",
+        "envName": "tf-gpu"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3",
+        "fileHash": "4bffbd580742853477b7796e3c3b3ca2849344dea9306ad6f16517eb110d60e7f49ae3b08372ed3e95245023df214b03ed75815bf9f22ff90d9c0227e3ec3f13",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/home/adgai/anaconda3",
+        "envName": "base"
+      }
+    ],
+    "PipEnvInformation": [],
+    "/home/adgai/anaconda3/envs/ThinkDSP/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.5 64-bit ('ThinkDSP': conda)",
+        "hash": "332556632fa79240675f723586a9b0c835634abbb9982c6966514ab59a92a11ba99f3a526990b7bbde824066afbb743a98cbe1de56b8e4ea127f282bbfa52909-0e4a8b2aa36471eedbd5690928c79102"
+      },
+      "expiry": 1597774924464
+    },
+    "/home/adgai/anaconda3/envs/ds/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.5 64-bit ('ds': conda)",
+        "hash": "f38705f019e6391662612696187d9e474d6af84906370d0a9a4575839ee5b05827416add6dfbe7809fb6c8c4620adb4fb775a8c09213136489c20c210573c5b1-280c862233d917c3a94416afcc6381df"
+      },
+      "expiry": 1597774924465
+    },
+    "/usr/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 2.7.18 64-bit",
+        "hash": "4bbe3ad7fbf0eed2a799125bb373b6c8076c6d836015a7c180a5249668cf73d6dbdae71f6e0d214b9d7fcb321b2ee82363e465a95b6aad75973f00cfd4322ef4-2b4c05761678630b27ef0c4d3764fd8d"
+      },
+      "expiry": 1603597365818
+    },
+    "/usr/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.6 64-bit",
+        "hash": "1f0ef648c6ec88831f7b5ac6e66a15363f91e2e34a73a0b0d77a4458b2ab40e22fcb4fac82d23dc1b9a6f0d3aa0e98a9fb926f2c8dced12d303b8f7bedbaae66-ae4088074b6288f61ed6d47f8cbecd45"
+      },
+      "expiry": 1603597365821
+    },
+    "/home/adgai/anaconda3/envs/tf-gpu/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.3 64-bit ('tf-gpu': conda)",
+        "hash": "2be4b244f2c31870a6323a533c77e32930ec435ced95b67c1b7530c6f03c5dc8ba357551208dc3158e05e7eb6474c25b4dc79ee40633f9ac22cb8a00a69d5e07-3194182c23791b77bd1f723503cd01e9"
+      },
+      "expiry": 1597774924468
+    },
+    "/home/adgai/anaconda3/envs/pydsp/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.5 64-bit",
+        "hash": "b4bfe6560be0fbffdc1a6c49bdd930b76ea8798c950595746e70f9f651ae058d42cff9097f00dd13849b18f8dd474a646b21aa0cff66978235af1f92402a1e1e-f1d6c08f8955257205640829d9fb5904"
+      },
+      "expiry": 1603597365889
+    },
+    "/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 2.7.18 64-bit",
+        "hash": "4bbe3ad7fbf0eed2a799125bb373b6c8076c6d836015a7c180a5249668cf73d6dbdae71f6e0d214b9d7fcb321b2ee82363e465a95b6aad75973f00cfd4322ef4-d600e51bd72f715a18e264e4d87484c5"
+      },
+      "expiry": 1603597365823
+    },
+    "/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.6 64-bit",
+        "hash": "1f0ef648c6ec88831f7b5ac6e66a15363f91e2e34a73a0b0d77a4458b2ab40e22fcb4fac82d23dc1b9a6f0d3aa0e98a9fb926f2c8dced12d303b8f7bedbaae66-4ea1bf7e368fd91671256c888dfc0e57"
+      },
+      "expiry": 1603597365826
+    },
+    "InterpreterAutoSeletionRule-system": {
+      "architecture": 3,
+      "path": "/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.6-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 6,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.6-final"
+      },
+      "sysPrefix": "/usr",
+      "fileHash": "1f0ef648c6ec88831f7b5ac6e66a15363f91e2e34a73a0b0d77a4458b2ab40e22fcb4fac82d23dc1b9a6f0d3aa0e98a9fb926f2c8dced12d303b8f7bedbaae66",
+      "type": "Unknown",
+      "displayName": "Python 3.8.6 64-bit"
+    },
+    "/home/adgai/anaconda3/envs/ThinkDSP/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "332556632fa79240675f723586a9b0c835634abbb9982c6966514ab59a92a11ba99f3a526990b7bbde824066afbb743a98cbe1de56b8e4ea127f282bbfa52909",
+        "info": {
+          "architecture": 3,
+          "path": "/home/adgai/anaconda3/envs/ThinkDSP/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.5-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 5,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.5-final"
+          },
+          "sysPrefix": "/home/adgai/anaconda3/envs/ThinkDSP",
+          "fileHash": "332556632fa79240675f723586a9b0c835634abbb9982c6966514ab59a92a11ba99f3a526990b7bbde824066afbb743a98cbe1de56b8e4ea127f282bbfa52909",
+          "companyDisplayName": "Anaconda, Inc.",
+          "type": "Conda",
+          "envPath": "/home/adgai/anaconda3/envs/ThinkDSP",
+          "envName": "ThinkDSP",
+          "displayName": "Python 3.8.5 64-bit ('ThinkDSP': conda)"
+        }
+      },
+      "expiry": 1597774924515
+    },
+    "/home/adgai/anaconda3/envs/ds/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "f38705f019e6391662612696187d9e474d6af84906370d0a9a4575839ee5b05827416add6dfbe7809fb6c8c4620adb4fb775a8c09213136489c20c210573c5b1",
+        "info": {
+          "architecture": 3,
+          "path": "/home/adgai/anaconda3/envs/ds/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.5-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 5,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.5-final"
+          },
+          "sysPrefix": "/home/adgai/anaconda3/envs/ds",
+          "fileHash": "f38705f019e6391662612696187d9e474d6af84906370d0a9a4575839ee5b05827416add6dfbe7809fb6c8c4620adb4fb775a8c09213136489c20c210573c5b1",
+          "companyDisplayName": "Anaconda, Inc.",
+          "type": "Conda",
+          "envPath": "/home/adgai/anaconda3/envs/ds",
+          "envName": "ds",
+          "displayName": "Python 3.8.5 64-bit ('ds': conda)"
+        }
+      },
+      "expiry": 1597774924517
+    },
+    "/usr/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "4bbe3ad7fbf0eed2a799125bb373b6c8076c6d836015a7c180a5249668cf73d6dbdae71f6e0d214b9d7fcb321b2ee82363e465a95b6aad75973f00cfd4322ef4",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "2.7.18-final",
+            "major": 2,
+            "minor": 7,
+            "patch": 18,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "2.7.18-final"
+          },
+          "sysPrefix": "/usr",
+          "fileHash": "4bbe3ad7fbf0eed2a799125bb373b6c8076c6d836015a7c180a5249668cf73d6dbdae71f6e0d214b9d7fcb321b2ee82363e465a95b6aad75973f00cfd4322ef4",
+          "type": "Unknown",
+          "displayName": "Python 2.7.18 64-bit"
+        }
+      },
+      "expiry": 1603597365853
+    },
+    "/usr/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "1f0ef648c6ec88831f7b5ac6e66a15363f91e2e34a73a0b0d77a4458b2ab40e22fcb4fac82d23dc1b9a6f0d3aa0e98a9fb926f2c8dced12d303b8f7bedbaae66",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.6-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 6,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.6-final"
+          },
+          "sysPrefix": "/usr",
+          "fileHash": "1f0ef648c6ec88831f7b5ac6e66a15363f91e2e34a73a0b0d77a4458b2ab40e22fcb4fac82d23dc1b9a6f0d3aa0e98a9fb926f2c8dced12d303b8f7bedbaae66",
+          "type": "Unknown",
+          "displayName": "Python 3.8.6 64-bit"
+        }
+      },
+      "expiry": 1603597365856
+    },
+    "/home/adgai/anaconda3/envs/tf-gpu/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "2be4b244f2c31870a6323a533c77e32930ec435ced95b67c1b7530c6f03c5dc8ba357551208dc3158e05e7eb6474c25b4dc79ee40633f9ac22cb8a00a69d5e07",
+        "info": {
+          "architecture": 3,
+          "path": "/home/adgai/anaconda3/envs/tf-gpu/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.3-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 3,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.3-final"
+          },
+          "sysPrefix": "/home/adgai/anaconda3/envs/tf-gpu",
+          "fileHash": "2be4b244f2c31870a6323a533c77e32930ec435ced95b67c1b7530c6f03c5dc8ba357551208dc3158e05e7eb6474c25b4dc79ee40633f9ac22cb8a00a69d5e07",
+          "companyDisplayName": "Anaconda, Inc.",
+          "type": "Conda",
+          "envPath": "/home/adgai/anaconda3/envs/tf-gpu",
+          "envName": "tf-gpu",
+          "displayName": "Python 3.8.3 64-bit ('tf-gpu': conda)"
+        }
+      },
+      "expiry": 1597774924522
+    },
+    "/home/adgai/anaconda3/envs/pydsp/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "b4bfe6560be0fbffdc1a6c49bdd930b76ea8798c950595746e70f9f651ae058d42cff9097f00dd13849b18f8dd474a646b21aa0cff66978235af1f92402a1e1e",
+        "info": {
+          "architecture": 3,
+          "path": "/home/adgai/anaconda3/envs/pydsp/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.5-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 5,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.5-final"
+          },
+          "sysPrefix": "/home/adgai/anaconda3/envs/pydsp",
+          "fileHash": "b4bfe6560be0fbffdc1a6c49bdd930b76ea8798c950595746e70f9f651ae058d42cff9097f00dd13849b18f8dd474a646b21aa0cff66978235af1f92402a1e1e",
+          "companyDisplayName": "Anaconda, Inc.",
+          "type": "Conda",
+          "envPath": "/home/adgai/anaconda3/envs/pydsp",
+          "envName": "pydsp",
+          "cachedEntry": true,
+          "displayName": "Python 3.8.5 64-bit ('pydsp': conda)",
+          "__store": true
+        }
+      },
+      "expiry": 1603597365886
+    },
+    "/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "4bbe3ad7fbf0eed2a799125bb373b6c8076c6d836015a7c180a5249668cf73d6dbdae71f6e0d214b9d7fcb321b2ee82363e465a95b6aad75973f00cfd4322ef4",
+        "info": {
+          "architecture": 3,
+          "path": "/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "2.7.18-final",
+            "major": 2,
+            "minor": 7,
+            "patch": 18,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "2.7.18-final"
+          },
+          "sysPrefix": "/usr",
+          "fileHash": "4bbe3ad7fbf0eed2a799125bb373b6c8076c6d836015a7c180a5249668cf73d6dbdae71f6e0d214b9d7fcb321b2ee82363e465a95b6aad75973f00cfd4322ef4",
+          "type": "Unknown",
+          "displayName": "Python 2.7.18 64-bit"
+        }
+      },
+      "expiry": 1603597365859
+    },
+    "/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "1f0ef648c6ec88831f7b5ac6e66a15363f91e2e34a73a0b0d77a4458b2ab40e22fcb4fac82d23dc1b9a6f0d3aa0e98a9fb926f2c8dced12d303b8f7bedbaae66",
+        "info": {
+          "architecture": 3,
+          "path": "/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.6-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 6,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.6-final"
+          },
+          "sysPrefix": "/usr",
+          "fileHash": "1f0ef648c6ec88831f7b5ac6e66a15363f91e2e34a73a0b0d77a4458b2ab40e22fcb4fac82d23dc1b9a6f0d3aa0e98a9fb926f2c8dced12d303b8f7bedbaae66",
+          "type": "Unknown",
+          "displayName": "Python 3.8.6 64-bit"
+        }
+      },
+      "expiry": 1603597365861
+    },
+    "ProposeLSBanner": false,
+    "InterpreterAutoSeletionRule-cachedInterpreters": {
+      "architecture": 3,
+      "path": "/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.6-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 6,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.6-final"
+      },
+      "sysPrefix": "/usr",
+      "fileHash": "1f0ef648c6ec88831f7b5ac6e66a15363f91e2e34a73a0b0d77a4458b2ab40e22fcb4fac82d23dc1b9a6f0d3aa0e98a9fb926f2c8dced12d303b8f7bedbaae66",
+      "type": "Unknown",
+      "displayName": "Python 3.8.6 64-bit"
+    },
+    "/home/adgai/anaconda3/envs/pydsp/bin/python3.8.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/envs/pydsp/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3/envs/pydsp",
+        "fileHash": "e560b1068669945b81da25a2f9f701e22716e0078579b495fe5b55b2d8e1cf1a01a92bb2b6146ac5a7994aa6664b7bd6890cb1a4275cb706adc0afba110c6735"
+      },
+      "expiry": 1599201188255
+    },
+    "/home/adgai/anaconda3/envs/pydsp/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/envs/pydsp/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3/envs/pydsp",
+        "fileHash": "b4bfe6560be0fbffdc1a6c49bdd930b76ea8798c950595746e70f9f651ae058d42cff9097f00dd13849b18f8dd474a646b21aa0cff66978235af1f92402a1e1e"
+      },
+      "expiry": 1599201188266
+    },
+    "/home/adgai/anaconda3/envs/isc-pracs/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/envs/isc-pracs/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3/envs/isc-pracs",
+        "fileHash": "88597cb4e7b0ffe27cdf021ffbcff5c4a153054c8d0d3afe529b33c093d611eed51907141c7156d087fe57215eea46cb06100623407897fc7411ee8938804b8b"
+      },
+      "expiry": 1603597365876
+    },
+    "/home/adgai/anaconda3/envs/isc-pracs/bin/python3.8.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/envs/isc-pracs/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3/envs/isc-pracs",
+        "fileHash": "d9d241574660bbd6f25e24c6e6096028703a4c1debf8d66da4cca931d327df34bf4c04736453b9918fd67aa6481bdc01306f4563941ffedf6cd72df09e439cbb"
+      },
+      "expiry": 1600937296497
+    },
+    "/home/adgai/anaconda3/envs/isc-pracs/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/envs/isc-pracs/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3/envs/isc-pracs",
+        "fileHash": "88597cb4e7b0ffe27cdf021ffbcff5c4a153054c8d0d3afe529b33c093d611eed51907141c7156d087fe57215eea46cb06100623407897fc7411ee8938804b8b"
+      },
+      "expiry": 1600937296498
+    },
+    "/home/adgai/anaconda3/envs/final-pro/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/envs/final-pro/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3/envs/final-pro",
+        "fileHash": "7d28863f86828427ad65e4117cb60b68fff9c66fcb56e10460e9a03f24a0199c35d6e2077b3c8916f3cb38585e29e048310deadabadb6712773cc6aeea216279"
+      },
+      "expiry": 1603597365875
+    },
+    "/home/adgai/anaconda3/envs/final-pro/bin/python3.8.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/envs/final-pro/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3/envs/final-pro",
+        "fileHash": "9a1419f55780688cbba044457d7185dedb6e807b9af79d15e8819b7b5f7cab1b23ae3baa66fcc10a561efe8fbd0caa8745a64090c0027e6d2266941c2fbb94d4"
+      },
+      "expiry": 1601705347540
+    },
+    "/home/adgai/anaconda3/envs/final-pro/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/envs/final-pro/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3/envs/final-pro",
+        "fileHash": "7d28863f86828427ad65e4117cb60b68fff9c66fcb56e10460e9a03f24a0199c35d6e2077b3c8916f3cb38585e29e048310deadabadb6712773cc6aeea216279"
+      },
+      "expiry": 1601705347649
+    },
+    "/home/adgai/anaconda3/envs/pytorch/bin/python3.8.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/envs/pytorch/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3/envs/pytorch",
+        "fileHash": "47780e8dfe2b9268fa1ef9ce18751af3c00b70f0093b078f351e25e0a135b8e8b2d9090d15691827a0cb317646ba317e76365fd9816da3edb818d6a9222cf27d"
+      },
+      "expiry": 1602557127671
+    },
+    "/home/adgai/anaconda3/envs/pytorch/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/envs/pytorch/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3/envs/pytorch",
+        "fileHash": "eb8d0aebe197c122e4202c5c968e7093e9341674e6ce6ccc36e1b8048d414a54ce831de4a37b271770e293766d8b504b781ff5436b5684bc883d3bdd394ce9ef"
+      },
+      "expiry": 1602557127696
+    },
+    "/home/adgai/anaconda3/envs/pytorch/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/envs/pytorch/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3/envs/pytorch",
+        "fileHash": "eb8d0aebe197c122e4202c5c968e7093e9341674e6ce6ccc36e1b8048d414a54ce831de4a37b271770e293766d8b504b781ff5436b5684bc883d3bdd394ce9ef"
+      },
+      "expiry": 1603597365875
+    }
+  },
+  "coc-python|/home/adgai/projects/hello-world": {
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService:5110bea1db227065d5d31910acfcc165": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:5110bea1db227065d5d31910acfcc165": []
+  },
+  "coc-python|/home/adgai/Documents": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:7ceb7f986d685f8f7491aa4823edc1c8": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:7ceb7f986d685f8f7491aa4823edc1c8": [],
+    "autoSelectedWorkspacePythonInterpreter-/home/adgai/Documents": {
+      "architecture": 3,
+      "path": "/home/adgai/anaconda3/envs/pydsp/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/home/adgai/anaconda3/envs/pydsp",
+      "fileHash": "25c64a70a30d7bc7c52b38d0f6b25eb7e0c82262c38e8c593515f77c3f8e62ebe527a06fda658bea6226c4b3096cf618d413f5d43e0d0587268c97420e2367ea",
+      "companyDisplayName": "Anaconda, Inc.",
+      "type": "Conda",
+      "envPath": "/home/adgai/anaconda3/envs/pydsp",
+      "envName": "pydsp",
+      "displayName": "Python 3.8.5 64-bit ('pydsp': conda)"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/home/adgai": {
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": []
+  },
+  "coc-python|/home/adgai/.jupyter": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:3717e71f282a0ab3e48cd717f0c20c25": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:3717e71f282a0ab3e48cd717f0c20c25": [],
+    "autoSelectedWorkspacePythonInterpreter-/home/adgai/.jupyter": {
+      "architecture": 3,
+      "path": "/home/adgai/anaconda3/envs/pydsp/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/home/adgai/anaconda3/envs/pydsp",
+      "fileHash": "25c64a70a30d7bc7c52b38d0f6b25eb7e0c82262c38e8c593515f77c3f8e62ebe527a06fda658bea6226c4b3096cf618d413f5d43e0d0587268c97420e2367ea",
+      "companyDisplayName": "Anaconda, Inc.",
+      "type": "Conda",
+      "envPath": "/home/adgai/anaconda3/envs/pydsp",
+      "envName": "pydsp",
+      "displayName": "Python 3.8.5 64-bit ('pydsp': conda)"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/mnt/data/Downloads/dataset/DroneRF/AR drone": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:a45858327d9a0cb3a45a1372f17177a9": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:a45858327d9a0cb3a45a1372f17177a9": [],
+    "autoSelectedWorkspacePythonInterpreter-/mnt/data/Downloads/dataset/DroneRF/AR drone": {
+      "architecture": 3,
+      "path": "/home/adgai/anaconda3/envs/pydsp/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/home/adgai/anaconda3/envs/pydsp",
+      "fileHash": "25c64a70a30d7bc7c52b38d0f6b25eb7e0c82262c38e8c593515f77c3f8e62ebe527a06fda658bea6226c4b3096cf618d413f5d43e0d0587268c97420e2367ea",
+      "companyDisplayName": "Anaconda, Inc.",
+      "type": "Conda",
+      "envPath": "/home/adgai/anaconda3/envs/pydsp",
+      "envName": "pydsp",
+      "displayName": "Python 3.8.5 64-bit ('pydsp': conda)"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/home/adgai/notes/isc-pracs": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:ecae24d8745dd78c2f028a4d01c7bddf": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:ecae24d8745dd78c2f028a4d01c7bddf": [],
+    "autoSelectedWorkspacePythonInterpreter-/home/adgai/notes/isc-pracs": {
+      "architecture": 3,
+      "path": "/home/adgai/anaconda3/envs/pydsp/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/home/adgai/anaconda3/envs/pydsp",
+      "fileHash": "25c64a70a30d7bc7c52b38d0f6b25eb7e0c82262c38e8c593515f77c3f8e62ebe527a06fda658bea6226c4b3096cf618d413f5d43e0d0587268c97420e2367ea",
+      "companyDisplayName": "Anaconda, Inc.",
+      "type": "Conda",
+      "envPath": "/home/adgai/anaconda3/envs/pydsp",
+      "envName": "pydsp",
+      "displayName": "Python 3.8.5 64-bit ('pydsp': conda)"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/home/adgai/projects/final-project": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:6d0d1fa3ffdcd247a7f6a27ef37a6c0f": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:6d0d1fa3ffdcd247a7f6a27ef37a6c0f": [],
+    "autoSelectedWorkspacePythonInterpreter-/home/adgai/projects/final-project": {
+      "architecture": 3,
+      "path": "/home/adgai/anaconda3/envs/pydsp/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/home/adgai/anaconda3/envs/pydsp",
+      "fileHash": "25c64a70a30d7bc7c52b38d0f6b25eb7e0c82262c38e8c593515f77c3f8e62ebe527a06fda658bea6226c4b3096cf618d413f5d43e0d0587268c97420e2367ea",
+      "companyDisplayName": "Anaconda, Inc.",
+      "type": "Conda",
+      "envPath": "/home/adgai/anaconda3/envs/pydsp",
+      "envName": "pydsp",
+      "displayName": "Python 3.8.5 64-bit ('pydsp': conda)"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/home/adgai/temp": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:33d1abea55807ffc1cb7e886dfa92bf6": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:33d1abea55807ffc1cb7e886dfa92bf6": [],
+    "autoSelectedWorkspacePythonInterpreter-/home/adgai/temp": {
+      "architecture": 3,
+      "path": "/home/adgai/anaconda3/envs/pydsp/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/home/adgai/anaconda3/envs/pydsp",
+      "fileHash": "25c64a70a30d7bc7c52b38d0f6b25eb7e0c82262c38e8c593515f77c3f8e62ebe527a06fda658bea6226c4b3096cf618d413f5d43e0d0587268c97420e2367ea",
+      "companyDisplayName": "Anaconda, Inc.",
+      "type": "Conda",
+      "envPath": "/home/adgai/anaconda3/envs/pydsp",
+      "envName": "pydsp",
+      "displayName": "Python 3.8.5 64-bit ('pydsp': conda)"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/home/adgai/github/bat": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:c690e86680404b035bed677b5def643c": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:c690e86680404b035bed677b5def643c": [],
+    "autoSelectedWorkspacePythonInterpreter-/home/adgai/github/bat": {
+      "architecture": 3,
+      "path": "/home/adgai/anaconda3/envs/pydsp/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/home/adgai/anaconda3/envs/pydsp",
+      "fileHash": "25c64a70a30d7bc7c52b38d0f6b25eb7e0c82262c38e8c593515f77c3f8e62ebe527a06fda658bea6226c4b3096cf618d413f5d43e0d0587268c97420e2367ea",
+      "companyDisplayName": "Anaconda, Inc.",
+      "type": "Conda",
+      "envPath": "/home/adgai/anaconda3/envs/pydsp",
+      "envName": "pydsp",
+      "displayName": "Python 3.8.5 64-bit ('pydsp': conda)"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/home/adgai/github/class-notifier-python": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:96a38c418250faf203eb730a0b9ceb7b": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:96a38c418250faf203eb730a0b9ceb7b": [],
+    "autoSelectedWorkspacePythonInterpreter-/home/adgai/github/class-notifier-python": {
+      "architecture": 3,
+      "path": "/home/adgai/anaconda3/envs/pydsp/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/home/adgai/anaconda3/envs/pydsp",
+      "fileHash": "25c64a70a30d7bc7c52b38d0f6b25eb7e0c82262c38e8c593515f77c3f8e62ebe527a06fda658bea6226c4b3096cf618d413f5d43e0d0587268c97420e2367ea",
+      "companyDisplayName": "Anaconda, Inc.",
+      "type": "Conda",
+      "envPath": "/home/adgai/anaconda3/envs/pydsp",
+      "envName": "pydsp",
+      "displayName": "Python 3.8.5 64-bit ('pydsp': conda)"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/home/adgai/Downloads/CNN_Backup": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:40e32fa405e963161b321dac5e78305a": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:40e32fa405e963161b321dac5e78305a": [],
+    "autoSelectedWorkspacePythonInterpreter-/home/adgai/Downloads/CNN_Backup": {
+      "architecture": 3,
+      "path": "/home/adgai/anaconda3/envs/pydsp/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/home/adgai/anaconda3/envs/pydsp",
+      "fileHash": "25c64a70a30d7bc7c52b38d0f6b25eb7e0c82262c38e8c593515f77c3f8e62ebe527a06fda658bea6226c4b3096cf618d413f5d43e0d0587268c97420e2367ea",
+      "companyDisplayName": "Anaconda, Inc.",
+      "type": "Conda",
+      "envPath": "/home/adgai/anaconda3/envs/pydsp",
+      "envName": "pydsp",
+      "displayName": "Python 3.8.5 64-bit ('pydsp': conda)"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-rust-analyzer|global": {
+    "release": "2020-10-19"
+  },
+  "coc-python|/home/adgai/.config/qutebrowser": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:16bf66182fefebb346667d17b532b011": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:16bf66182fefebb346667d17b532b011": [],
+    "autoSelectedWorkspacePythonInterpreter-/home/adgai/.config/qutebrowser": {
+      "architecture": 3,
+      "path": "/home/adgai/anaconda3/envs/pydsp/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/home/adgai/anaconda3/envs/pydsp",
+      "fileHash": "25c64a70a30d7bc7c52b38d0f6b25eb7e0c82262c38e8c593515f77c3f8e62ebe527a06fda658bea6226c4b3096cf618d413f5d43e0d0587268c97420e2367ea",
+      "companyDisplayName": "Anaconda, Inc.",
+      "type": "Conda",
+      "envPath": "/home/adgai/anaconda3/envs/pydsp",
+      "envName": "pydsp",
+      "displayName": "Python 3.8.5 64-bit ('pydsp': conda)"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/home/adgai/extreme": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:df32d00c9f715f49dddac5d1a4724ba2": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:df32d00c9f715f49dddac5d1a4724ba2": [],
+    "autoSelectedWorkspacePythonInterpreter-/home/adgai/extreme": {
+      "architecture": 3,
+      "path": "/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.6-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 6,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.6-final"
+      },
+      "sysPrefix": "/usr",
+      "fileHash": "1f0ef648c6ec88831f7b5ac6e66a15363f91e2e34a73a0b0d77a4458b2ab40e22fcb4fac82d23dc1b9a6f0d3aa0e98a9fb926f2c8dced12d303b8f7bedbaae66",
+      "type": "Unknown",
+      "displayName": "Python 3.8.6 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  }
+}

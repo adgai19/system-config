@@ -1,0 +1,51 @@
+{
+  "marketplace": {
+    "%2Fhome%2Fadgai%2F": {
+      "config%2Fnvim": [
+        "js",
+        "rea",
+        "esl",
+        "spel",
+        "python",
+        "rome"
+      ],
+      "config%2Fnvim%2Fvim-plug": [
+        "acti"
+      ]
+    },
+    "%2Fhome%2Fadgai%2Fprojects%2Fmy-site": [
+      "exp"
+    ],
+    "%2Fhome%2Fadgai%2Fprojects%2Fhello-world": [
+      "pre",
+      "pret"
+    ],
+    "%2Fhome%2Fadgai%2Fnotes": [
+      "mar",
+      "ma",
+      "ts",
+      "jso"
+    ],
+    "%2Fhome%2Fadgai%2FDocuments%2Fgnuradio": [
+      "pytho",
+      "pyth"
+    ],
+    "%2Fmnt%2Fdata%2FDownloads%2Fdataset%2FDroneRF%2FAR%20drone": [
+      "jed"
+    ],
+    "%2Fhome%2Fadgai%2Fprojects%2Ftestr": [
+      "rust",
+      "toml"
+    ]
+  },
+  "commands": {
+    "%2Fhome%2Fadgai%2Fprojects%2Fmy-site": [
+      "esl"
+    ]
+  },
+  "symbols": {
+    "%2Fhome%2Fadgai": [
+      ".conf"
+    ]
+  }
+}

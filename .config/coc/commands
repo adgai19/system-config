@@ -1,0 +1,7 @@
+clangd.install
+eslint.executeAutofix
+document.renameCurrentWord
+java.clean.workspace
+prettier.formatFile
+eslint.createConfig
+explorer

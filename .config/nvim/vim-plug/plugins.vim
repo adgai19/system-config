@@ -8,6 +8,7 @@ endif
 call plug#begin('~/.config/nvim/autoload/plugged')
 Plug 'vim-scripts/loremipsum'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
+Plug 'https://github.com/RRethy/vim-illuminate'
 Plug 'yuezk/vim-js'
 Plug 'matze/vim-move'
 Plug 'luochen1990/rainbow'

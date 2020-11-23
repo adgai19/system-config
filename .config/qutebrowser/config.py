@@ -223,4 +223,4 @@ c.colors.tabs.pinned.selected.even.bg = '#282c34'
 # config.set("colors.webpage.darkmode.enabled", True)
 
 c.url.default_page = '0.0.0.0:8443'
-config.set('auto_save.session', True)
+# config.set('auto_save.session', True)

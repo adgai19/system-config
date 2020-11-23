@@ -304,3 +304,5 @@ for_window [class="PacketTracer7"] floating enable resize 1900 1000
 for_window [class="*.py"] floating enable
 
 bindsym $mod+Alt+v exec ~/.vim-anywhere/bin/run
+bindsym $mod+Ctrl+r exec ~/script/screenreset.sh
+

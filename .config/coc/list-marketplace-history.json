@@ -1,0 +1,17 @@
+{
+  "L2hvbWUvYWRnYWkvc25hcC9leGVyY2lzbS81L2V4ZXJjaXNtL2x1YS9oZWxsby13b3JsZA==": [
+    "lua"
+  ],
+  "L2hvbWUvYWRnYWkvLmNvbmZpZy9udmlt": [
+    "q:q",
+    "todo",
+    "pyth"
+  ],
+  "L2hvbWUvYWRnYWkvdGVtcC9ydXN0": [
+    "rust"
+  ],
+  "L2hvbWUvYWRnYWkvdGVtcA==": [
+    "ccls",
+    "cla"
+  ]
+}
