@@ -197,7 +197,7 @@ bindsym $mod+r mode "resize"
 #status_command i3status
 #}
 bar {
-  font pango:Fira Code 6
+  font pango:Fira Code 8
     status_command bumblebee-status  -m  disk load cpu memory battery date time pasink system  -p interval=1 time.format="%H:%M IST " date.format="%a, %b %d %Y" home.path=/home system.lock="i3lock && xset dpms 5" system.logout="i3 msg exit" -t gruvbox-powerline
 
     colors {
@@ -213,7 +213,7 @@ bar {
     }
 }
 bar {
-  font pango:Fira Code 6
+  font pango:Fira Code 8
     position top
     tray_output none
     workspace_buttons no
@@ -258,7 +258,7 @@ bindsym $mod+Shift+Tab workspace prev
 
 #exec_always --no-startup-id picom -e 0.1
 exec --no-startup-id nitrogen --restore
-exec --no-startup-id /usr/bin/alacritty # terminal
+exec --no-startup-id /home/adgai/.cargo/bin/alacritty
 exec --no-startup-id /usr/bin/qutebrowser
 exec --no-startup-id /usr/bin/firefox #
 #exec --no-startup-id /snap/bin/slack
@@ -292,6 +292,7 @@ assign [class="PacketTracer7"]  number 4
 assign [class="Slack"]  number 9
 assign [class="SimpleScreenRecorder"]  number 9
 assign [class="Vmplayer"]  number 10
+assign [class="Micro:q"]  number 10
 for_window [class="Spotify"] move to workspace number 10
 
 #setting properties for some windows

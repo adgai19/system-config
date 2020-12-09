@@ -1,4 +1,5 @@
 let $NVIM_COC_LOG_LEVEL = 'debug'
+let g:ale_disable_lsp = 1
 source $HOME/.config/nvim/vim-plug/plugins.vim
 source $HOME/.config/nvim/general/settings.vim
 source $HOME/.config/nvim/general/commands.vim
@@ -10,6 +11,7 @@ source $HOME/.config/nvim/plug-config/vim-closetag.vim
 source $HOME/.config/nvim/plug-config/rainbow-parentheses.vim
 source $HOME/.config/nvim/plug-config/nerdtree.vim
 source $HOME/.config/nvim/plug-config/vim-devicons.vim
+source $HOME/.config/nvim/plug-config/ale.vim
 colorscheme gruvbox
 "autocmd vimenter * NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
@@ -22,9 +24,9 @@ set termguicolors
 set background=dark
 lua require'plug-colorizer'
 inoremap <silent><expr> <Tab>
-         \ pumvisible() ? "\<C-n>" :
-         \ <SID>check_back_space() ? "\<Tab>" :
-         \ coc#refresh()
+      \ pumvisible() ? "\<C-n>" :
+      \ <SID>check_back_space() ? "\<Tab>" :
+      \ coc#refresh()
 "autocmd VimEnter * NERDTree | wincmd p
 "highlight Normal ctermbg=None
 let g:python3_host_prog="/usr/bin/python3"

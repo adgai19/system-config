@@ -5,7 +5,7 @@ alias ls="exa"
 alias l="exa -lahF"
 alias matlab="/usr/local/MATLAB/R2018a/bin/matlab"
 alias upgrade="sudo apt update; and apt upgrade"
-alias z="cd -"
+#alias z="cd -"
 alias tree "tree -C"
 alias exconmir="xrandr --output HDMI-0 --auto --same-as eDP-1"
 alias fd=fdfind
@@ -64,3 +64,5 @@ eval /home/adgai/anaconda3/bin/conda "shell.fish" "hook" $argv | source
 # <<< conda initialize <<<
 #export LD_LIBRARY_PATH=/usr/local/cuda-10.1/lib64:$LD_LIBRARY_PATH
 #export LD_LIBRARY_PATH=/usr/local/cuda-10.1/include:$LD_LIBRARY_PATH
+zoxide init fish | source
+#alias cd="z"

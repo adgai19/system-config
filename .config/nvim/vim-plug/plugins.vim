@@ -10,6 +10,7 @@ Plug 'vim-scripts/loremipsum'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plug 'https://github.com/RRethy/vim-illuminate'
 Plug 'yuezk/vim-js'
+Plug 'Yggdroot/indentLine'
 Plug 'matze/vim-move'
 Plug 'luochen1990/rainbow'
 Plug 'nvie/vim-flake8'
@@ -73,19 +74,18 @@ call plug#end()
 
 " not installed plugins
 " "Plug 'mkitt/tabline.vim'
-"Plug 'SirVer/ultisnips'
-"Plug 'honza/vim-snippets'
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
 "Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
 "Plug 'wokalski/autocomplete-flow'
-"Plug 'Shougo/neosnippet'
+Plug 'Shougo/neosnippet'
 "Plug 'xolox/vim-lua-inspect'
 "Plug 'frazrepo/vim-rainbow'
 "Plug 'lifepillar/vim-mucomplete'
 "Plug 'rust-lang/rust.vim'
-"Plug 'Shougo/neosnippet-snippets'
+Plug 'Shougo/neosnippet-snippets'
 "Plug 'mitermayer/vim-prettier'
 "Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-"Plug 'voldikss/vim-floaterm'
 "Plug 'prabirshrestha/async.vim'
 "Plug 'prabirshrestha/asyncomplete-lsp.vim'
 "Plug 'prabirshrestha/asyncomplete.vim'
