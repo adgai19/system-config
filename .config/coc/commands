@@ -1,3 +1,5 @@
+workspace.workspaceFolders
+document.echoFiletype
 clangd.install
 eslint.executeAutofix
 document.renameCurrentWord

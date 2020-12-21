@@ -22,6 +22,7 @@ alias gcma="git commit -a -m"
 alias gs="git status"
 alias gp="git push -u origin"
 alias ga="git add -A"
+alias xclip="xclip -sel clip"
 #begin
 #    set --local AUTOJUMP_PATH $HOME/.autojump/share/autojump/autojump.fish
 #    if test -e $AUTOJUMP_PATH
@@ -33,7 +34,7 @@ set fish_greeting
 set PATH /root/.cargo/bin /home/adgai/.cargo/bin /home/adgai/.local/bin /usr/local/sbin /usr/local/bin /usr/sbin /usr/bin /sbin /bin /usr/games /usr/local/games /snap/bin $HOME/script
 #set fish_function_path $fish_function_path " /home/adgai/.local/lib/python3.8/site-packages/powerline/bindings/fish"
 set fish_function_path $fish_function_path ~/.local/lib/python3.8/site-packages/powerline/bindings/fish/
-powerline-setup
+#powerline-setup
 export MANPAGER="sh -c 'col -bx | batcat -l man -p'"
 #alias dismic="sudo sh -c "echo 'blacklist snd_hda_intel' >> /etc/modprobe.d/blacklist.conf"
 #setxkbmap -option caps:swapescape
@@ -66,3 +67,4 @@ eval /home/adgai/anaconda3/bin/conda "shell.fish" "hook" $argv | source
 #export LD_LIBRARY_PATH=/usr/local/cuda-10.1/include:$LD_LIBRARY_PATH
 zoxide init fish | source
 #alias cd="z"
+starship init fish |source

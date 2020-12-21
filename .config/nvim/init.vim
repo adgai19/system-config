@@ -12,6 +12,7 @@ source $HOME/.config/nvim/plug-config/rainbow-parentheses.vim
 source $HOME/.config/nvim/plug-config/nerdtree.vim
 source $HOME/.config/nvim/plug-config/vim-devicons.vim
 source $HOME/.config/nvim/plug-config/ale.vim
+source $HOME/.config/nvim/plug-config/telescope.vim
 colorscheme gruvbox
 "autocmd vimenter * NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
@@ -23,10 +24,11 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 set termguicolors
 set background=dark
 lua require'plug-colorizer'
+"lua require'telescope-settings'
 inoremap <silent><expr> <Tab>
-      \ pumvisible() ? "\<C-n>" :
-      \ <SID>check_back_space() ? "\<Tab>" :
-      \ coc#refresh()
+                  \ pumvisible() ? "\<C-n>" :
+                  \ <SID>check_back_space() ? "\<Tab>" :
+                  \ coc#refresh()
 "autocmd VimEnter * NERDTree | wincmd p
 "highlight Normal ctermbg=None
 let g:python3_host_prog="/usr/bin/python3"
