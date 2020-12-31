@@ -7,8 +7,10 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 endif
 call plug#begin('~/.config/nvim/autoload/plugged')
 Plug 'vim-scripts/loremipsum'
+Plug 'stephpy/vim-yaml'
 Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
+Plug 'cespare/vim-toml'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plug 'https://github.com/RRethy/vim-illuminate'

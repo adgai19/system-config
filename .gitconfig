@@ -6,6 +6,10 @@
 [credential]
 	helper = store
 [merge]
-	tool = vimdiff
+	tool = vimdiff3
 [mergetool]
+	path = nvim
+[diff]
+	tool = vimdiff3
+[difftool "vimdiff3"]
 	path = nvim
