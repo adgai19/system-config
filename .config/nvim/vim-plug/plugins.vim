@@ -2,8 +2,8 @@
 if empty(glob('~/.config/nvim/autoload/plug.vim'))
   silent !curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs
         \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-  "autocmd VimEnter * PlugInstall
-  "autocmd VimEnter * PlugInstall | source $MYVIMRC
+  autocmd VimEnter * PlugInstall
+  autocmd VimEnter * PlugInstall | source $MYVIMRC
 endif
 call plug#begin('~/.config/nvim/autoload/plugged')
 Plug 'vim-scripts/loremipsum'
@@ -82,6 +82,7 @@ call plug#end()
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 "Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
+Plug 'neoclide/coc-python', {'do': 'yarn install --frozen-lockfile'}
 "Plug 'wokalski/autocomplete-flow'
 Plug 'Shougo/neosnippet'
 "Plug 'xolox/vim-lua-inspect'

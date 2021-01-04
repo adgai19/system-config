@@ -6,7 +6,7 @@ let g:startify_lists = [
       \ { 'type': 'commands',  'header': ['   Commands']       },
       \ { 'type': 'bookmarks', 'header': ['   Bookmarks']      },
       \ ]
-let g:startify_bookmarks = [{'c':'~/.config/i3/config'},{'i':'~/.config/nvim'},{'t':'~/.tmux.conf'},{"k":'~/.config/kitty/kitty.conf'},{'a':'~/.config/alacritty/alacritty.yml'},{'f':'~/.config/fish'},{'n':'~/notes'}]
+let g:startify_bookmarks = [{'c':'~/.config/i3/config'},{'i':'~/.config/nvim'},{'t':'~/.tmux.conf'},{"k":'~/.config/kitty/kitty.conf'},{'a':'~/.config/alacritty/alacritty.yml'},{'f':'~/.config/fish'},{'n':'~/notes'},{'s':'~/.config/starship.toml'},{'p':'~/.config/'}]
 let g:startify_session_autoload = 1
 "let g:startify_custom_header = [
 "      \'               .-.                                .-.                   .-.              _  .-.                                          .-.            ',
@@ -18,3 +18,4 @@ let g:startify_session_autoload = 1
 "      \'                                                                            `._.'                                           :_;                         ',
 "     \]
 
+"let g:startify_custom_footer = 'hello'
