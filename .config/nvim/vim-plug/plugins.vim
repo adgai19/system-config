@@ -62,7 +62,7 @@ Plug 'norcalli/nvim-colorizer.lua'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
 Plug 'rbgrouleff/bclose.vim'
-Plug 'francoiscabrol/ranger.vim'
+"Plug 'francoiscabrol/ranger.vim'
 Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'lilydjwg/colorizer'
 Plug 'aben20807/vim-runner'
