@@ -314,7 +314,7 @@ bell:
   # Example:
   command:
     program: notify-send
-    args: ["check "]
+    args: ["-u", "critical", "check what you are doing dummy", "-t", "3000"]
 #
 #command: None
 

@@ -15,6 +15,12 @@ settings:
     https://www.youtube.com: true
   content.register_protocol_handler:
     https://mail.google.com?extsrc=mailto&url=%25s: true
+  fonts.default_family:
+    global: Fira Code
+  fonts.web.size.default:
+    global: 14
+  fonts.web.size.default_fixed:
+    global: 11
   url.default_page:
     global: 0.0.0.0:8080
   url.open_base_url:
