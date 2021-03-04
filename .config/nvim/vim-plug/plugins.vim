@@ -10,6 +10,7 @@ Plug 'vim-scripts/loremipsum'
 Plug 'stephpy/vim-yaml'
 Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
+Plug 'lervag/vimtex'
 Plug 'cespare/vim-toml'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
@@ -39,6 +40,7 @@ Plug 'Chiel92/vim-autoformat'
 Plug 'vim-airline/vim-airline'
 Plug '/Asheq/close-buffers.vim'
 Plug 'JamshedVesuna/vim-markdown-preview'
+Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
 Plug 'Shougo/denite.nvim'
 Plug 'chemzqm/denite-extra'
 Plug 'josa42/coc-lua', {'do': 'yarn install --frozen-lockfile'}

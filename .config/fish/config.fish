@@ -51,7 +51,7 @@ alias drivemount="google-drive-ocamlfuse ~/google-drive"
 #source (pyenv init - | psub)
 #end
 #pyenv init - | source"
-
+alias ipytopdf="jupyter-nbconvert --to PDFviaHTML"
 alias brightness="xrandr --output DP-4 --brightness"
 export GEM_HOME="$HOME/gems"
 
