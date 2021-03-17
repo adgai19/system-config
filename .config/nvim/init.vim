@@ -25,7 +25,7 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 set termguicolors
 set background=dark
 lua require'plug-colorizer'
-"lua require'telescope-settings'
+"lua require('telescope-settings')
 inoremap <silent><expr> <Tab>
       \ pumvisible() ? "\<C-n>" :
       \ <SID>check_back_space() ? "\<Tab>" :

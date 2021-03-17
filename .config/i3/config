@@ -198,7 +198,7 @@ bindsym $mod+r mode "resize"
 #}
 bar {
   font pango:Fira Code 7
-    status_command bumblebee-status  -m  disk load cpu memory battery date time pasink system  -p interval=1 time.format="%H:%M IST " date.format="%a, %b %d %Y" home.path=/home system.lock="i3lock && xset dpms 5" system.logout="i3 msg exit" -t gruvbox-powerline
+    status_command bumblebee-status  -m  speedtest disk load cpu memory battery date time pasink system  -p interval=1 time.format="%H:%M IST " date.format="%a, %b %d %Y" home.path=/home system.lock="i3lock && xset dpms 5" system.logout="i3 msg exit" -t gruvbox-powerline
 
     colors {
 
