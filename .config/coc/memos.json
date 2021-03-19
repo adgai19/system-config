@@ -30,7 +30,7 @@
         "sysPrefix": "/usr",
         "fileHash": "fdeda553fe7ce94de6e392f43eda268eaf074dcc56b3c7802ae39a46322894f24a9682571a76d22c3a0cd35379cda08a13055b743f6b6437f0afa21b6a2816fc"
       },
-      "expiry": 1603597365642
+      "expiry": 1613103514739
     },
     "/bin/python2.v3": {
       "data": {
@@ -55,7 +55,7 @@
         "sysPrefix": "/usr",
         "fileHash": "7057419913e8a36dd86ae588b627cacee1a9ecb650f9ba370bbb6faa96b95d9a73ece273f9fb90d48f97c8d31c0fde86866ab3e8e6415add044a5381ff9a0409"
       },
-      "expiry": 1603597365643
+      "expiry": 1613103514740
     },
     "/usr/bin/python3.8.v3": {
       "data": {
@@ -80,7 +80,7 @@
         "sysPrefix": "/usr",
         "fileHash": "0c2d6759bf307b0a3edb075d2114a544bba26cd2d91edc30cb8ca70c3f5735d58c931ef8fd6b1e4a4a4e745eb2788dc7f3650d82edec23b072e60ba881b76ae8"
       },
-      "expiry": 1603597365646
+      "expiry": 1613103514742
     },
     "/bin/python.v3": {
       "data": {
@@ -105,7 +105,7 @@
         "sysPrefix": "/usr",
         "fileHash": "4bbe3ad7fbf0eed2a799125bb373b6c8076c6d836015a7c180a5249668cf73d6dbdae71f6e0d214b9d7fcb321b2ee82363e465a95b6aad75973f00cfd4322ef4"
       },
-      "expiry": 1603597365645
+      "expiry": 1613103514741
     },
     "/usr/bin/python3.v3": {
       "data": {
@@ -130,7 +130,7 @@
         "sysPrefix": "/usr",
         "fileHash": "1f0ef648c6ec88831f7b5ac6e66a15363f91e2e34a73a0b0d77a4458b2ab40e22fcb4fac82d23dc1b9a6f0d3aa0e98a9fb926f2c8dced12d303b8f7bedbaae66"
       },
-      "expiry": 1603597365647
+      "expiry": 1613103514743
     },
     "/usr/bin/python2.7.v3": {
       "data": {
@@ -155,7 +155,7 @@
         "sysPrefix": "/usr",
         "fileHash": "fdeda553fe7ce94de6e392f43eda268eaf074dcc56b3c7802ae39a46322894f24a9682571a76d22c3a0cd35379cda08a13055b743f6b6437f0afa21b6a2816fc"
       },
-      "expiry": 1603597365648
+      "expiry": 1613103514744
     },
     "/usr/bin/python2.v3": {
       "data": {
@@ -180,7 +180,7 @@
         "sysPrefix": "/usr",
         "fileHash": "7057419913e8a36dd86ae588b627cacee1a9ecb650f9ba370bbb6faa96b95d9a73ece273f9fb90d48f97c8d31c0fde86866ab3e8e6415add044a5381ff9a0409"
       },
-      "expiry": 1603597365665
+      "expiry": 1613103514744
     },
     "/bin/python3.8.v3": {
       "data": {
@@ -205,7 +205,7 @@
         "sysPrefix": "/usr",
         "fileHash": "0c2d6759bf307b0a3edb075d2114a544bba26cd2d91edc30cb8ca70c3f5735d58c931ef8fd6b1e4a4a4e745eb2788dc7f3650d82edec23b072e60ba881b76ae8"
       },
-      "expiry": 1603597365669
+      "expiry": 1613103514769
     },
     "/usr/bin/python.v3": {
       "data": {
@@ -230,7 +230,7 @@
         "sysPrefix": "/usr",
         "fileHash": "4bbe3ad7fbf0eed2a799125bb373b6c8076c6d836015a7c180a5249668cf73d6dbdae71f6e0d214b9d7fcb321b2ee82363e465a95b6aad75973f00cfd4322ef4"
       },
-      "expiry": 1603597365650
+      "expiry": 1613103514746
     },
     "/bin/python3.v3": {
       "data": {
@@ -255,7 +255,7 @@
         "sysPrefix": "/usr",
         "fileHash": "1f0ef648c6ec88831f7b5ac6e66a15363f91e2e34a73a0b0d77a4458b2ab40e22fcb4fac82d23dc1b9a6f0d3aa0e98a9fb926f2c8dced12d303b8f7bedbaae66"
       },
-      "expiry": 1603597365670
+      "expiry": 1613103514771
     },
     "/home/adgai/anaconda3/bin/python3.7.v3": {
       "data": {
@@ -280,7 +280,7 @@
         "sysPrefix": "/home/adgai/anaconda3",
         "fileHash": "94286df1c37c7d97be2313248cbe01563fa3d876256957fa21d4cad39a9343f0b238c9dfb34f71d00ee078e3f937bb60f94265daa9923a2c84515b8a1971e52d"
       },
-      "expiry": 1603597365667
+      "expiry": 1613103514748
     },
     "/home/adgai/anaconda3/bin/python3.v3": {
       "data": {
@@ -305,7 +305,7 @@
         "sysPrefix": "/home/adgai/anaconda3",
         "fileHash": "4bffbd580742853477b7796e3c3b3ca2849344dea9306ad6f16517eb110d60e7f49ae3b08372ed3e95245023df214b03ed75815bf9f22ff90d9c0227e3ec3f13"
       },
-      "expiry": 1603597365666
+      "expiry": 1613103514749
     },
     "/home/adgai/anaconda3/bin/python.v3": {
       "data": {
@@ -330,7 +330,7 @@
         "sysPrefix": "/home/adgai/anaconda3",
         "fileHash": "4bffbd580742853477b7796e3c3b3ca2849344dea9306ad6f16517eb110d60e7f49ae3b08372ed3e95245023df214b03ed75815bf9f22ff90d9c0227e3ec3f13"
       },
-      "expiry": 1603597365665
+      "expiry": 1613103514749
     },
     "INTERPRETERS_CACHE_v3_CurrentPathService": [
       {
@@ -1084,7 +1084,7 @@
         "sysPrefix": "/home/adgai/anaconda3/envs/ThinkDSP",
         "fileHash": "332556632fa79240675f723586a9b0c835634abbb9982c6966514ab59a92a11ba99f3a526990b7bbde824066afbb743a98cbe1de56b8e4ea127f282bbfa52909"
       },
-      "expiry": 1603597365849
+      "expiry": 1613103514987
     },
     "/home/adgai/anaconda3/envs/pydsp/bin/python.v3": {
       "data": {
@@ -1109,7 +1109,7 @@
         "sysPrefix": "/home/adgai/anaconda3/envs/pydsp",
         "fileHash": "b4bfe6560be0fbffdc1a6c49bdd930b76ea8798c950595746e70f9f651ae058d42cff9097f00dd13849b18f8dd474a646b21aa0cff66978235af1f92402a1e1e"
       },
-      "expiry": 1603597365850
+      "expiry": 1613103514988
     },
     "/home/adgai/anaconda3/bin/python.interpreter.displayName.v7": {
       "data": {
@@ -1166,7 +1166,7 @@
         "sysPrefix": "/home/adgai/anaconda3/envs/ds",
         "fileHash": "f38705f019e6391662612696187d9e474d6af84906370d0a9a4575839ee5b05827416add6dfbe7809fb6c8c4620adb4fb775a8c09213136489c20c210573c5b1"
       },
-      "expiry": 1603597365874
+      "expiry": 1613103514988
     },
     "CONDA_ENVIRONMENTS": {
       "data": [
@@ -1191,16 +1191,20 @@
           "path": "/home/adgai/anaconda3/envs/isc-pracs"
         },
         {
+          "name": "plsdr",
+          "path": "/home/adgai/anaconda3/envs/plsdr"
+        },
+        {
+          "name": "py36",
+          "path": "/home/adgai/anaconda3/envs/py36"
+        },
+        {
           "name": "pydsp",
           "path": "/home/adgai/anaconda3/envs/pydsp"
         },
         {
           "name": "pytorch",
           "path": "/home/adgai/anaconda3/envs/pytorch"
-        },
-        {
-          "name": "tf-gpu",
-          "path": "/home/adgai/anaconda3/envs/tf-gpu"
         }
       ]
     },
@@ -1256,32 +1260,6 @@
         "type": "Conda",
         "envPath": "/home/adgai/anaconda3/envs/ds",
         "envName": "ds"
-      },
-      {
-        "architecture": 3,
-        "path": "/home/adgai/anaconda3/envs/tf-gpu/bin/python",
-        "version": {
-          "options": {
-            "loose": false,
-            "includePrerelease": false
-          },
-          "loose": false,
-          "raw": "3.8.3-final",
-          "major": 3,
-          "minor": 8,
-          "patch": 3,
-          "prerelease": [
-            "final"
-          ],
-          "build": [],
-          "version": "3.8.3-final"
-        },
-        "sysPrefix": "/home/adgai/anaconda3/envs/tf-gpu",
-        "fileHash": "2be4b244f2c31870a6323a533c77e32930ec435ced95b67c1b7530c6f03c5dc8ba357551208dc3158e05e7eb6474c25b4dc79ee40633f9ac22cb8a00a69d5e07",
-        "companyDisplayName": "Anaconda, Inc.",
-        "type": "Conda",
-        "envPath": "/home/adgai/anaconda3/envs/tf-gpu",
-        "envName": "tf-gpu"
       },
       {
         "architecture": 3,
@@ -1412,6 +1390,58 @@
         "type": "Conda",
         "envPath": "/home/adgai/anaconda3/envs/pytorch",
         "envName": "pytorch"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/envs/plsdr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.0-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 0,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.0-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3/envs/plsdr",
+        "fileHash": "46b0e7b6096238206e5d937cff9fe842ed2832d8f4256ff7314b6acc1e557a2128c0ec9726bf0745dd59750ecd6d346210447c8e3117fc4c57957827e31a12cf",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/home/adgai/anaconda3/envs/plsdr",
+        "envName": "plsdr"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/envs/py36/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.6.10-final",
+          "major": 3,
+          "minor": 6,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.6.10-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3/envs/py36",
+        "fileHash": "b4a7ac81dbd26a1898968dd8bb630a121825d98ff88c5ee05c189705af5b4f5d860866ed3685eae3b8f09e445a3a091641dae2a4977f2cdbd5f7e2df169aa93d",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/home/adgai/anaconda3/envs/py36",
+        "envName": "py36"
       }
     ],
     "INTERPRETERS_CACHE_v3_CondaEnvService": [
@@ -1547,6 +1577,58 @@
       },
       {
         "architecture": 3,
+        "path": "/home/adgai/anaconda3/envs/plsdr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.0-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 0,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.0-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3/envs/plsdr",
+        "fileHash": "46b0e7b6096238206e5d937cff9fe842ed2832d8f4256ff7314b6acc1e557a2128c0ec9726bf0745dd59750ecd6d346210447c8e3117fc4c57957827e31a12cf",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/home/adgai/anaconda3/envs/plsdr",
+        "envName": "plsdr"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/envs/py36/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.6.10-final",
+          "major": 3,
+          "minor": 6,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.6.10-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3/envs/py36",
+        "fileHash": "b4a7ac81dbd26a1898968dd8bb630a121825d98ff88c5ee05c189705af5b4f5d860866ed3685eae3b8f09e445a3a091641dae2a4977f2cdbd5f7e2df169aa93d",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/home/adgai/anaconda3/envs/py36",
+        "envName": "py36"
+      },
+      {
+        "architecture": 3,
         "path": "/home/adgai/anaconda3/envs/pydsp/bin/python",
         "version": {
           "options": {
@@ -1599,32 +1681,6 @@
       },
       {
         "architecture": 3,
-        "path": "/home/adgai/anaconda3/envs/tf-gpu/bin/python",
-        "version": {
-          "options": {
-            "loose": false,
-            "includePrerelease": false
-          },
-          "loose": false,
-          "raw": "3.8.3-final",
-          "major": 3,
-          "minor": 8,
-          "patch": 3,
-          "prerelease": [
-            "final"
-          ],
-          "build": [],
-          "version": "3.8.3-final"
-        },
-        "sysPrefix": "/home/adgai/anaconda3/envs/tf-gpu",
-        "fileHash": "2be4b244f2c31870a6323a533c77e32930ec435ced95b67c1b7530c6f03c5dc8ba357551208dc3158e05e7eb6474c25b4dc79ee40633f9ac22cb8a00a69d5e07",
-        "companyDisplayName": "Anaconda, Inc.",
-        "type": "Conda",
-        "envPath": "/home/adgai/anaconda3/envs/tf-gpu",
-        "envName": "tf-gpu"
-      },
-      {
-        "architecture": 3,
         "path": "/home/adgai/anaconda3/bin/python",
         "version": {
           "options": {
@@ -1670,14 +1726,14 @@
         "displayName": "Python 2.7.18 64-bit",
         "hash": "4bbe3ad7fbf0eed2a799125bb373b6c8076c6d836015a7c180a5249668cf73d6dbdae71f6e0d214b9d7fcb321b2ee82363e465a95b6aad75973f00cfd4322ef4-2b4c05761678630b27ef0c4d3764fd8d"
       },
-      "expiry": 1603597365818
+      "expiry": 1613103515013
     },
     "/usr/bin/python3.interpreter.displayName.v7": {
       "data": {
         "displayName": "Python 3.8.6 64-bit",
         "hash": "1f0ef648c6ec88831f7b5ac6e66a15363f91e2e34a73a0b0d77a4458b2ab40e22fcb4fac82d23dc1b9a6f0d3aa0e98a9fb926f2c8dced12d303b8f7bedbaae66-ae4088074b6288f61ed6d47f8cbecd45"
       },
-      "expiry": 1603597365821
+      "expiry": 1613103515015
     },
     "/home/adgai/anaconda3/envs/tf-gpu/bin/python.interpreter.displayName.v7": {
       "data": {
@@ -1691,21 +1747,21 @@
         "displayName": "Python 3.8.5 64-bit",
         "hash": "b4bfe6560be0fbffdc1a6c49bdd930b76ea8798c950595746e70f9f651ae058d42cff9097f00dd13849b18f8dd474a646b21aa0cff66978235af1f92402a1e1e-f1d6c08f8955257205640829d9fb5904"
       },
-      "expiry": 1603597365889
+      "expiry": 1613103515188
     },
     "/bin/python.interpreter.displayName.v7": {
       "data": {
         "displayName": "Python 2.7.18 64-bit",
         "hash": "4bbe3ad7fbf0eed2a799125bb373b6c8076c6d836015a7c180a5249668cf73d6dbdae71f6e0d214b9d7fcb321b2ee82363e465a95b6aad75973f00cfd4322ef4-d600e51bd72f715a18e264e4d87484c5"
       },
-      "expiry": 1603597365823
+      "expiry": 1613103515017
     },
     "/bin/python3.interpreter.displayName.v7": {
       "data": {
         "displayName": "Python 3.8.6 64-bit",
         "hash": "1f0ef648c6ec88831f7b5ac6e66a15363f91e2e34a73a0b0d77a4458b2ab40e22fcb4fac82d23dc1b9a6f0d3aa0e98a9fb926f2c8dced12d303b8f7bedbaae66-4ea1bf7e368fd91671256c888dfc0e57"
       },
-      "expiry": 1603597365826
+      "expiry": 1613103515019
     },
     "InterpreterAutoSeletionRule-system": {
       "architecture": 3,
@@ -1825,7 +1881,7 @@
           "displayName": "Python 2.7.18 64-bit"
         }
       },
-      "expiry": 1603597365853
+      "expiry": 1613103515061
     },
     "/usr/bin/python3.interpreter.Details.v7": {
       "data": {
@@ -1855,7 +1911,7 @@
           "displayName": "Python 3.8.6 64-bit"
         }
       },
-      "expiry": 1603597365856
+      "expiry": 1613103515065
     },
     "/home/adgai/anaconda3/envs/tf-gpu/bin/python.interpreter.Details.v7": {
       "data": {
@@ -1923,7 +1979,7 @@
           "__store": true
         }
       },
-      "expiry": 1603597365886
+      "expiry": 1613103515118
     },
     "/bin/python.interpreter.Details.v7": {
       "data": {
@@ -1953,7 +2009,7 @@
           "displayName": "Python 2.7.18 64-bit"
         }
       },
-      "expiry": 1603597365859
+      "expiry": 1613103515068
     },
     "/bin/python3.interpreter.Details.v7": {
       "data": {
@@ -1983,7 +2039,7 @@
           "displayName": "Python 3.8.6 64-bit"
         }
       },
-      "expiry": 1603597365861
+      "expiry": 1613103515071
     },
     "ProposeLSBanner": false,
     "InterpreterAutoSeletionRule-cachedInterpreters": {
@@ -2083,7 +2139,7 @@
         "sysPrefix": "/home/adgai/anaconda3/envs/isc-pracs",
         "fileHash": "88597cb4e7b0ffe27cdf021ffbcff5c4a153054c8d0d3afe529b33c093d611eed51907141c7156d087fe57215eea46cb06100623407897fc7411ee8938804b8b"
       },
-      "expiry": 1603597365876
+      "expiry": 1613103514986
     },
     "/home/adgai/anaconda3/envs/isc-pracs/bin/python3.8.v3": {
       "data": {
@@ -2158,7 +2214,7 @@
         "sysPrefix": "/home/adgai/anaconda3/envs/final-pro",
         "fileHash": "7d28863f86828427ad65e4117cb60b68fff9c66fcb56e10460e9a03f24a0199c35d6e2077b3c8916f3cb38585e29e048310deadabadb6712773cc6aeea216279"
       },
-      "expiry": 1603597365875
+      "expiry": 1613103514985
     },
     "/home/adgai/anaconda3/envs/final-pro/bin/python3.8.v3": {
       "data": {
@@ -2283,7 +2339,57 @@
         "sysPrefix": "/home/adgai/anaconda3/envs/pytorch",
         "fileHash": "eb8d0aebe197c122e4202c5c968e7093e9341674e6ce6ccc36e1b8048d414a54ce831de4a37b271770e293766d8b504b781ff5436b5684bc883d3bdd394ce9ef"
       },
-      "expiry": 1603597365875
+      "expiry": 1613103514984
+    },
+    "/home/adgai/anaconda3/envs/py36/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/envs/py36/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.6.10-final",
+          "major": 3,
+          "minor": 6,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.6.10-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3/envs/py36",
+        "fileHash": "b4a7ac81dbd26a1898968dd8bb630a121825d98ff88c5ee05c189705af5b4f5d860866ed3685eae3b8f09e445a3a091641dae2a4977f2cdbd5f7e2df169aa93d"
+      },
+      "expiry": 1613103514982
+    },
+    "/home/adgai/anaconda3/envs/plsdr/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/adgai/anaconda3/envs/plsdr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.0-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 0,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.0-final"
+        },
+        "sysPrefix": "/home/adgai/anaconda3/envs/plsdr",
+        "fileHash": "46b0e7b6096238206e5d937cff9fe842ed2832d8f4256ff7314b6acc1e557a2128c0ec9726bf0745dd59750ecd6d346210447c8e3117fc4c57957827e31a12cf"
+      },
+      "expiry": 1613103514983
     }
   },
   "coc-python|/home/adgai/projects/hello-world": {

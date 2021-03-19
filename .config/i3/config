@@ -197,7 +197,7 @@ bindsym $mod+r mode "resize"
 #status_command i3status
 #}
 bar {
-  font pango:Fira Code 7
+  font pango:Fira Code 4
     status_command bumblebee-status  -m  disk load cpu memory battery date time pasink system  -p interval=1 time.format="%H:%M IST " date.format="%a, %b %d %Y" home.path=/home system.lock="i3lock && xset dpms 5" system.logout="i3 msg exit" -t gruvbox-powerline
 
     colors {
@@ -213,7 +213,7 @@ bar {
     }
 }
 bar {
-  font pango:Fira Code 7
+  font pango:Fira Code 4
     position top
     tray_output none
     workspace_buttons no
@@ -294,7 +294,10 @@ assign [class="Signal"]  number 9
 assign [class="SimpleScreenRecorder"]  number 9
 assign [class="Vmplayer"]  number 10
 assign [class="Micro:q"]  number 10
+assign [class="TelegramDesktop"]  number 10
+assign [class="VirtualBox Manager"]  number 10
 for_window [class="Spotify"] move to workspace number 10
+for_window [class="telegram-desktop"] move to workspace number 8
 
 #setting properties for some windows
 for_window [class="matplotlib"] floating enable
@@ -303,7 +306,7 @@ for_window [class="Blueman-manager"] floating enable
 for_window [class="Gnome-calculator"] floating enable
 for_window [class="Xclock"] floating enable
 for_window [class="Pulseeffect"] floating enable
-for_window [class="PacketTracer7"] floating enable resize 1900 1000
+#for_window [class="PacketTracer7"] floating enable resize 1900 1000
 for_window [class="*.py"] floating enable
 
 bindsym $mod+Alt+v exec ~/.vim-anywhere/bin/run
