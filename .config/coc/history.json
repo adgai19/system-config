@@ -1,5 +1,6 @@
 {
   "marketplace": {
+<<<<<<< HEAD
     "%2Fhome%2Fadgai%2F": {
       "config%2Fnvim": [
         "js",
@@ -47,5 +48,15 @@
     "%2Fhome%2Fadgai": [
       ".conf"
     ]
+=======
+    "%2Fhome%2Fadgai%2Fprojects%2FCRFO-Web-Development": [
+      "javascr"
+    ],
+    "%2Fhome%2Fadgai%2F": {
+      "config%2Fnvim": [
+        "ts"
+      ]
+    }
+>>>>>>> 20d28bc... merging on old machine
   }
 }

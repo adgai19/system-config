@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "coc-python|/home/adgai/projects/my-site": {
     "INTERPRETERS_CACHE_v3_PipEnvService": [],
@@ -2660,3 +2661,6 @@
     "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
   }
 }
+=======
+{}
+>>>>>>> 20d28bc... merging on old machine

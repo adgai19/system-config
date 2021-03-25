@@ -1,5 +1,5 @@
-alias cat="bat"
-export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+alias cat="batcat"
+export MANPAGER="sh -c 'col -bx | batcat -l man -p'"
 #alias vlc="devour vlc"
 alias ls="exa"
 alias l="exa -lahF"
