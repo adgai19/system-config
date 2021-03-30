@@ -42,7 +42,7 @@ Plug 'plasticboy/vim-markdown'
 Plug 'voldikss/vim-floaterm'
 Plug 'Chiel92/vim-autoformat'
 Plug 'vim-airline/vim-airline'
-Plug '/Asheq/close-buffers.vim'
+"Plug 'Asheq/close-buffers.vim'
 Plug 'JamshedVesuna/vim-markdown-preview'
 Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
 Plug 'Shougo/denite.nvim'
@@ -66,7 +66,7 @@ Plug 'ianks/vim-tsx'
 Plug 'liuchengxu/vim-which-key'
 Plug 'norcalli/nvim-colorizer.lua'
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+"Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
 Plug 'rbgrouleff/bclose.vim'
 "Plug 'francoiscabrol/ranger.vim'
 Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 workspace.workspaceFolders
 document.echoFiletype
 clangd.install
@@ -7,3 +8,7 @@ java.clean.workspace
 prettier.formatFile
 eslint.createConfig
 explorer
+=======
+explorer
+expllorer
+>>>>>>> 20d28bc... merging on old machine
