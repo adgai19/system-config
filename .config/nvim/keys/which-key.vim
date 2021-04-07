@@ -81,5 +81,5 @@ let g:which_key_map.t = {
                            \ 'y' : [':FloatermNew ytop'                              , 'ytop'],
                            \ 's' : [':FloatermNew ncdu'                              , 'ncdu'],
                            \ }
-" Register which key map
+"" Register which key map
 call which_key#register('<Space>', "g:which_key_map")

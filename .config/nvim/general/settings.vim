@@ -76,3 +76,7 @@ let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|.git'
 
 set shell=/bin/bash
 autocmd FileType yml let b:autoformat_autoindent=0
+let g:python3_host_prog="/usr/bin/python3"
+set termguicolors
+colorscheme gruvbox
+set background=dark
