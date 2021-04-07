@@ -11,11 +11,22 @@ require('telescope').setup {
         ["url_open_command"] = 'xdg-open',
         ["show_http_headers"] = false,
         ["show_domain_icons"] = false
+    },
+    frecency = {
+        show_scores = false,
+        show_unindexed = true,
+        ignore_patterns = {"*.git/*", "*/tmp/*"},
+        workspaces = {
+            ["conf"] = "/home/adgai/.config",
+            -- ["data"] = "/home/adgai/.local/share",
+            ["project"] = "/home/adgai/projects"
+        }
     }
 
 }
 require('telescope').load_extension('fzy_native')
 require('telescope').load_extension("arecibo")
+require('telescope').load_extension("frecency")
 
 M.search_dotfiles = function()
     require("telescope.builtin").find_files(
