@@ -201,7 +201,7 @@ exec --no-startup-id nm-applet
     #font pango:Fira Code 4
       #status_command bumblebee-status  -m  disk load cpu memory battery date time pasink system  -p interval=1 time.format="%H:%M IST " date.format="%a, %b %d %Y" home.path=/home system.lock="i3lock && xset dpms 5" system.logout="i3 msg exit" -t gruvbox-powerline
   #=======
-    font pango:Fira Code 7
+    font pango:Fira Code 5
       status_command bumblebee-status  -m  speedtest disk load cpu memory battery date time pasink system  -p interval=1 time.format="%H:%M IST " date.format="%a, %b %d %Y" home.path=/home system.lock="i3lock && xset dpms 5" system.logout="i3 msg exit" -t gruvbox-powerline
 #>>>>>>> c16dacbd9960a6df90857854e5a6f3c2cabc61d5
 
@@ -218,7 +218,7 @@ exec --no-startup-id nm-applet
     }
 }
 bar {
-  font pango:Fira Code 4
+  font pango:Fira Code 5
     position top
     tray_output none
     workspace_buttons no
@@ -279,8 +279,8 @@ for_window [class=".*"] title_format " "
 exec --no-startup-id i3-msg workspace 0
 
 #remapping brightness controls
-bindsym $mod+F5 exec ~/script/brightness.sh - eDP-1
-bindsym $mod+F6 exec ~/script/brightness.sh + eDP-1
+bindsym $mod+F5 exec ~/script/brightness.sh - DP-4
+bindsym $mod+F6 exec ~/script/brightness.sh + DP-4
 
 # assign workspaces
 assign [class="Alacritty"]  number 0
@@ -292,11 +292,12 @@ assign [class="vlc"]  number 3
 assign [class="Code"]  number 3
 assign [class="Code - Insider"]  number 3
 assign [class="Acroread"]  number 4
-assign [class="Evice"]  number 4
+assign [class="Evince"]  number 4
 assign [class="PacketTracer7"]  number 4
 assign [class="Slack"]  number 9
 assign [class="Signal"]  number 9
-assign [class="SimpleScreenRecorder"]  number 9
+assign [class="discord"]  number 9
+assign [class="SimpleScreenRecorder"]  number 8
 assign [class="Vmplayer"]  number 10
 assign [class="Micro:q"]  number 10
 assign [class="TelegramDesktop"]  number 10

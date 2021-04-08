@@ -27,6 +27,8 @@ require('telescope').setup {
 require('telescope').load_extension('fzy_native')
 require('telescope').load_extension("arecibo")
 require('telescope').load_extension("frecency")
+require'telescope'.load_extension("cheat")
+require'telescope'.load_extension('project')
 
 M.search_dotfiles = function()
     require("telescope.builtin").find_files(

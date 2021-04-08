@@ -6,7 +6,7 @@ source $HOME/.config/nvim/general/directory-create.vim
 source $HOME/.config/nvim/general/commands.vim
 source $HOME/.config/nvim/plug-config/start-screen.vim
 source $HOME/.config/nvim/plug-config/vim-lua-formatter.vim
-source $HOME/.config/nvim/plug-config/rnvimr.vim
+"source $HOME/.config/nvim/plug-config/rnvimr.vim
 source $HOME/.config/nvim/keys/which-key.vim
 source $HOME/.config/nvim/plug-config/coc-new.vim
 source $HOME/.config/nvim/plug-config/vim-closetag.vim
