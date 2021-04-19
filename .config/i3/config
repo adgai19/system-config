@@ -268,7 +268,7 @@ exec --no-startup-id /usr/bin/qutebrowser
 exec --no-startup-id /usr/bin/firefox #
 #exec --no-startup-id /snap/bin/slack
 #exec --no-startup-id /snap/bin/spotify
-exec_always --no-startup-id sleep 0.2;i3-workspace-names-daemon
+exec_always --no-startup-id i3-workspace-names-daemon
 #exec --no-startup-id google-drive-ocamlfuse ~/google-drive
 
 bindsym $mod+Shift+minus [class="Pulseeffect"] move scratchpad
@@ -294,14 +294,17 @@ assign [class="Code - Insider"]  number 3
 assign [class="Acroread"]  number 4
 assign [class="Evince"]  number 4
 assign [class="PacketTracer7"]  number 4
+assign [class="Org.gnome.Nautilus"]  number 4
 assign [class="Slack"]  number 9
 assign [class="Signal"]  number 9
 assign [class="discord"]  number 9
 assign [class="SimpleScreenRecorder"]  number 8
+assign [class="obs"]  number 8
 assign [class="Vmplayer"]  number 10
 assign [class="Micro:q"]  number 10
 assign [class="TelegramDesktop"]  number 10
 assign [class="VirtualBox Manager"]  number 10
+assign [class="VirtualBox Machine"]  number 10
 for_window [class="Spotify"] move to workspace number 10
 for_window [class="telegram-desktop"] move to workspace number 8
 

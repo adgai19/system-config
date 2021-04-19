@@ -8,6 +8,8 @@ source $HOME/.config/nvim/plug-config/start-screen.vim
 source $HOME/.config/nvim/plug-config/vim-lua-formatter.vim
 "source $HOME/.config/nvim/plug-config/rnvimr.vim
 source $HOME/.config/nvim/keys/which-key.vim
+source $HOME/.config/nvim/keys/vim-fugutive.vim
+source $HOME/.config/nvim/keys/temp-keys.vim
 source $HOME/.config/nvim/plug-config/coc-new.vim
 source $HOME/.config/nvim/plug-config/vim-closetag.vim
 source $HOME/.config/nvim/plug-config/rainbow-parentheses.vim
@@ -29,7 +31,9 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 "endfunction
 lua require'plug-colorizer'
 lua require('telescopeconfig')
-"lua require('packerconfig')
+lua require('packerconfig')
+lua require('rustTools')
+"lua require('test')
 "lua require ('packages-install')
 inoremap <silent><expr> <Tab>
       \ pumvisible() ? "\<C-n>" :
@@ -38,5 +42,6 @@ inoremap <silent><expr> <Tab>
 "autocmd VimEnter * NERDTree | wincmd p
 "highlight Normal ctermbg=None
 "set guifont=Fira\ Code\ Nerd\ Font\ 8
+"
 "set guifont=DroidSansMono\ Nerd\ Font\ 11
-noremap <F3> :Autoformat<CR>
+source $HOME/.config/nvim/keys/quikfixlist.vim

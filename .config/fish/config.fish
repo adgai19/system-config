@@ -59,6 +59,7 @@ export PATH="$HOME/anaconda3/bin:$PATH:/usr/local/bin"
 export LANG=en_IN.UTF-8
 #export PATH="$PATH:/usr/local/cuda/bin"
 
+export EDITOR='nvim'
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 eval /home/adgai/anaconda3/bin/conda "shell.fish" "hook" $argv | source

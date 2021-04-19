@@ -1,4 +1,4 @@
-" auto-install vim-plug
+"Maxi" auto-install vim-plug
 if empty(glob('~/.config/nvim/autoload/plug.vim'))
   silent !curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs
         \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -19,9 +19,14 @@ Plug 'lervag/vimtex'
 Plug 'nvim-treesitter/nvim-treesitter'
 "Plug 'tpope/vim-speeddating'
 Plug 'cespare/vim-toml'
+Plug 'neovim/nvim-lspconfig'
+Plug 'simrat39/rust-tools.nvim'
 Plug 'tami5/sql.nvim'
 "Plug 'nvim-telescope/telescope-project.nvim'
 Plug '~/github/telescope-project.nvim'
+"Plug 'https://github.com/thinca/vim-quickrun'
+"Plug 'https://github.com/puremourning/vimspector'
+"Plug 'https://github.com/szw/vim-maximizer'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'https://github.com/nvim-telescope/telescope-fzy-native.nvim'
 Plug 'romainl/vim-qf'
@@ -47,7 +52,7 @@ Plug 'tmux-plugins/vim-tmux'
 Plug 'junegunn/rainbow_parentheses.vim'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'tpope/vim-surround'
-"Plug 'https://github.com/wbthomason/packer.nvim'
+Plug 'https://github.com/wbthomason/packer.nvim'
 "Plug 'https://github.com/nvim-telescope/telescope-packer.nvim'
 Plug 'https://github.com/szw/vim-g'
 Plug 'tpope/vim-obsession'
