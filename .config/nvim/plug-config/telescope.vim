@@ -4,5 +4,6 @@ nnoremap <leader>fb <cmd>lua require('telescope.builtin').buffers()<cr>
 nnoremap <leader>fh <cmd>lua require('telescope.builtin').help_tags()<cr>
 nnoremap <leader>fc <cmd>lua require('telescopeconfig').search_dotfiles()<cr>
 nnoremap <leader>fa <cmd>Telescope frecency<cr>
+nnoremap <leader>f <cmd>Telescope <cr>
 nnoremap <leader>fcs <cmd>Telescope cheat fd<cr>
 nnoremap <leader>fp <cmd>lua require'telescope'.extensions.project.project{}<CR>

@@ -1,5 +1,6 @@
 local M = {}
 require('telescope').setup {
+    defaults = {file_ignore_patterns = {"build/"}},
     extensions = {
         fzy_native = {
             override_generic_sorter = false,

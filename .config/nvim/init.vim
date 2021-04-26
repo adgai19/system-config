@@ -19,7 +19,7 @@ source $HOME/.config/nvim/plug-config/ale.vim
 source $HOME/.config/nvim/plug-config/telescope.vim
 source $HOME/.config/nvim/plug-config/autoformat.vim
 source $HOME/.config/nvim/plug-config/whiplash.vim
-
+source $HOME/.config/nvim/neovide/settings.vim
 "source $HOME/.config/nvim/vundle/plugins.vim
 source $HOME/.config/nvim/general/lua_format.vim
 "autocmd vimenter * NERDTree
@@ -41,7 +41,7 @@ inoremap <silent><expr> <Tab>
       \ coc#refresh()
 "autocmd VimEnter * NERDTree | wincmd p
 "highlight Normal ctermbg=None
-"set guifont=Fira\ Code\ Nerd\ Font\ 8
+set guifont=Fira\ Code\ Nerd\ Font:8
 "
 "set guifont=DroidSansMono\ Nerd\ Font\ 11
 source $HOME/.config/nvim/keys/quikfixlist.vim

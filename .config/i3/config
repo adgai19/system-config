@@ -290,6 +290,7 @@ assign [class="Chromium"]  number 1
 assign [class="Firefox"]  number 2
 assign [class="vlc"]  number 3
 assign [class="Code"]  number 3
+assign [class="neovide"]  number 3
 assign [class="Code - Insider"]  number 3
 assign [class="Acroread"]  number 4
 assign [class="Evince"]  number 4

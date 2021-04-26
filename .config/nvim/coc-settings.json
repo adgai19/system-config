@@ -27,5 +27,5 @@
     "UltiSnips",
     "~/.config/nvim/utils/snips"
   ],
-  "clangd.path": "/home/adgai/.config/coc/extensions/coc-clangd-data/install/10.0.0/clangd_10.0.0/bin/clangd"
+  "clangd.path": "/home/adgai/.config/coc/extensions/coc-clangd-data/install/11.0.0/clangd_11.0.0/bin/clangd"
 }

@@ -80,3 +80,5 @@ let g:python3_host_prog="/usr/bin/python3"
 set termguicolors
 colorscheme gruvbox
 set background=dark
+
+let g:ale_fixers=['clangtidy']
