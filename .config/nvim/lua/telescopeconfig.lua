@@ -30,6 +30,8 @@ require('telescope').load_extension("arecibo")
 require('telescope').load_extension("frecency")
 require'telescope'.load_extension("cheat")
 require'telescope'.load_extension('project')
+require('telescope').load_extension('dap')
+require('dap-python').setup('~/anaconda3/bin/python')
 
 M.search_dotfiles = function()
     require("telescope.builtin").find_files(

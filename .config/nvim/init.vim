@@ -7,11 +7,12 @@ source $HOME/.config/nvim/general/commands.vim
 source $HOME/.config/nvim/plug-config/start-screen.vim
 source $HOME/.config/nvim/plug-config/vim-lua-formatter.vim
 "source $HOME/.config/nvim/plug-config/rnvimr.vim
-source $HOME/.config/nvim/keys/which-key.vim
+source $HOME/.config/nvim/keys/newkeys.vim
 source $HOME/.config/nvim/keys/vim-fugutive.vim
 source $HOME/.config/nvim/keys/temp-keys.vim
 source $HOME/.config/nvim/plug-config/coc-new.vim
 source $HOME/.config/nvim/plug-config/vim-closetag.vim
+source $HOME/.config/nvim/plug-config/dap.vim
 source $HOME/.config/nvim/plug-config/rainbow-parentheses.vim
 source $HOME/.config/nvim/plug-config/nerdtree.vim
 source $HOME/.config/nvim/plug-config/vim-devicons.vim
@@ -30,10 +31,11 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 "  return !col || getline('.')[col - 1]  =~ '\s'
 "endfunction
 lua require'plug-colorizer'
+lua require 'vim-icons'
 lua require('telescopeconfig')
 lua require('packerconfig')
 lua require('rustTools')
-"lua require('test')
+lua require('debugger')
 "lua require ('packages-install')
 inoremap <silent><expr> <Tab>
       \ pumvisible() ? "\<C-n>" :

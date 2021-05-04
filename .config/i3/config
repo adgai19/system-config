@@ -43,8 +43,8 @@ exec --no-startup-id nm-applet
 # start a terminal
 #bindsym $mod+Return exec i3-sensible-terminal
   bindsym $mod+Shift+Return exec gnome-terminal
-  bindsym $mod+Return exec alacritty
-  bindsym $mod+Ctrl+Return exec kitty
+  bindsym $mod+Return exec kitty
+  bindsym $mod+Ctrl+Return exec alacritty
 # kill focused window
   bindsym $mod+d exec rofi -show combi
   bindsym $mod+Ctrl+d exec dmenu_run
@@ -261,10 +261,10 @@ bindsym $mod++Tab workspace back_and_forth
 bindsym $mod+Ctrl+Tab workspace next
 bindsym $mod+Shift+Tab workspace prev
 
-#exec_always --no-startup-id picom -e 0.1
+exec_always --no-startup-id picom -e 0.1
 exec --no-startup-id nitrogen --restore
-exec --no-startup-id /home/adgai/.cargo/bin/alacritty
-exec --no-startup-id /usr/bin/qutebrowser
+exec --no-startup-id /usr/bin/kitty
+exec --no-startup-id /usr/bin/google-chrome-stable
 exec --no-startup-id /usr/bin/firefox #
 #exec --no-startup-id /snap/bin/slack
 #exec --no-startup-id /snap/bin/spotify
@@ -287,9 +287,11 @@ assign [class="Alacritty"]  number 0
 assign [class="kitty"]  number 0
 assign [class="qutebrowser"]  number 1
 assign [class="Chromium"]  number 1
+assign [class="Google-chrome"]  number 1
 assign [class="Firefox"]  number 2
 assign [class="vlc"]  number 3
 assign [class="Code"]  number 3
+assign [class="MATLAB R2018"]  number 3
 assign [class="neovide"]  number 3
 assign [class="Code - Insider"]  number 3
 assign [class="Acroread"]  number 4
