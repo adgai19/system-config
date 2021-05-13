@@ -19,31 +19,21 @@ source $HOME/.config/nvim/plug-config/vim-devicons.vim
 source $HOME/.config/nvim/plug-config/ale.vim
 source $HOME/.config/nvim/plug-config/telescope.vim
 source $HOME/.config/nvim/plug-config/autoformat.vim
+source $HOME/.config/nvim/plug-config/floterm.vim
 source $HOME/.config/nvim/plug-config/whiplash.vim
 source $HOME/.config/nvim/neovide/settings.vim
 "source $HOME/.config/nvim/vundle/plugins.vim
 source $HOME/.config/nvim/general/lua_format.vim
-"autocmd vimenter * NERDTree
+source $HOME/.config/nvim/keys/quikfixlist.vim
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
-"autocmd FileType javascript set formatprg=prettier\ --stdin
-"function! s:check_back_space() abort
-"  let col = col('.') - 1
-"  return !col || getline('.')[col - 1]  =~ '\s'
-"endfunction
 lua require'plug-colorizer'
 lua require 'vim-icons'
 lua require('telescopeconfig')
 lua require('packerconfig')
 lua require('rustTools')
 lua require('debugger')
+lua require('treesitter')
+lua require"surround".setup{}
+"lua require('colorscheme')
 "lua require ('packages-install')
-inoremap <silent><expr> <Tab>
-      \ pumvisible() ? "\<C-n>" :
-      \ <SID>check_back_space() ? "\<Tab>" :
-      \ coc#refresh()
-"autocmd VimEnter * NERDTree | wincmd p
-"highlight Normal ctermbg=None
 set guifont=Fira\ Code\ Nerd\ Font:8
-"
-"set guifont=DroidSansMono\ Nerd\ Font\ 11
-source $HOME/.config/nvim/keys/quikfixlist.vim

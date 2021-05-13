@@ -5,7 +5,7 @@ syntax enable                           " Enables syntax highlighing
 set hidden                              " Required to keep multiple buffers open multiple buffers
 set nowrap                              " Display long lines as just one line
 set encoding=utf-8                      " The encoding displayed
-set pumheight=10                        " Makes popup menu smaller
+set pumheight=30                        " Makes popup menu smaller
 set fileencoding=utf-8                  " The encoding written to file
 set ruler                               " Show the cursor position all the time
 set cmdheight=2                         " More space for displaying messages
@@ -39,7 +39,6 @@ set smartcase
 set noswapfile
 set ignorecase
 set scrolloff=12
-
 set autochdir                           " Your working directory will always be the same as your working directory
 let g:airline#extensions#tabline#enabled = 1
 set wildmode=longest,list,full
@@ -81,4 +80,3 @@ set termguicolors
 colorscheme gruvbox
 set background=dark
 
-let g:ale_fixers=['clangtidy']

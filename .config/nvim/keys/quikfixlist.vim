@@ -1,6 +1,11 @@
 nnoremap <leader>cj :cnext<CR>
 nnoremap <leader>ck :cprevious<CR>
 nnoremap <leader>ct :cw<CR>
+
+nnoremap <leader>lj :lnext<CR>
+nnoremap <leader>lk :lprevious<CR>
+nnoremap <leader>lt :lw<CR>
+
 nnoremap <F5> :make<CR>
 nnoremap <F4> :make -C build<CR>
 "*******************************************************
