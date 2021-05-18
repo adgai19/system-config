@@ -8,7 +8,9 @@ endif
 call plug#begin('~/.config/nvim/autoload/plugged')
 Plug 'vim-scripts/loremipsum'
 Plug 'python-rope/ropevim'
+Plug 'preservim/vimux'
 Plug 'stephpy/vim-yaml'
+Plug 'hdiniz/vim-gradle'
 Plug 'nvim-lua/popup.nvim'
 Plug 'sindrets/diffview.nvim'
 "Plug 'adgai19/vim-whiplash'

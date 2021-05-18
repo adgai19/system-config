@@ -6,7 +6,7 @@ source $HOME/.config/nvim/general/directory-create.vim
 source $HOME/.config/nvim/general/commands.vim
 source $HOME/.config/nvim/plug-config/dashboard.vim
 source $HOME/.config/nvim/plug-config/vim-lua-formatter.vim
-"source $HOME/.config/nvim/plug-config/rnvimr.vim
+source $HOME/.config/nvim/plug-config/vimux.vim
 source $HOME/.config/nvim/keys/newkeys.vim
 source $HOME/.config/nvim/keys/vim-fugutive.vim
 source $HOME/.config/nvim/keys/temp-keys.vim
