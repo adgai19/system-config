@@ -12,6 +12,7 @@ source $HOME/.config/nvim/keys/vim-fugutive.vim
 source $HOME/.config/nvim/keys/temp-keys.vim
 source $HOME/.config/nvim/plug-config/coc-new.vim
 source $HOME/.config/nvim/plug-config/vim-closetag.vim
+source $HOME/.config/nvim/plug-config/start-screen.vim
 source $HOME/.config/nvim/plug-config/dap.vim
 source $HOME/.config/nvim/plug-config/rainbow-parentheses.vim
 source $HOME/.config/nvim/plug-config/nerdtree.vim
@@ -21,6 +22,7 @@ source $HOME/.config/nvim/plug-config/telescope.vim
 source $HOME/.config/nvim/plug-config/autoformat.vim
 source $HOME/.config/nvim/plug-config/floterm.vim
 source $HOME/.config/nvim/plug-config/whiplash.vim
+source $HOME/.config/nvim/plug-config/wilder.vim
 source $HOME/.config/nvim/neovide/settings.vim
 "source $HOME/.config/nvim/vundle/plugins.vim
 source $HOME/.config/nvim/general/lua_format.vim

@@ -5,10 +5,10 @@ syntax enable                           " Enables syntax highlighing
 set hidden                              " Required to keep multiple buffers open multiple buffers
 set nowrap                              " Display long lines as just one line
 set encoding=utf-8                      " The encoding displayed
-set pumheight=30                        " Makes popup menu smaller
+"set pumheight=30                        " Makes popup menu smaller
 set fileencoding=utf-8                  " The encoding written to file
 set ruler                               " Show the cursor position all the time
-set cmdheight=2                         " More space for displaying messages
+"set cmdheight=2                         " More space for displaying messages
 set iskeyword+=-                        " treat dash separated words as a word text object"
 set mouse=a                             " Enable your mouse
 set splitbelow                          " Horizontal splits will automatically be below
@@ -22,12 +22,12 @@ set smarttab                            " Makes tabbing smarter will realize you
 set expandtab                           " Converts tabs to spaces
 set smartindent                         " Makes indenting smart
 set autoindent                          " Good auto indent
-set laststatus=0                        " Always display the status line
+"set laststatus=0                        " Always display the status line
 set number                              " Line numbers
 set cursorline                          " Enable highlighting of the current line
 set background=dark                     " tell vim what the background color looks like
 set showtabline=2                       " Always show tabs
-set noshowmode                          " We don't need to see things like -- INSERT -- anymore
+"set noshowmode                          " We don't need to see things like -- INSERT -- anymore
 set nobackup                            " This is recommended by coc
 set nowritebackup                       " This is recommended by coc
 set updatetime=300                      " Faster completion
@@ -36,14 +36,19 @@ set formatoptions-=cro                  " Stop newline continution of comments
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 set nohlsearch
 set smartcase
+set wildoptions+=pum
+"set wildmode=
+set wildmode=longest:full,full
+"set nowildmenu
 set noswapfile
 set ignorecase
-set scrolloff=12
+"set scrolloff=12
 set autochdir                           " Your working directory will always be the same as your working directory
 let g:airline#extensions#tabline#enabled = 1
 set wildmode=longest,list,full
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
 set incsearch
+set confirm
 "autocmd VimEnter *
 "  \  if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
 "  \|   PlugInstall --sync | q
