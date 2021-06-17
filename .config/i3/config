@@ -15,9 +15,6 @@ set $mod Mod4
 # is used in the bar {} block below.
 font pango:Fira Code 0
 
-# This font is widely installed, provides lots of unicode glyphs, right-to-left
-# text rendering and scalability on retina/hidpi displays (thanks to pango).
-#font pango:DejaVu Sans Mono 8
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
@@ -32,174 +29,171 @@ exec --no-startup-id nm-applet
 
 # Use pactl to adjust volume in PulseAudio.
 #set $refresh_i3status killall -SIGUSR1 i3status
-  bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +2% && $refresh_i3status
-  bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -2% && $refresh_i3status
-  bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
-  bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +2% && $refresh_i3status
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -2% && $refresh_i3status
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
+bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
 # Use Mouse+$mod to drag floating windows to their wanted position
-  floating_modifier $mod
+#floating_modifier $mod
 
 # start a terminal
-#bindsym $mod+Return exec i3-sensible-terminal
-  bindsym $mod+Shift+Return exec gnome-terminal
-  bindsym $mod+Return exec kitty
-  bindsym $mod+Ctrl+Return exec alacritty
+bindsym $mod+Shift+Return exec gnome-terminal
+bindsym $mod+Return exec kitty
+bindsym $mod+Ctrl+Return exec alacritty
+#
 # kill focused window
-  bindsym $mod+d exec rofi -show combi
-  bindsym $mod+Ctrl+d exec dmenu_run
-#bindsym $mod+d exec dmenu_run
+bindsym $mod+d exec rofi -show combi
+bindsym $mod+Ctrl+d exec dmenu_run
+
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
-  bindsym $mod+Shift+d exec --no-startup-id i3-dmenu-desktop
-  bindsym $mod exec --no-startup-id i3-dmenu-desktop
+bindsym $mod+Shift+d exec --no-startup-id i3-dmenu-desktop
 
 # change focus
-  bindsym $mod+j focus left
-  bindsym $mod+k focus down
-  bindsym $mod+l focus up
-  bindsym $mod+semicolon focus right
+bindsym $mod+j focus left
+bindsym $mod+k focus down
+bindsym $mod+l focus up
+bindsym $mod+semicolon focus right
 
 # alternatively, you can use the cursor keys:
-  bindsym $mod+Left focus left
-  bindsym $mod+Down focus down
-  bindsym $mod+Up focus up
-  bindsym $mod+Right focus right
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
 
 # move focused window
-  bindsym $mod+Shift+j move left
-  bindsym $mod+Shift+k move down
-  bindsym $mod+Shift+l move up
-  bindsym $mod+Shift+semicolon move right
+bindsym $mod+Shift+j move left
+bindsym $mod+Shift+k move down
+bindsym $mod+Shift+l move up
+bindsym $mod+Shift+semicolon move right
 
 # alternatively, you can use the cursor keys:
-  bindsym $mod+Shift+Left move left
-  bindsym $mod+Shift+Down move down
-  bindsym $mod+Shift+Up move up
-  bindsym $mod+Shift+Right move right
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
-  bindsym $mod+h split h
+bindsym $mod+h split h
 
 # split in vertical orientation
-  bindsym $mod+v split v
+bindsym $mod+v split v
 
 # enter fullscreen mode for the focused container
-  bindsym $mod+f fullscreen toggle
+bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-  bindsym $mod+s layout stacking
-  bindsym $mod+w layout tabbed
-  bindsym $mod+e layout toggle split
+bindsym $mod+s layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
-  bindsym $mod+Shift+space floating toggle
+bindsym $mod+Shift+space floating toggle
 
 # change focus between tiling / floating windows
-  bindsym $mod+space focus mode_toggle
+bindsym $mod+space focus mode_toggle
 
 # focus the parent container
-  bindsym $mod+a focus parent
+bindsym $mod+a focus parent
 
 # focus the child container
 #bindsym $mod+d focus child
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-  set $ws1 "1"
-  set $ws2 "2"
-  set $ws3 "3"
-  set $ws4 "4"
-  set $ws5 "5"
-  set $ws6 "6"
-  set $ws7 "7"
-  set $ws8 "8"
-  set $ws9 "9"
-  set $ws10 "10"
-  set $ws0 "0"
-# switch to workspace
-  bindsym $mod+1 workspace number $ws1
-  bindsym $mod+2 workspace number $ws2
-  bindsym $mod+3 workspace number $ws3
-  bindsym $mod+4 workspace number $ws4
-  bindsym $mod+5 workspace number $ws5
-  bindsym $mod+6 workspace number $ws6
-  bindsym $mod+7 workspace number $ws7
-  bindsym $mod+8 workspace number $ws8
-  bindsym $mod+9 workspace number $ws9
-  bindsym $mod+0 workspace number $ws10
-  bindsym $mod+grave workspace number $ws0
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9"
+set $ws10 "10"
+set $ws0 "0"
 
-  bindsym $mod+Shift+1 move container to workspace number $ws1;workspace number $ws1
-  bindsym $mod+Shift+2 move container to workspace number $ws2;workspace number $ws2
-  bindsym $mod+Shift+3 move container to workspace number $ws3;workspace number $ws3
-  bindsym $mod+Shift+4 move container to workspace number $ws4;workspace number $ws4
-  bindsym $mod+Shift+5 move container to workspace number $ws5;workspace number $ws5
-  bindsym $mod+Shift+6 move container to workspace number $ws6;workspace number $ws6
-  bindsym $mod+Shift+7 move container to workspace number $ws7;workspace number $ws7
-  bindsym $mod+Shift+8 move container to workspace number $ws8;workspace number $ws8
-  bindsym $mod+Shift+9 move container to workspace number $ws9;workspace number $ws9
-  bindsym $mod+Shift+0 move container to workspace number $ws10;workspace number $ws10
-  bindsym $mod+Shift+grave move container to workspace number $ws0;workspace number $ws0
+# switch to workspace
+bindsym $mod+1 workspace number $ws1
+bindsym $mod+2 workspace number $ws2
+bindsym $mod+3 workspace number $ws3
+bindsym $mod+4 workspace number $ws4
+bindsym $mod+5 workspace number $ws5
+bindsym $mod+6 workspace number $ws6
+bindsym $mod+7 workspace number $ws7
+bindsym $mod+8 workspace number $ws8
+bindsym $mod+9 workspace number $ws9
+bindsym $mod+0 workspace number $ws10
+bindsym $mod+grave workspace number $ws0
+
+bindsym $mod+Shift+1 move container to workspace number $ws1;workspace number $ws1
+bindsym $mod+Shift+2 move container to workspace number $ws2;workspace number $ws2
+bindsym $mod+Shift+3 move container to workspace number $ws3;workspace number $ws3
+bindsym $mod+Shift+4 move container to workspace number $ws4;workspace number $ws4
+bindsym $mod+Shift+5 move container to workspace number $ws5;workspace number $ws5
+bindsym $mod+Shift+6 move container to workspace number $ws6;workspace number $ws6
+bindsym $mod+Shift+7 move container to workspace number $ws7;workspace number $ws7
+bindsym $mod+Shift+8 move container to workspace number $ws8;workspace number $ws8
+bindsym $mod+Shift+9 move container to workspace number $ws9;workspace number $ws9
+bindsym $mod+Shift+0 move container to workspace number $ws10;workspace number $ws10
+bindsym $mod+Shift+grave move container to workspace number $ws0;workspace number $ws0
 
 # move focused container to workspace
-  bindsym $mod+Ctrl+Shift+1 move container to workspace number $ws1
-  bindsym $mod+Ctrl+Shift+2 move container to workspace number $ws2
-  bindsym $mod+Ctrl+Shift+3 move container to workspace number $ws3
-  bindsym $mod+Ctrl+Shift+4 move container to workspace number $ws4
-  bindsym $mod+Ctrl+Shift+5 move container to workspace number $ws5
-  bindsym $mod+Ctrl+Shift+6 move container to workspace number $ws6
-  bindsym $mod+Ctrl+Shift+7 move container to workspace number $ws7
-  bindsym $mod+Ctrl+Shift+8 move container to workspace number $ws8
-  bindsym $mod+Ctrl+Shift+9 move container to workspace number $ws9
-  bindsym $mod+Ctrl+Shift+0 move container to workspace number $ws10
-  bindsym $mod+Ctrl+Shift+grave move container to workspace number $ws0
+bindsym $mod+Ctrl+Shift+1 move container to workspace number $ws1
+bindsym $mod+Ctrl+Shift+2 move container to workspace number $ws2
+bindsym $mod+Ctrl+Shift+3 move container to workspace number $ws3
+bindsym $mod+Ctrl+Shift+4 move container to workspace number $ws4
+bindsym $mod+Ctrl+Shift+5 move container to workspace number $ws5
+bindsym $mod+Ctrl+Shift+6 move container to workspace number $ws6
+bindsym $mod+Ctrl+Shift+7 move container to workspace number $ws7
+bindsym $mod+Ctrl+Shift+8 move container to workspace number $ws8
+bindsym $mod+Ctrl+Shift+9 move container to workspace number $ws9
+bindsym $mod+Ctrl+Shift+0 move container to workspace number $ws10
+bindsym $mod+Ctrl+Shift+grave move container to workspace number $ws0
 
 
 # reload the configuration file
-  bindsym $mod+Shift+c reload
+bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
-  bindsym $mod+Shift+r restart
+bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-  bindsym $mod+q kill
-  bindsym $mod+Shift+a exec i3-msg exit
+bindsym $mod+q kill
+bindsym $mod+Shift+a exec i3-msg exit
 
 # resize window (you can also use the mouse for that)
-  mode "resize" {
+mode "resize" {
 # These bindings trigger as soon as you enter the resize mode
 
 # Pressing left will shrink the window’s width.
 # Pressing right will grow the window’s width.
 # Pressing up will shrink the window’s height.
 # Pressing down will grow the window’s height.
-    bindsym j resize shrink width 10 px or 10 ppt
-      bindsym k resize grow height 10 px or 10 ppt
-      bindsym l resize shrink height 10 px or 10 ppt
-      bindsym semicolon resize grow width 10 px or 10 ppt
+  bindsym j resize shrink width 10 px or 10 ppt
+    bindsym k resize grow height 10 px or 10 ppt
+    bindsym l resize shrink height 10 px or 10 ppt
+    bindsym semicolon resize grow width 10 px or 10 ppt
 
 # same bindings, but for the arrow keys
-      bindsym Left resize shrink width 10 px or 10 ppt
-      bindsym Down resize grow height 10 px or 10 ppt
-      bindsym Up resize shrink height 10 px or 10 ppt
-      bindsym Right resize grow width 10 px or 10 ppt
+    bindsym Left resize shrink width 10 px or 10 ppt
+    bindsym Down resize grow height 10 px or 10 ppt
+    bindsym Up resize shrink height 10 px or 10 ppt
+    bindsym Right resize grow width 10 px or 10 ppt
 
 # back to normal: Enter or Escape or $mod+r
-      bindsym Return mode "default"
-      bindsym Caps_Lock mode "default"
-      bindsym $mod+r mode "default"
-  }
+    bindsym Return mode "default"
+    bindsym Caps_Lock mode "default"
+    bindsym $mod+r mode "default"
+}
 
-  bindsym $mod+r mode "resize"
+bindsym $mod+r mode "resize"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-#bar {
-#status_command i3status
-#}
-  bar {
-    font pango:Fira Code 5
-      status_command bumblebee-status  -m  speedtest disk load cpu memory battery date time pasink system  -p interval=1 time.format="%H:%M IST " date.format="%a, %b %d %Y" home.path=/home system.lock="i3lock && xset dpms 5" system.logout="i3 msg exit" -t gruvbox-powerline
+bar {
+  font pango:Fira Code 5
+    status_command bumblebee-status  -m  speedtest disk load cpu memory battery date time pasink system  -p interval=1 time.format="%H:%M IST " date.format="%a, %b %d %Y" home.path=/home system.lock="i3lock && xset dpms 5" system.logout="i3 msg exit" -t gruvbox-powerline
 
     colors {
 
@@ -244,15 +238,19 @@ exec_always --no-startup-id numlockx on #numlock setting
 #ss commands
 bindsym Print exec gnome-screenshot -i
 
+# general theme for gruvbox
 client.focused #690d6a #689d6a #282828 #282828
 client.unfocused #32302f #32302f #928374 #282828
 client.focused_inactive #1d2021 #1d2021 #928374 #282828
 client.urgent #cc241d #cc241d #ebdbb2 #282828
 client.placeholder  #c5c8c6 #1d1f21 #c5c8c6 #5f819d #5f819d
 
+# music shortcuts
 bindsym XF86AudioPause exec playerctl play-pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
+
+#quick navigation
 bindsym $mod++Tab workspace back_and_forth
 bindsym $mod+Ctrl+Tab workspace next
 bindsym $mod+Shift+Tab workspace prev
@@ -263,9 +261,9 @@ exec --no-startup-id nitrogen --restore
 exec --no-startup-id /usr/bin/kitty
 exec --no-startup-id /usr/bin/google-chrome-stable
 exec --no-startup-id /usr/bin/firefox #
+exec_always --no-startup-id i3-workspace-names-daemon
 #exec --no-startup-id /snap/bin/slack
 #exec --no-startup-id /snap/bin/spotify
-exec_always --no-startup-id i3-workspace-names-daemon
 #exec --no-startup-id google-drive-ocamlfuse ~/google-drive
 
 #pulseeffect shourcuts. useful for hiding and showing pulseeffect
@@ -282,12 +280,16 @@ bindsym $mod+F5 exec ~/script/brightness.sh - DP-4
 bindsym $mod+F6 exec ~/script/brightness.sh + DP-4
 
 # assign workspaces
+# terminals
 assign [class="Alacritty"]  number 0
 assign [class="kitty"]  number 0
+# secondary browser
 assign [class="qutebrowser"]  number 1
 assign [class="Chromium"]  number 1
 assign [class="Google-chrome"]  number 1
+# primary browser
 assign [class="Firefox"]  number 2
+# secondary tools
 assign [class="vlc"]  number 3
 assign [class="Code"]  number 3
 assign [class="MATLAB R2018"]  number 3
@@ -295,20 +297,24 @@ assign [class="neovide"]  number 3
 assign [class="Code - Insider"]  number 3
 assign [class="Acroread"]  number 3
 assign [class="Evince"]  number 3
+# extra applications
 assign [class="PacketTracer7"]  number 4
 assign [class="Org.gnome.Nautilus"]  number 4
+# screen recording
+assign [class="SimpleScreenRecorder"]  number 8
+assign [class="obs"]  number 8
+# social
 assign [class="Slack"]  number 9
 assign [class="Signal"]  number 9
 assign [class="discord"]  number 9
-assign [class="SimpleScreenRecorder"]  number 8
-assign [class="obs"]  number 8
+assign [class="TelegramDesktop"]  number 9
+for_window [class="telegram-desktop"] move to workspace number 9
+# extra  unnecessary apps
 assign [class="Vmplayer"]  number 10
 assign [class="Micro:q"]  number 10
-assign [class="TelegramDesktop"]  number 10
 assign [class="VirtualBox Manager"]  number 10
 assign [class="VirtualBox Machine"]  number 10
 for_window [class="Spotify"] move to workspace number 10
-for_window [class="telegram-desktop"] move to workspace number 8
 
 #setting properties for some windows
 for_window [class="matplotlib"] floating enable
@@ -317,7 +323,6 @@ for_window [class="Blueman-manager"] floating enable
 for_window [class="Gnome-calculator"] floating enable
 for_window [class="Xclock"] floating enable
 for_window [class="Pulseeffect"] floating enable
-#for_window [class="PacketTracer7"] floating enable resize 1900 1000
 for_window [class="*.py"] floating enable
 
 #bindsym $mod+Alt+v exec ~/.vim-anywhere/bin/run
