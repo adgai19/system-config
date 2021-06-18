@@ -6,75 +6,103 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall | source $MYVIMRC
 endif
 call plug#begin('~/.config/nvim/autoload/plugged')
+" insert dummy text
 Plug 'vim-scripts/loremipsum'
-
+" better wildmenu
 Plug 'gelguy/wilder.nvim'
+" refactor python
 Plug 'python-rope/ropevim'
+"tmux helper
+Plug 'christoomey/vim-tmux-navigator'
+Plug 'tmux-plugins/vim-tmux'
 Plug 'preservim/vimux'
+"yaml helper
 Plug 'stephpy/vim-yaml'
-Plug 'hdiniz/vim-gradle'
+"needed for many plugins
+Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-lua/popup.nvim'
-"Plug 'sindrets/diffview.nvim'
-"Plug 'adgai19/vim-whiplash'
+"lua formatter
+Plug 'andrejlevkovitch/vim-lua-format'
+"surround plugin
 Plug 'blackcauldron7/surround.nvim'
-"Plug 'kosayoda/nvim-lightbulb'
+"color scheme
+Plug 'tjdevries/gruvbuddy.nvim'
 Plug 'tjdevries/colorbuddy.vim'
-"Plug 'haringsrob/nvim_context_vt'
+Plug 'arcticicestudio/nord-vim'
+Plug 'morhetz/gruvbox'
+Plug 'maaslalani/nordbuddy'
+Plug 'kyazdani42/nvim-web-devicons'
+"context caller
+Plug 'haringsrob/nvim_context_vt'
+"snippets
 Plug 'michaelb/sniprun', {'do': 'bash install.sh'}
+"telescope
+Plug 'nvim-telescope/telescope.nvim'
+Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 Plug 'fannheyward/telescope-coc.nvim'
 Plug 'jvgrootveld/telescope-zoxide'
 Plug 'https://github.com/camgraff/telescope-tmux.nvim'
-Plug 'maaslalani/nordbuddy'
-"Plug 'rmagatti/auto-session'
-"Plug 'rmagatti/session-lens'
-Plug 'tjdevries/gruvbuddy.nvim'
-"Plug 'glepnir/dashboard-nvim'
-Plug 'tpope/vim-eunuch'
 Plug 'nvim-telescope/telescope-project.nvim'
-Plug 'tpope/vim-unimpaired'
 Plug 'nvim-telescope/telescope-frecency.nvim'
-Plug 'kyazdani42/nvim-web-devicons'
 Plug 'nvim-telescope/telescope-dap.nvim'
-Plug 'mfussenegger/nvim-dap'
-Plug 'mfussenegger/nvim-dap-python'
-"Plug 'nvim-telescope/telescope-arecibo.nvim'
-Plug 'theHamsta/nvim_rocks', {'do': 'pip3 install --user hererocks && python3 -mhererocks . -j2.1.0-beta3 -r3.0.0 && cp nvim_rocks.lua lua'}
-Plug 'liuchengxu/vista.vim'
-Plug 'nvim-lua/plenary.nvim'
-Plug 'lervag/vimtex'
-Plug 'nvim-treesitter/nvim-treesitter'
-Plug 'nvim-treesitter/nvim-treesitter-refactor'
-Plug 'cespare/vim-toml'
-Plug 'neovim/nvim-lspconfig'
-Plug 'simrat39/rust-tools.nvim'
 Plug 'tami5/sql.nvim'
-Plug 'nvim-telescope/telescope.nvim'
-Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
-Plug 'romainl/vim-qf'
-Plug 'https://github.com/folke/lsp-trouble.nvim'
 Plug 'nvim-telescope/telescope-cheat.nvim'
-Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
-Plug 'https://github.com/RRethy/vim-illuminate'
-Plug 'yuezk/vim-js'
-Plug 'Yggdroot/indentLine'
-Plug 'https://github.com/alx741/vim-rustfmt'
-Plug 'matze/vim-move'
-Plug 'luochen1990/rainbow'
-Plug 'nvie/vim-flake8'
-Plug 'severin-lemaignan/vim-minimap'
-Plug 'maxmellon/vim-jsx-pretty'
-Plug 'rafcamlet/coc-nvim-lua'
-Plug 'xolox/vim-lua-ftplugin'
-Plug 'morhetz/gruvbox'
-Plug 'arcticicestudio/nord-vim'
-Plug 'AndrewRadev/tagalong.vim'
-Plug 'neomake/neomake'
+"Plug 'nvim-telescope/telescope-arecibo.nvim'
+"tpope is god
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-dispatch'
-Plug 'tmux-plugins/vim-tmux'
+Plug 'tpope/vim-eunuch'
+Plug 'tpope/vim-unimpaired'
+"dap
+Plug 'mfussenegger/nvim-dap'
+Plug 'mfussenegger/nvim-dap-python'
+"luarocks 
+Plug 'theHamsta/nvim_rocks', {'do': 'pip3 install --user hererocks && python3 -mhererocks . -j2.1.0-beta3 -r3.0.0 && cp nvim_rocks.lua lua'}
+"lsp symbols 
+Plug 'https://github.com/folke/lsp-trouble.nvim'
+Plug 'liuchengxu/vista.vim'
+"tex helper
+Plug 'lervag/vimtex'
+"treesitter
+Plug 'nvim-treesitter/nvim-treesitter'
+Plug 'nvim-treesitter/nvim-treesitter-refactor'
+"toml stuff
+Plug 'cespare/vim-toml'
+"lsp
+Plug 'neovim/nvim-lspconfig'
+Plug 'simrat39/rust-tools.nvim'
+
+"qf settings
+Plug 'romainl/vim-qf'
+
+"prettier
+Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
+"current word highlighter
+Plug 'https://github.com/RRethy/vim-illuminate'
+"indent provider for spaces
+Plug 'Yggdroot/indentLine'
+"rust formatter
+Plug 'https://github.com/alx741/vim-rustfmt'
+
+"move blocks with A-hjkl
+Plug 'matze/vim-move'
+"rainbow_parentheses
+Plug 'luochen1990/rainbow'
 Plug 'junegunn/rainbow_parentheses.vim'
-Plug 'christoomey/vim-tmux-navigator'
-"Plug 'tpope/vim-surround'
+"code formatter for python
+Plug 'nvie/vim-flake8'
+
+"Plug 'severin-lemaignan/vim-minimap'
+"jsx prettier
+Plug 'maxmellon/vim-jsx-pretty'
+"lua support for nvim
+Plug 'rafcamlet/coc-nvim-lua'
+"lua helper
+Plug 'xolox/vim-lua-ftplugin'
+"html matching brackets change
+Plug 'AndrewRadev/tagalong.vim'
+
+Plug 'tpope/vim-surround'
 Plug 'https://github.com/wbthomason/packer.nvim'
 Plug 'https://github.com/szw/vim-g'
 Plug 'tpope/vim-obsession'
@@ -98,7 +126,7 @@ Plug 'chiefnoah/neuron-v2.vim'
 Plug 'w0rp/ale'
 Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
 Plug 'sheerun/vim-polyglot'
-Plug 'scrooloose/NERDTree'
+"Plug 'scrooloose/NERDTree'
 Plug 'jiangmiao/auto-pairs'
 Plug 'mhinz/vim-startify'
 Plug 'ianks/vim-tsx'
@@ -115,14 +143,6 @@ Plug 'mattn/vim-lsp-settings'
 Plug 'prabirshrestha/vim-lsp'
 Plug 'vim-ctrlspace/vim-ctrlspace'
 Plug 'puremourning/vimspector'
-Plug 'andrejlevkovitch/vim-lua-format'
-
-"Plug 'LucHermitte/lh-vim-lib'
-"Plug 'LucHermitte/lh-tags'
-"Plug 'LucHermitte/lh-dev'
-"Plug 'LucHermitte/lh-style'
-"Plug 'LucHermitte/lh-brackets'
-"Plug 'LucHermitte/vim-refactor'
 Plug 'preservim/nerdtree' |
       \ Plug 'Xuyuanp/nerdtree-git-plugin' |
       \ Plug 'ryanoasis/vim-devicons'
@@ -130,18 +150,27 @@ call plug#end()
 
 " not installed plugins
 " "Plug 'mkitt/tabline.vim'
+"Plug 'sindrets/diffview.nvim'
+"Plug 'adgai19/vim-whiplash'
 "Plug 'SirVer/ultisnips'
 "Plug 'honza/vim-snippets'
+"Plug 'neomake/neomake'
+"Plug 'hdiniz/vim-gradle'
 "Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
 "Plug 'neoclide/coc-python', {'do': 'yarn install --frozen-lockfile'}
 "Plug 'wokalski/autocomplete-flow'
 "Plug 'Shougo/neosnippet'
 "Plug 'xolox/vim-lua-inspect'
+"Plug 'yuezk/vim-js'
 "Plug 'frazrepo/vim-rainbow'
 "Plug 'lifepillar/vim-mucomplete'
+"Plug 'rmagatti/auto-session'
+"Plug 'rmagatti/session-lens'
+"Plug 'glepnir/dashboard-nvim'
 "Plug 'rust-lang/rust.vim'
 "Plug 'Shougo/neosnippet-snippets'
 "Plug 'mitermayer/vim-prettier'
+"Plug 'kosayoda/nvim-lightbulb'
 "Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 "Plug 'prabirshrestha/async.vim'
 "Plug 'prabirshrestha/asyncomplete-lsp.vim'
@@ -154,7 +183,7 @@ call plug#end()
 "Plug 'https://github.com/szw/vim-maximizer'
 "Plug 'https://github.com/nvim-telescope/telescope-packer.nvim'
 "Plug 'Asheq/close-buffers.vim'
-"Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+"Plug 'junegunn/fzf', { 'do': { -> fzf"install() } }
 "Plug 'junegunn/fzf.vim'
 "Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
 "Plug 'francoiscabrol/ranger.vim'
