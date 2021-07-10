@@ -3,6 +3,7 @@ let g:mapleader = "\<Space>"
 
 syntax enable                           " Enables syntax highlighing
 set hidden                              " Required to keep multiple buffers open multiple buffers
+set autowrite
 set nowrap                              " Display long lines as just one line
 set encoding=utf-8                      " The encoding displayed
 "set pumheight=30                        " Makes popup menu smaller
@@ -39,6 +40,8 @@ set smartcase
 set wildoptions+=pum
 "set wildmode=
 set wildmode=longest:full,full
+
+set completeopt=menuone,noselect
 "set nowildmenu
 set noswapfile
 set ignorecase
@@ -62,7 +65,9 @@ set nocompatible
 let g:CtrlSpaceDefaultMappingKey = "<C-space> "
 let g:CtrlSpaceFileEngine = "auto""
 au ColorScheme * hi Normal ctermbg=none guibg=none
-let g:kite_supported_languages = ['python', 'javascript']
+"let g:kite_supported_languages = ['python', 'javascript','go']
+"
+let g:kite_supported_languages = ['*']
 "au BufWrite * :Autoformat
 autocmd FileType javascript let b:coc_suggest_disable=1
 let g:auto_comma_or_semicolon_events = ["InsertLeave"]
@@ -78,10 +83,11 @@ augroup numbertoggle
 augroup END
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|.git'
 
-"set shell=/bin/bash
+set shell=/bin/bash
 autocmd FileType yml let b:autoformat_autoindent=0
 let g:python3_host_prog="/usr/bin/python3"
 set termguicolors
 colorscheme gruvbox
 set background=dark
-
+"autocmd BufEnter * lua require'completion'.on_attach()
+imap <expr> <CR> pumvisible() ? "\<C-y>" : "\<CR>"

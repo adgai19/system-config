@@ -1,6 +1,7 @@
 let g:VimuxOrientation = "h"
 let g:VimuxCloseOnExit = 1
 nnoremap <leader>vj :call VimuxRunCommand("gradle test")<CR>
+nnoremap <leader>vg :call VimuxRunCommand("go test")<CR>
 nnoremap <Leader>vx :VimuxInterruptRunner<CR>
 nnoremap <Leader>vl :VimuxRunLastCommand<CR>
 nnoremap <Leader>vp :VimuxPromptCommand<CR>

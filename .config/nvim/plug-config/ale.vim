@@ -21,7 +21,7 @@ augroup FiletypeGroup
     autocmd!
     au BufNewFile,BufRead *.jsx set filetype=javascript.jsx
 augroup END
-let g:ale_fixers={'python':['autoimport','black','yapf','isort'],'c':['astyle']}
+let g:ale_fixers={'python':['autoimport','black','yapf','isort'],'c':['astyle'],'go':['gofmt','goimports']}
 let g:ale_linter_aliases = {'jsx': ['css', 'javascript']}
 let g:ale_linters = {'jsx': ['stylelint', 'eslint']}
 nnoremap  aj :ALENext<CR>

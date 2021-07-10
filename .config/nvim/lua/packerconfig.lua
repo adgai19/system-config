@@ -11,7 +11,7 @@ require('packer').startup(function(use)
     use 'nvim-lua/plenary.nvim'
     use 'nvim-lua/popup.nvim'
     use 'stephpy/vim-yaml'
-
+    use 'fatih/vim-go'
     use 'morhetz/gruvbox'
     use 'maaslalani/nordbuddy'
     use 'tjdevries/colorbuddy.vim'
@@ -21,10 +21,15 @@ require('packer').startup(function(use)
     use 'kyazdani42/nvim-web-devicons'
     use 'haringsrob/nvim_context_vt'
     use {'michaelb/sniprun', run = 'bash install.sh'}
-
+    use 'Raimondi/delimitMate'
+    use 'hrsh7th/nvim-compe'
+    use 'nvim-treesitter/completion-treesitter' --
+    -- use 'nvim-lua/completion-nvim'
+    use 'hrsh7th/vim-vsnip'
+    use 'hrsh7th/vim-vsnip-integ'
     use 'nvim-telescope/telescope.nvim'
     use {'nvim-telescope/telescope-fzf-native.nvim', run = 'make'}
-    use 'fannheyward/telescope-coc.nvim'
+    -- use 'fannheyward/telescope-coc.nvim'
     use 'jvgrootveld/telescope-zoxide'
     use 'https://github.com/camgraff/telescope-tmux.nvim'
     use 'nvim-telescope/telescope-project.nvim'
@@ -38,7 +43,32 @@ require('packer').startup(function(use)
         "nvim-telescope/telescope-arecibo.nvim",
         rocks = {"openssl", "lua-http-parser"}
     }
+    use {
+        "folke/todo-comments.nvim",
+        requires = "nvim-lua/plenary.nvim",
+        config = function()
+            require("todo-comments").setup {
+                -- your configuration comes here
+                -- or leave it empty to use the default settings
+                -- refer to the configuration section below
+            }
+        end
+    }
+
+    -- Lua
+    use {
+        "folke/trouble.nvim",
+        requires = "kyazdani42/nvim-web-devicons",
+        config = function()
+            require("trouble").setup {
+                -- your configuration comes here
+                -- or leave it empty to use the default settings
+                -- refer to the configuration section below
+            }
+        end
+    }
     use 'tpope/vim-fugitive'
+    use {"ray-x/lsp_signature.nvim"}
     use 'tpope/vim-dispatch'
     use 'tpope/vim-eunuch'
     use 'tpope/vim-surround'
@@ -54,7 +84,7 @@ require('packer').startup(function(use)
     use 'simrat39/rust-tools.nvim'
     use 'romainl/vim-qf'
     use {'prettier/vim-prettier', run = 'yarn install'}
-    use 'https://github.com/szw/vim-g'
+    -- use 'https://github.com/szw/vim-g'
     use 'https://github.com/RRethy/vim-illuminate'
     use 'Yggdroot/indentLine'
     use 'https://github.com/alx741/vim-rustfmt'
@@ -63,7 +93,7 @@ require('packer').startup(function(use)
     use 'junegunn/rainbow_parentheses.vim'
     use 'nvie/vim-flake8'
     use 'maxmellon/vim-jsx-pretty'
-    use 'rafcamlet/coc-nvim-lua'
+    -- use 'rafcamlet/coc-nvim-lua'
     use 'xolox/vim-lua-ftplugin'
     use 'AndrewRadev/tagalong.vim'
     use 'godlygeek/tabular'
@@ -73,8 +103,12 @@ require('packer').startup(function(use)
     use 'vim-airline/vim-airline'
     use 'JamshedVesuna/vim-markdown-preview'
     use 'xuhdev/vim-latex-live-preview'
+    use {
+        'ray-x/navigator.lua',
+        requires = {'ray-x/guihua.lua', run = 'cd lua/fzy && make'}
+    }
     use 'chemzqm/denite-extra'
-    use {'josa42/coc-lua', run = 'yarn install --frozen-lockfile'}
+    -- use {'josa42/coc-lua', run = 'yarn install --frozen-lockfile'}
     use 'xolox/vim-misc'
     use 'airblade/vim-rooter'
     use 'tbastos/vim-lua'
@@ -83,7 +117,7 @@ require('packer').startup(function(use)
     use 'junegunn/fzf.vim'
     use 'chiefnoah/neuron-v2.vim'
     use 'w0rp/ale'
-    use {'neoclide/coc.nvim', run = 'yarn install --frozen-lockfile'}
+    -- use {'neoclide/coc.nvim', run = 'yarn install --frozen-lockfile'}
     use 'mhinz/vim-startify'
     use 'ianks/vim-tsx'
     use 'liuchengxu/vim-which-key'
