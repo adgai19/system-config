@@ -8,7 +8,7 @@ require'navigator'.setup({
     border = {"╭", "─", "╮", "│", "╯", "─", "╰", "│"}, -- border style, can be one of 'none', 'single', 'double',
     -- 'shadow', or a list of chars which defines the border
     on_attach = function(client, bufnr)
-        -- on_attach = require('compe')
+        on_attach = require('compe')
         -- your hook
         --
         -- require"lsp_signature".on_attach() -- Note: add in lsp client on-attach
@@ -20,6 +20,7 @@ require'navigator'.setup({
         vim.cmd([[nunmap <leader>ff]])
         buf_set_keymap('n', '<leader>ff', '<cmd>Telescope find_files<CR>', opts)
         client.resolved_capabilities.document_formatting = false
+
     end,
     -- put a on_attach of your own here, e.g
     -- function(client, bufnr)

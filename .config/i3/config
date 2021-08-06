@@ -87,7 +87,7 @@ bindsym $mod+f fullscreen toggle
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
 bindsym $mod+w layout tabbed
-bindsym $mod+e layout toggle split
+bindsym $mod+Shift+e layout toggle split
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
@@ -193,18 +193,18 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
   font pango:Fira Code 5
-    status_command bumblebee-status  -m  speedtest disk load cpu memory battery date time pasink system  -p interval=1 time.format="%H:%M IST " date.format="%a, %b %d %Y" home.path=/home system.lock="i3lock && xset dpms 5" system.logout="i3 msg exit" -t gruvbox-powerline
+    status_command bumblebee-status  -m  speedtest disk load cpu memory battery date time pasink system  -p interval=1 time.format="%H:%M IST " date.format="%a, %b %d %Y" home.path=/home system.lock="i3lock && xset dpms 5" system.logout="i3 msg exit" -t night-powerline
 
     colors {
 
-      background #282828
-        statusline #ebdbb2
-        focused_workspace #689d6a #689d6a #282828
-        active_workspace #1d2021 #1d2021 #928374
-        inactive_workspace #32302f #32302f #928374
-        urgent_workspace #cc241d #cc241d #ebdbb2
+      background #000000
+        statusline #ffffff
+        focused_workspace #551a8b #551a8b #ffffff #282828
+        active_workspace #333333 #5f676a #ffffff #928374
+        inactive_workspace #000000 #000000 #888888 #928374
+        urgent_workspace #2f343a #900000 #ffffff #ebdbb2
 
-        separator #928374
+        separator #666666
     }
 }
 bar {
@@ -212,19 +212,19 @@ bar {
     position top
     tray_output none
     workspace_buttons no
-    status_command bumblebee-status  -m xrandr amixer brightness nic indicator -p xrandr.autotoggle=true interval=1 nic.left-click="nmcli device wifi rescan" -t gruvbox-powerline
+    status_command bumblebee-status  -m xrandr amixer brightness nic indicator -p xrandr.autotoggle=true interval=1 nic.left-click="nmcli device wifi rescan" -t night-powerline
     colors {
 
-      background #282828
-        statusline #ebdbb2
-        focused_workspace #689d6a #689d6a #282828
-        active_workspace #1d2021 #1d2021 #928374
-        inactive_workspace #32302f #32302f #928374
-        urgent_workspace #cc241d #cc241d #ebdbb2
+      background #000000
+        statusline #ffffff
+        focused_workspace #551a8b #551a8b #ffffff #282828
+        active_workspace #333333 #5f676a #ffffff #928374
+        inactive_workspace #000000 #000000 #888888 #928374
+        urgent_workspace #2f343a #900000 #ffffff #ebdbb2
 
 #HDMI-1
 
-        separator #928374
+        separator #666666
     }
 }
 # Moving workspaces between screens
@@ -239,10 +239,10 @@ exec_always --no-startup-id numlockx on #numlock setting
 bindsym Print exec gnome-screenshot -i
 
 # general theme for gruvbox
-client.focused #690d6a #689d6a #282828 #282828
-client.unfocused #32302f #32302f #928374 #282828
-client.focused_inactive #1d2021 #1d2021 #928374 #282828
-client.urgent #cc241d #cc241d #ebdbb2 #282828
+client.focused #3b1261 #3b1261 #ffffff #662b9c
+client.unfocused #222222 #222222 #888888 #292d2e
+client.focused_inactive #333333 #5f676a #ffffff #484e50
+client.urgent #2f343a #900000 #ffffff #900000
 client.placeholder  #c5c8c6 #1d1f21 #c5c8c6 #5f819d #5f819d
 
 # music shortcuts
@@ -262,6 +262,7 @@ exec --no-startup-id /usr/bin/kitty
 exec --no-startup-id /usr/bin/google-chrome-stable
 exec --no-startup-id /usr/bin/firefox #
 exec_always --no-startup-id i3-workspace-names-daemon
+exec_always --no-startup-id touchpad-indicator
 #exec --no-startup-id /snap/bin/slack
 #exec --no-startup-id /snap/bin/spotify
 #exec --no-startup-id google-drive-ocamlfuse ~/google-drive
@@ -272,43 +273,56 @@ bindsym $mod+minus [class="Pulseeffect"] scratchpad show
 
 #common settings
 for_window [class=".*"] title_format " "
-# exec_always --no-startup-id xrandr --output DP-4 --brightness 0.4
 exec --no-startup-id i3-msg workspace 0
 
 #remapping brightness controls
 bindsym $mod+F5 exec ~/script/brightness.sh - DP-4
 bindsym $mod+F6 exec ~/script/brightness.sh + DP-4
 
-# assign workspaces
+# bindings to start applications that I do not always but on fairly regular basis 
+bindsym $mod+e exec nautilus; workspace number $ws4
+bindsym $mod+p exec evince; workspace number $ws3
+
+#####################
+# assign workspaces #
+#####################
 # terminals
 assign [class="Alacritty"]  number 0
 assign [class="kitty"]  number 0
+
 # secondary browser
 assign [class="qutebrowser"]  number 1
 assign [class="Chromium"]  number 1
 assign [class="Google-chrome"]  number 1
+
 # primary browser
 assign [class="Firefox"]  number 2
+
 # secondary tools
-assign [class="vlc"]  number 3
 assign [class="Code"]  number 3
 assign [class="MATLAB R2018"]  number 3
 assign [class="neovide"]  number 3
 assign [class="Code - Insider"]  number 3
 assign [class="Acroread"]  number 3
 assign [class="Evince"]  number 3
+
 # extra applications
 assign [class="PacketTracer7"]  number 4
 assign [class="Org.gnome.Nautilus"]  number 4
+
+assign [class="vlc"]  number 5
+#
 # screen recording
 assign [class="SimpleScreenRecorder"]  number 8
 assign [class="obs"]  number 8
+
 # social
 assign [class="Slack"]  number 9
 assign [class="Signal"]  number 9
 assign [class="discord"]  number 9
 assign [class="TelegramDesktop"]  number 9
 for_window [class="telegram-desktop"] move to workspace number 9
+
 # extra  unnecessary apps
 assign [class="Vmplayer"]  number 10
 assign [class="Micro:q"]  number 10
@@ -324,7 +338,3 @@ for_window [class="Gnome-calculator"] floating enable
 for_window [class="Xclock"] floating enable
 for_window [class="Pulseeffect"] floating enable
 for_window [class="*.py"] floating enable
-
-#bindsym $mod+Alt+v exec ~/.vim-anywhere/bin/run
-#bindsym $mod+Ctrl+r exec ~/script/screenreset.sh
-

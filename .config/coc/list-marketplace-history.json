@@ -5,7 +5,11 @@
   "L2hvbWUvYWRnYWkvLmNvbmZpZy9udmlt": [
     "q:q",
     "todo",
-    "pyth"
+    "pyth",
+    "sni",
+    "java",
+    "ja",
+    "clang"
   ],
   "L2hvbWUvYWRnYWkvdGVtcC9ydXN0": [
     "rust"
@@ -20,5 +24,45 @@
   "L2hvbWUvYWRnYWkvbm90ZXMvaXNjLXByYWNz": [
     "pyr",
     "py"
+  ],
+  "L2hvbWUvYWRnYWkvdGVtcC9hZHYtYy8yMDE5": [
+    "pyth"
+  ],
+  "L2hvbWUvYWRnYWkvdGVtcC9sdWE=": [
+    "lua"
+  ],
+  "L2hvbWUvYWRnYWkvc25hcC9leGVyY2lzbS81L2V4ZXJjaXNtL3J1c3QvbnRoLXByaW1l": [
+    "rust"
+  ],
+  "L2hvbWUvYWRnYWkvdGVtcC9tYW4=": [
+    "rust"
+  ],
+  "L2hvbWUvYWRnYWkvdGVzdC9j": [
+    "cla"
+  ],
+  "L2hvbWUvYWRnYWkvcHJvamVjdHMvcmI=": [
+    "ruby",
+    "rub"
+  ],
+  "L2hvbWUvYWRnYWkvcHJvamVjdHMvYmVQcm9qZWN0L21sL3Rlc3QvbGQvYWN0aXZl": [
+    "ppy"
+  ],
+  "L2hvbWUvYWRnYWkvc25hcC9leGVyY2lzbS81L2V4ZXJjaXNtL2phdmEvdHdvLWZlcg==": [
+    "java"
+  ],
+  "L2hvbWUvYWRnYWk=": [
+    "rls"
+  ],
+  "L2hvbWUvYWRnYWkvc25hcC9leGVyY2lzbS81L2V4ZXJjaXNtL2phdmEvaXNibi12ZXJpZmllcg==": [
+    "java"
+  ],
+  "L2hvbWUvYWRnYWkvcHJvamVjdHMvYmVQcm9qZWN0L2FsbC1kYXRhL0Ryb25lUkYvQVIgZHJvbmU=": [
+    "python"
+  ],
+  "L2hvbWUvYWRnYWkvc25hcC9leGVyY2lzbS81L2V4ZXJjaXNtL2NwcC9hcm1zdHJvbmctbnVtYmVycw==": [
+    "ac"
+  ],
+  "L21udC9kYXRhL3Byb2plY3RzL2dvL2hlbGxvLWdv": [
+    "go"
   ]
 }

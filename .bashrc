@@ -139,15 +139,15 @@ alias raxh="xhost+SI:localuser:root"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/adgai/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+__conda_setup="$('/mnt/data/anaconda/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
-  eval "$__conda_setup"
+    eval "$__conda_setup"
 else
-  if [ -f "/home/adgai/anaconda3/etc/profile.d/conda.sh" ]; then
-    . "/home/adgai/anaconda3/etc/profile.d/conda.sh"
-  else
-    export PATH="/home/adgai/anaconda3/bin:$PATH"
-  fi
+    if [ -f "/mnt/data/anaconda/etc/profile.d/conda.sh" ]; then
+        . "/mnt/data/anaconda/etc/profile.d/conda.sh"
+    else
+        export PATH="/mnt/data/anaconda/bin:$PATH"
+    fi
 fi
 unset __conda_setup
 # <<< conda initialize <<<
@@ -180,3 +180,8 @@ ex ()
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+#eval "$(starship init bash)"
+
+# >>>> Vagrant command completion (start)
+. /opt/vagrant/embedded/gems/2.2.16/gems/vagrant-2.2.16/contrib/bash/completion.sh
+# <<<<  Vagrant command completion (end)

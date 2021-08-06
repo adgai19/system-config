@@ -4,7 +4,7 @@ require'compe'.setup {
     debug = false,
     min_length = 1,
     preselect = 'enable',
-    throttle_time = 80,
+    throttle_time = 70,
     source_timeout = 200,
     resolve_timeout = 800,
     incomplete_delay = 400,
@@ -28,7 +28,8 @@ require'compe'.setup {
         nvim_lua = true,
         vsnip = true,
         ultisnips = true,
-        luasnip = true
+        luasnip = true,
+        neorg = true
     }
 }
 

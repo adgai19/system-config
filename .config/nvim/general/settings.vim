@@ -87,7 +87,8 @@ set shell=/bin/bash
 autocmd FileType yml let b:autoformat_autoindent=0
 let g:python3_host_prog="/usr/bin/python3"
 set termguicolors
-colorscheme gruvbox
+colorscheme tokyonight
 set background=dark
 "autocmd BufEnter * lua require'completion'.on_attach()
 imap <expr> <CR> pumvisible() ? "\<C-y>" : "\<CR>"
+

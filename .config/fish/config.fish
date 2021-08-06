@@ -3,6 +3,7 @@ export MANPAGER="sh -c 'col -bx | batcat -l man -p'"
 #alias vlc="devour vlc"
 alias ls="exa"
 alias l="exa -lahF"
+alias p8="ping 8.8.8.8 -c 4"
 alias matlab="/usr/local/MATLAB/R2018a/bin/matlab"
 alias upgrade="sudo apt update; and apt upgrade"
 alias tree "tree -C"
@@ -38,17 +39,25 @@ alias ipytopdf="jupyter-nbconvert --to PDFviaHTML"
 alias brightness="xrandr --output DP-4 --brightness"
 export GEM_HOME="$HOME/gems"
 
-export PATH="$HOME/anaconda3/bin:$PATH:/usr/local/bin"
+source ~/.asdf/asdf.fish
+export PATH="mnt/data/anaconda3/bin:$PATH:/usr/local/bin"
 export LANG=en_IN.UTF-8
 #export PATH="$PATH:/usr/local/cuda/bin"
 
 export EDITOR='nvim'
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-eval /home/adgai/anaconda3/bin/conda "shell.fish" "hook" $argv | source
+eval /mnt/data/anaconda3/bin/conda "shell.fish" "hook" $argv | source
 # <<< conda initialize <<<
 #export LD_LIBRARY_PATH=/usr/local/cuda-10.1/lib64:$LD_LIBRARY_PATH
 #export LD_LIBRARY_PATH=/usr/local/cuda-10.1/include:$LD_LIBRARY_PATH
 zoxide init fish | source
 #alias cd="z"
 starship init fish |source
+
+
+#export JAR=~/eclipse/java-2021-06/eclipse/plugins/org.eclipse.equinox.launcher_1.6.200.v20210416-2027.jar
+#export GRADLE_HOME=$HOME/gradle
+export JAVA_HOME=(readlink -f /usr/bin/java | sed "s:/bin/java::")
+#export JDTLS_CONFIG=/path/to/eclipse.jdt.ls/org.eclipse.jdt.ls.product/target/repository/config_linux
+#export WORKSPACE=$HOME/workspace

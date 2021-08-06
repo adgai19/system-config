@@ -1,16 +1,13 @@
 configuration {
-  /*  width: 50;*/
+      /*  width: 50;*/
 modi: "drun,window,run,ssh,combi";
-      /*  modi: "combi";*/
-      /*  lines: 15;*/
-      /*  columns: 1;*/
-font: "mono 8";
+font: "Fira Code 8";
       /*  bw: 1;*/
       /*  location: 0;*/
       /*  padding: 5;*/
       /*  yoffset: 0;*/
       /*  xoffset: 0;*/
-      /*  fixed-num-lines: true;*/
+        fixed-num-lines: false;
       show-icons: true;
 terminal: "alacritty";
           /*  ssh-client: "ssh";*/
@@ -22,7 +19,7 @@ terminal: "alacritty";
           /*  window-match-fields: "all";*/
           /*  drun-icon-theme: ;*/
           /*  drun-match-fields: "name,generic,exec,categories";*/
-          /*  disable-history: false;*/
+          disable-history: false;
           /*  sort: false;*/
           /*  levenshtein-sort: false;*/
           /*  case-sensitive: false;*/
@@ -33,7 +30,7 @@ terminal: "alacritty";
           /*  parse-hosts: false;*/
           /*  parse-known-hosts: true;*/
           /*  combi-modi: "run,window,web-search,FloatingSwitcher:~/.config/i3grid/manager.sh,WebSearch:~/script/web-search.sh";*/
-          /*  matching: "normal";*/
+matching: "fuzzy";
           /*  tokenize: true;*/
           /*  m: "-5";*/
           /*  line-margin: 2;*/

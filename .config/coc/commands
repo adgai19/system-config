@@ -1,9 +1,13 @@
-<<<<<<< HEAD
-workspace.workspaceFolders
-document.echoFiletype
+clangd.switchSourceHeader
+actions.open
 clangd.install
-eslint.executeAutofix
+clangd.update
+workspace.diffDocument
 document.renameCurrentWord
+document.echoFiletype
+workspace.workspaceFolders
+<<<<<<< HEAD
+eslint.executeAutofix
 java.clean.workspace
 prettier.formatFile
 eslint.createConfig
