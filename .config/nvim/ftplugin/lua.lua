@@ -42,3 +42,4 @@ require'lspconfig'.sumneko_lua.setup {
         }
     }
 }
+require('compe-setup')

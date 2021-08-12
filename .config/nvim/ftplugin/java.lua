@@ -75,3 +75,4 @@ config.cmd = {
 }
 
 require('jdtls').start_or_attach(config)
+require('compe-setup')

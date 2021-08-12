@@ -65,12 +65,15 @@ require'navigator'.setup({
                 gopls = {gofumpt = false} -- disable gofumpt etc,
             }
         },
-        sumneko_lua = {
-            sumneko_root_path = vim.fn.expand("$HOME") ..
-                "/github/lua-language-server",
-            sumneko_binary = vim.fn.expand("$HOME") ..
-                "/github/lua-language-server/bin/Linux/lua-language-server"
-        },
+        -- sumneko_lua = {
+        --     -- sumneko_root_path = vim.fn.expand("$HOME") ..
+        --     --     "/github/lua-language-server",
+        --     -- sumneko_binary = vim.fn.expand("$HOME") ..
+        --     --     "/github/lua-language-server/bin/Linux/lua-language-server"
+        --
+        --
+        -- },
+        sumneko_lua = require('lua-dev').setup(),
         jdlts = {
             filetypes = {} -- disable javascript etc,
         },
