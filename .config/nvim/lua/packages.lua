@@ -2,7 +2,7 @@ require('packer').startup(function(use)
     -- random text generator
     use 'vim-scripts/loremipsum'
 
-    -- themes
+    -- colorschemes
     use 'gelguy/wilder.nvim'
     -- use 'morhetz/gruvbox'
     -- use 'maaslalani/nordbuddy'
@@ -13,31 +13,34 @@ require('packer').startup(function(use)
     use 'wbthomason/packer.nvim'
     use 'fatih/vim-go'
     use 'python-rope/ropevim'
+    --
     -- tmux helpers
     use 'christoomey/vim-tmux-navigator'
     use 'tmux-plugins/vim-tmux'
     use 'preservim/vimux'
+
     -- helpers
     use 'nvim-lua/plenary.nvim'
     use 'nvim-lua/popup.nvim'
     use 'stephpy/vim-yaml'
     use 'andrejlevkovitch/vim-lua-format'
-    use 'blackcauldron7/surround.nvim'
     use 'kyazdani42/nvim-web-devicons'
     use 'haringsrob/nvim_context_vt'
     use {'michaelb/sniprun', run = 'bash install.sh'}
     use 'https://github.com/airblade/vim-rooter'
     use 'Raimondi/delimitMate'
+
     -- completion
     use 'hrsh7th/nvim-compe'
     use 'nvim-treesitter/completion-treesitter'
     use 'hrsh7th/vim-vsnip'
-    use 'hrsh7th/vim-vsnip-integ'
+    use "rafamadriz/friendly-snippets"
+    use 'glepnir/lspsaga.nvim'
     use 'nvim-telescope/telescope.nvim'
 
     use 'dhruvmanila/telescope-bookmarks.nvim'
     use {'nvim-telescope/telescope-fzf-native.nvim', run = 'make'}
-    -- use 'fannheyward/telescope-coc.nvim'
+    --
     use 'jvgrootveld/telescope-zoxide'
     use 'https://github.com/camgraff/telescope-tmux.nvim'
     use 'nvim-telescope/telescope-project.nvim'
@@ -48,18 +51,11 @@ require('packer').startup(function(use)
     -- use 'Pocco81/DAPInstall.nvim'
     use 'tami5/sql.nvim'
     -- use 'nvim-telescope/telescope-cheat.nvim'
-    -- use 'nvim-telescope/telescope-smart-history.nvim'
-    -- use 'nvim-telescope/telescope-media-files.nvim'
-    -- use '/home/adgai/github/telescope-checkout'
     use {
         "nvim-telescope/telescope-arecibo.nvim",
         rocks = {"openssl", "lua-http-parser"}
     }
     -- use {'iamcco/markdown-preview.nvim', run = 'cd app && yarn install'}
-    use {
-        'akinsho/nvim-bufferline.lua',
-        requires = 'kyazdani42/nvim-web-devicons'
-    }
     use {
         "folke/todo-comments.nvim",
         requires = "nvim-lua/plenary.nvim",
@@ -81,24 +77,23 @@ require('packer').startup(function(use)
 
     use 'nacro90/numb.nvim'
     use 'tpope/vim-dispatch'
+    use 'nvim-lua/lsp_extensions.nvim'
     -- use 'tpope/vim-eunuch'
-    -- use 'tpope/vim-surround'
+    use 'tpope/vim-surround'
     -- use 'tpope/vim-obsession'
     -- use 'tpope/vim-unimpaired'
     use 'mfussenegger/nvim-dap'
     use 'mfussenegger/nvim-dap-python'
     use 'folke/lsp-trouble.nvim'
     use 'liuchengxu/vista.vim'
-    -- use 'lervag/vimtex'
     use 'nvim-treesitter/nvim-treesitter'
 
     use 'nvim-treesitter/playground'
     use 'justinmk/vim-gtfo'
     use 'neovim/nvim-lspconfig'
     use 'romainl/vim-qf'
-    -- use 'simrat39/rust-tools.nvim'
+    use 'simrat39/rust-tools.nvim'
     use {'prettier/vim-prettier', run = 'yarn install'}
-    -- use 'https://github.com/szw/vim-g'
     use 'https://github.com/RRethy/vim-illuminate'
     use 'Yggdroot/indentLine'
     use 'https://github.com/alx741/vim-rustfmt'
@@ -121,39 +116,49 @@ require('packer').startup(function(use)
     -- use 'vim-airline/vim-airline'
     use 'JamshedVesuna/vim-markdown-preview'
     use 'xuhdev/vim-latex-live-preview'
-    use {
-        'ray-x/navigator.lua',
-        requires = {'ray-x/guihua.lua', run = 'cd lua/fzy && make'}
-    }
+    -- use {
+    --     'ray-x/navigator.lua',
+    --     requires = {'ray-x/guihua.lua', run = 'cd lua/fzy && make'}
+    -- }
     use 'chemzqm/denite-extra'
     -- use {'josa42/coc-lua', run = 'yarn install --frozen-lockfile'}
     -- use 'xolox/vim-misc'
-    -- use 'airblade/vim-rooter'
     use 'tbastos/vim-lua'
     use 'lfilho/cosco.vim'
     use 'preservim/nerdcommenter'
     -- use 'junegunn/fzf.vim'
     -- use 'chiefnoah/neuron-v2.vim'
     use 'w0rp/ale'
-    -- use {'neoclide/coc.nvim', run = 'yarn install --frozen-lockfile'}
     use 'mhinz/vim-startify'
     -- use 'ianks/vim-tsx'
-    -- use 'liuchengxu/vim-which-key'
-    -- use 'norcalli/nvim-colorizer.lua'
-    -- use 'ctrlpvim/ctrlp.vim'
     -- use 'rbgrouleff/bclose.vim'
     -- use {'Shougo/denite.nvim', run = ':UpdateRemotePlugins'}
     use 'lilydjwg/colorizer'
     use 'jiangmiao/auto-pairs'
     use 'alvan/vim-closetag'
-    -- use 'mattn/vim-lsp-settings'
-    -- use 'prabirshrestha/vim-lsp'
     use 'vim-ctrlspace/vim-ctrlspace'
     -- use 'puremourning/vimspector'
     use 'jbyuki/venn.nvim'
     use {"vhyrro/neorg", requires = "nvim-lua/plenary.nvim"}
 
-    -- use 'alec-gibson/nvim-tetris'
     use 'mfussenegger/nvim-jdtls'
+
+    use {
+        'hoob3rt/lualine.nvim',
+        requires = {'kyazdani42/nvim-web-devicons', opt = true}
+
+    }
+
+    use {"folke/lua-dev.nvim"}
+    use 'https://github.com/kmonad/kmonad-vim'
+
+    use {
+        'lewis6991/spellsitter.nvim',
+        config = function() require('spellsitter').setup() end
+    }
+    use {
+        'rcarriga/nvim-notify',
+        config = function() vim.notify = require("notify") end
+    }
 
 end)
