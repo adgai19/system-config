@@ -276,8 +276,8 @@ for_window [class=".*"] title_format " "
 exec --no-startup-id i3-msg workspace 0
 
 #remapping brightness controls
-bindsym $mod+F5 exec ~/script/brightness.sh - DP-4
-bindsym $mod+F6 exec ~/script/brightness.sh + DP-4
+bindsym $mod+F5 exec xbacklight -10
+bindsym $mod+F6 exec xbacklight +10
 
 # bindings to start applications that I do not always but on fairly regular basis 
 bindsym $mod+e exec nautilus; workspace number $ws4
@@ -337,4 +337,5 @@ for_window [class="Blueman-manager"] floating enable
 for_window [class="Gnome-calculator"] floating enable
 for_window [class="Xclock"] floating enable
 for_window [class="Pulseeffect"] floating enable
+for_window [class="Cheese"] floating enable
 for_window [class="*.py"] floating enable
