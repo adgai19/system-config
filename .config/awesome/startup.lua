@@ -1,0 +1,6 @@
+local awful = require("awful")
+awful.spawn.spawn("nitrogen --restore")
+awful.spawn.with_shell("picom")
+-- awful.spawn.once("kitty")
+-- awful.spawn.once("firefox")
+-- awful.spawn.once("google-chrome")

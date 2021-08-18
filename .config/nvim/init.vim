@@ -13,9 +13,8 @@ source $HOME/.config/nvim/plug-config/lspsaga.vim
 source $HOME/.config/nvim/plug-config/vim-closetag.vim
 source $HOME/.config/nvim/plug-config/start-screen.vim
 source $HOME/.config/nvim/plug-config/vim-devicons.vim
-source $HOME/.config/nvim/plug-config/ale.vim
+" source $HOME/.config/nvim/plug-config/ale.vim
 source $HOME/.config/nvim/plug-config/telescope.vim
-source $HOME/.config/nvim/plug-config/autoformat.vim
 source $HOME/.config/nvim/plug-config/floterm.vim
 source $HOME/.config/nvim/plug-config/wilder.vim
 source $HOME/.config/nvim/plug-config/vim-go.vim
@@ -27,6 +26,7 @@ lua require('plugins.lualine')
 lua require('plugins.treesitter')
 lua require('lsp')
 lua require('plugins.neorg')
+" lua require('keys')
 " lua require('dapsetup')
 lua require('numb').setup()
 " lua require('openSites')
@@ -36,3 +36,6 @@ set guifont=Fira\ Code\ Nerd\ Font:8
 autocmd CursorMoved,InsertLeave,BufEnter,BufWinEnter,TabEnter,BufWritePost *
 \ lua require'lsp_extensions'.inlay_hints{ prefix = '', highlight = "Comment", enabled = {"TypeHint", "ChainingHint", "ParameterHint"} }
 autocmd BufWritePost ~/.config/nvim/lua/packerconfig.lua source <afile> | PackerSync
+lua require('tempkeys')
+lua require('plugins.refactoring')
+lua require('plugins.llr')

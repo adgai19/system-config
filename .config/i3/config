@@ -311,6 +311,7 @@ assign [class="PacketTracer7"]  number 4
 assign [class="Org.gnome.Nautilus"]  number 4
 
 assign [class="vlc"]  number 5
+assign [class="Transmission"]  number 5
 #
 # screen recording
 assign [class="SimpleScreenRecorder"]  number 8
@@ -322,7 +323,7 @@ assign [class="Signal"]  number 9
 assign [class="discord"]  number 9
 assign [class="TelegramDesktop"]  number 9
 for_window [class="telegram-desktop"] move to workspace number 9
-
+assign [class="Microsoft Teams - Preview"]  number 9
 # extra  unnecessary apps
 assign [class="Vmplayer"]  number 10
 assign [class="Micro:q"]  number 10

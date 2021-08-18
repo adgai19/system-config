@@ -75,4 +75,20 @@ config.cmd = {
 }
 
 require('jdtls').start_or_attach(config)
-require('compe-setup')
+local mapper = require("tools.utils")
+mapper.nnoremap("<A-CR>", "<cmd>lua require('jdtls').code_action()<CR>")
+mapper.nnoremap("<A-CR>", "<Cmd>lua require('jdtls').code_action()<CR>")
+mapper.vnoremap("<A-CR>", "<Esc><Cmd>lua require('jdtls').code_action(true)<CR>")
+mapper.nnoremap("<leader>r <Cmd>lua",
+                "require('jdtls').code_action(false, 'refactor')<CR>")
+mapper.nnoremap("<A-o>", "<Cmd>lua require'jdtls'.organize_imports()<CR>")
+mapper.nnoremap("crv", "<Cmd>lua require('jdtls').extract_variable()<CR>")
+mapper.vnoremap("crv",
+                "<Esc><Cmd>lua require('jdtls').extract_variable(true)<CR>")
+mapper.nnoremap("crc", "<Cmd>lua require('jdtls').extract_constant()<CR>")
+mapper.vnoremap("crc",
+                "<Esc><Cmd>lua require('jdtls').extract_constant(true)<CR>")
+mapper.vnoremap("crm", "<Esc><Cmd>lua require('jdtls').extract_method(true)<CR>")
+mapper.nnoremap("<leader>df", "<Cmd>lua require'jdtls'.test_class()<CR>")
+mapper.nnoremap("<leader>dn",
+                "<Cmd>lua require'jdtls'.test_nearest_method()<CR>")
