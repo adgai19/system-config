@@ -9,6 +9,7 @@ source $HOME/.config/nvim/plug-config/nerdcommentor.vim
 source $HOME/.config/nvim/plug-config/vim-lua-formatter.vim
 source $HOME/.config/nvim/plug-config/vimux.vim
 source $HOME/.config/nvim/keys/vim-fugutive.vim
+source $HOME/.config/nvim/keys/common.vim
 source $HOME/.config/nvim/plug-config/lspsaga.vim
 source $HOME/.config/nvim/plug-config/vim-closetag.vim
 source $HOME/.config/nvim/plug-config/start-screen.vim

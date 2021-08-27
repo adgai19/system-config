@@ -103,7 +103,7 @@ require("packer").startup(function(use)
 	use("https://github.com/RRethy/vim-illuminate")
 	use("Yggdroot/indentLine")
 	use("https://github.com/alx741/vim-rustfmt")
-	use("justinmk/vim-sneak")
+  use("justinmk/vim-sneak")
 	-- use 'matze/vim-move'
 	use("luochen1990/rainbow")
 	use("junegunn/rainbow_parentheses.vim")
@@ -159,12 +159,6 @@ require("packer").startup(function(use)
 	use("https://github.com/kmonad/kmonad-vim")
 
 	use({
-		"lewis6991/spellsitter.nvim",
-		config = function()
-			require("spellsitter").setup()
-		end,
-	})
-	use({
 		"rcarriga/nvim-notify",
 		config = function()
 			vim.notify = require("notify")
@@ -180,4 +174,6 @@ require("packer").startup(function(use)
 	})
 	use({ "windwp/nvim-autopairs", config = require("nvim-autopairs").setup({}) })
 	use({ "tamago324/lir.nvim" })
+  use 'https://github.com/mbbill/undotree'
+  -- use { 'ms-jpq/coq.artifacts', branch= 'artifacts'} -- 9000+ Snippets
 end)

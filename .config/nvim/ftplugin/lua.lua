@@ -19,7 +19,7 @@ table.insert(runtime_path, "lua/?/init.lua")
 
 local library = vim.api.nvim_get_runtime_file("", true)
 table.insert(library, "/usr/share/awesome/lib")
-require("lspconfig").sumneko_lua.setup({
+local  opts={
 	cmd = { sumneko_binary, "-E", sumneko_root_path .. "/main.lua" },
 	settings = {
 		Lua = {
@@ -41,6 +41,6 @@ require("lspconfig").sumneko_lua.setup({
 			telemetry = { enable = false },
 		},
 	},
-})
+}
+require("lspconfig").sumneko_lua.setup(opts)
 require("compe-setup")
--- vim.cmd([[autocmd bufWritePre *.lua :Neoformat]])
