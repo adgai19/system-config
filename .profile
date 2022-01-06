@@ -29,8 +29,10 @@ fi
 
 export QSYS_ROOTDIR="/home/adgai/intelFPGA_lite/18.1/quartus/sopc_builder/bin"
 
-export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="/root/.cargo/bin:$PATH"
 export QT_QPA_PLATFORMTHEME="qt5ct"
 
 alias luamake=/home/adgai/github/lua-language-server/3rd/luamake/luamake
+. "$HOME/.cargo/env"
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"

@@ -1,6 +1,6 @@
 configuration {
       /*  width: 50;*/
-modi: "drun,window,run,ssh,combi";
+modi: "drun,run,ssh,combi";
 font: "Fira Code 8";
       /*  bw: 1;*/
       /*  location: 0;*/
@@ -9,7 +9,7 @@ font: "Fira Code 8";
       /*  xoffset: 0;*/
         fixed-num-lines: false;
       show-icons: true;
-terminal: "alacritty";
+terminal: "kitty";
           /*  ssh-client: "ssh";*/
           /*  ssh-command: "{terminal} -e {ssh-client} {host}";*/
           /*  run-command: "{cmd}";*/
@@ -137,5 +137,5 @@ matching: "fuzzy";
           /*  menu: rofi;
 menu_arguments: [-dmenu,-i]*/
 }
-@import "/home/adgai/.local/share/rofi/themes/gruvbox-dark.rasi"
+@import "/home/adgai/.local/share/rofi/themes/onedark.rasi"
 

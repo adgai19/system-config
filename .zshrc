@@ -8,7 +8,7 @@ export ZSH="/home/adgai/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-#ZSH_THEME="robbyrussell"
+ZSH_THEME="robbyrussell"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -23,14 +23,13 @@ export ZSH="/home/adgai/.oh-my-zsh"
 # Case-sensitive completion must be off. _ and - will be interchangeable.
 # HYPHEN_INSENSITIVE="true"
 
-# Uncomment the following line to disable bi-weekly auto-update checks.
-# DISABLE_AUTO_UPDATE="true"
-
-# Uncomment the following line to automatically update without prompting.
-# DISABLE_UPDATE_PROMPT="true"
+# Uncomment one of the following lines to change the auto-update behavior
+# zstyle ':omz:update' mode disabled  # disable automatic updates
+# zstyle ':omz:update' mode auto      # update automatically without asking
+# zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 
 # Uncomment the following line to change how often to auto-update (in days).
-# export UPDATE_ZSH_DAYS=13
+# zstyle ':omz:update' frequency 13
 
 # Uncomment the following line if pasting URLs and other text is messed up.
 # DISABLE_MAGIC_FUNCTIONS="true"
@@ -45,8 +44,9 @@ export ZSH="/home/adgai/.oh-my-zsh"
 # ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
-# Caution: this setting can cause issues with multiline prompts (zsh 5.7.1 and newer seem to work)
-# See https://github.com/ohmyzsh/ohmyzsh/issues/5765
+# You can also set it to another string to have that shown instead of the default red dots.
+# e.g. COMPLETION_WAITING_DOTS="%F{yellow}waiting...%f"
+# Caution: this setting can cause issues with multiline prompts in zsh < 5.7.1 (see #5765)
 # COMPLETION_WAITING_DOTS="true"
 
 # Uncomment the following line if you want to disable marking untracked files
@@ -70,7 +70,7 @@ export ZSH="/home/adgai/.oh-my-zsh"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(zsh-completions)
+plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -79,13 +79,13 @@ source $ZSH/oh-my-zsh.sh
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
- export LANG=en_US.UTF-8
+# export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
 #   export EDITOR='vim'
 # else
-  export EDITOR='mvim'
+#   export EDITOR='mvim'
 # fi
 
 # Compilation flags
@@ -99,28 +99,4 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-#
-
-autoload -U compinit && compinit
-eval "$(starship init zsh)"
-eval "$(zoxide init zsh)"
-
-
-alias cat="batcat"
-export MANPAGER="sh -c 'col -bx | batcat -l man -p'"
-alias ls="exa"
-alias l="exa -lahF"
-alias p8="ping 8.8.8.8"
-alias matlab="/usr/local/MATLAB/R2018a/bin/matlab"
-alias upgrade="sudo apt update; and apt upgrade"
-alias tree "tree -C"
-alias exconmir="xrandr --output HDMI-0 --auto --same-as eDP-1"
-alias fd=fdfind
-alias gca="git commit -a"
-alias gcm="git commit -m"
-alias gcma="git commit -a -m"
-alias gs="git status"
-alias gp="git push -u origin"
-alias ga="git add -A"
-alias xclip="xclip -sel clip"
-alias vi=nvim
+alias vi ="nvim"

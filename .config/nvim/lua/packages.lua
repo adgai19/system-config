@@ -1,19 +1,16 @@
-require("packer").startup(function(use)
-	-- random text generator
-	use("vim-scripts/loremipsum")
+local present, packer = pcall(require, "plugins.packerInit")
 
-	-- colorschemes
-	use("gelguy/wilder.nvim")
-	-- use 'morhetz/gruvbox'
-	-- use 'maaslalani/nordbuddy'
-	-- use 'tjdevries/colorbuddy.vim'
-	-- use 'tjdevries/gruvbuddy.nvim'
-	use("folke/tokyonight.nvim")
+if not present then
+	return false
+end
 
-	use("wbthomason/packer.nvim")
-	use("fatih/vim-go")
-	use("python-rope/ropevim")
-	--
+local use = packer.use
+return packer.startup(function()
+	use("lewis6991/impatient.nvim")
+	use({
+		"wbthomason/packer.nvim",
+	})
+
 	-- tmux helpers
 	use("christoomey/vim-tmux-navigator")
 	use("tmux-plugins/vim-tmux")
@@ -22,40 +19,38 @@ require("packer").startup(function(use)
 	-- helpers
 	use("nvim-lua/plenary.nvim")
 	use("nvim-lua/popup.nvim")
-	use("stephpy/vim-yaml")
-	-- use("andrejlevkovitch/vim-lua-format")
-	use("kyazdani42/nvim-web-devicons")
-	use("haringsrob/nvim_context_vt")
-	use({ "michaelb/sniprun", run = "bash install.sh" })
+	-- use("haringsrob/nvim_context_vt")
 	use("https://github.com/airblade/vim-rooter")
-	use("Raimondi/delimitMate")
 
 	-- completion
-	use("hrsh7th/nvim-compe")
-	use("nvim-treesitter/completion-treesitter")
-	use("hrsh7th/vim-vsnip")
-	use("rafamadriz/friendly-snippets")
+	use({ "rafamadriz/friendly-snippets" })
+	use({ "hrsh7th/nvim-cmp" })
+	use({ "tzachar/cmp-tabnine", run = "./install.sh", requires = "hrsh7th/nvim-cmp" })
+	use({ "L3MON4D3/LuaSnip", wants = "friendly-snippets", after = "nvim-cmp" })
+	use({ "saadparwaiz1/cmp_luasnip", after = "LuaSnip" })
+	use("hrsh7th/cmp-cmdline")
+	use({ "hrsh7th/cmp-nvim-lua" })
+	use({ "hrsh7th/cmp-nvim-lsp" })
+	use({ "hrsh7th/cmp-buffer", after = "cmp-nvim-lsp" })
+	use({ "hrsh7th/cmp-path", after = "cmp-buffer" })
+	use({ "mlaursen/vim-react-snippets", after = "cmp-path" })
+	use("onsails/lspkind-nvim")
 	use("glepnir/lspsaga.nvim")
-	use("nvim-telescope/telescope.nvim")
+	-- use("hrsh7th/cmp-nvim-lsp-signature-help")
 
-	use("dhruvmanila/telescope-bookmarks.nvim")
+	-- telescope
+	use("nvim-telescope/telescope.nvim")
 	use({ "nvim-telescope/telescope-fzf-native.nvim", run = "make" })
-	--
-	use("jvgrootveld/telescope-zoxide")
-	use("https://github.com/camgraff/telescope-tmux.nvim")
 	use("nvim-telescope/telescope-project.nvim")
-	use("nvim-telescope/telescope-frecency.nvim")
-	use("nvim-telescope/telescope-packer.nvim")
-	-- use 'nvim-telescope/telescope-dap.nvim'
-	--
-	-- use 'Pocco81/DAPInstall.nvim'
-	use("tami5/sql.nvim")
-	-- use 'nvim-telescope/telescope-cheat.nvim'
 	use({
-		"nvim-telescope/telescope-arecibo.nvim",
-		rocks = { "openssl", "lua-http-parser" },
+		"nvim-telescope/telescope-frecency.nvim",
+		requires = { "tami5/sqlite.lua" },
 	})
-	-- use {'iamcco/markdown-preview.nvim', run = 'cd app && yarn install'}
+	use("nvim-telescope/telescope-dap.nvim")
+	use({ "nvim-telescope/telescope-ui-select.nvim" })
+	-- use({ "nvim-telescope/telescope-file-browser.nvim" })
+
+	-- folke stuff
 	use({
 		"folke/todo-comments.nvim",
 		requires = "nvim-lua/plenary.nvim",
@@ -64,13 +59,26 @@ require("packer").startup(function(use)
 		end,
 	})
 
+	use("folke/lsp-colors.nvim")
+	-- use({
+	-- 	"folke/which-key.nvim",
+	-- 	config = function()
+	-- 		require("which-key").setup({})
+	-- 	end,
+	-- })
 	use({
-		"folke/which-key.nvim",
+		"folke/tokyonight.nvim",
 		config = function()
-			require("which-key").setup({})
+			-- code
+			vim.g.tokyonight_style = "night"
+			vim.g.tokyonight_italic_functions = true
+			vim.g.tokyonight_sidebars = { "qf", "vista_kind", "terminal", "packer" }
+			vim.cmd([[colorscheme tokyonight]])
+			vim.cmd([[
+hi Normal guibg=NONE ctermbg=NONE
+]])
 		end,
 	})
-
 	use({
 		"folke/trouble.nvim",
 		requires = "kyazdani42/nvim-web-devicons",
@@ -78,93 +86,50 @@ require("packer").startup(function(use)
 			require("trouble").setup({})
 		end,
 	})
-	use("tpope/vim-fugitive")
-	use("ray-x/lsp_signature.nvim")
-
-	use("nacro90/numb.nvim")
-	use("tpope/vim-dispatch")
-	use("nvim-lua/lsp_extensions.nvim")
-	-- use 'tpope/vim-eunuch'
-	use("tpope/vim-surround")
-	-- use 'tpope/vim-obsession'
-	-- use 'tpope/vim-unimpaired'
-	use("mfussenegger/nvim-dap")
-	use("mfussenegger/nvim-dap-python")
 	use("folke/lsp-trouble.nvim")
-	use("liuchengxu/vista.vim")
-	use("nvim-treesitter/nvim-treesitter")
-
-	use("nvim-treesitter/playground")
-	use("justinmk/vim-gtfo")
-	use("neovim/nvim-lspconfig")
-	use("romainl/vim-qf")
-	use("simrat39/rust-tools.nvim")
-	use({ "prettier/vim-prettier", run = "yarn install" })
-	use("https://github.com/RRethy/vim-illuminate")
-	use("Yggdroot/indentLine")
-	use("https://github.com/alx741/vim-rustfmt")
-  use("justinmk/vim-sneak")
-	-- use 'matze/vim-move'
-	use("luochen1990/rainbow")
-	use("junegunn/rainbow_parentheses.vim")
-	use("nvie/vim-flake8")
-	use("maxmellon/vim-jsx-pretty")
-	-- use 'rafcamlet/coc-nvim-lua'
-
-	use("https://github.com/szw/vim-maximizer")
-	use("xolox/vim-lua-ftplugin")
-	use("xolox/vim-misc")
-	use("AndrewRadev/tagalong.vim")
-	use("godlygeek/tabular")
-	use("plasticboy/vim-markdown")
-	use("voldikss/vim-floaterm")
-	-- use("Chiel92/vim-autoformat")
-	use("sbdchd/neoformat")
-	-- use 'vim-airline/vim-airline'
-	use("JamshedVesuna/vim-markdown-preview")
-	use("xuhdev/vim-latex-live-preview")
-	-- use {
-	--     'ray-x/navigator.lua',
-	--     requires = {'ray-x/guihua.lua', run = 'cd lua/fzy && make'}
-	-- }
-	use("chemzqm/denite-extra")
-	-- use {'josa42/coc-lua', run = 'yarn install --frozen-lockfile'}
-	-- use 'xolox/vim-misc'
-	use("tbastos/vim-lua")
-	use("lfilho/cosco.vim")
-	use("preservim/nerdcommenter")
-	-- use 'junegunn/fzf.vim'
-	-- use 'chiefnoah/neuron-v2.vim'
-	-- use("w0rp/ale")
-	use("mhinz/vim-startify")
-	-- use 'ianks/vim-tsx'
-	-- use 'rbgrouleff/bclose.vim'
-	-- use {'Shougo/denite.nvim', run = ':UpdateRemotePlugins'}
-	use("lilydjwg/colorizer")
-	use("jiangmiao/auto-pairs")
-	use("alvan/vim-closetag")
-	use("vim-ctrlspace/vim-ctrlspace")
-	-- use 'puremourning/vimspector'
-	use("jbyuki/venn.nvim")
-	use({ "vhyrro/neorg", requires = "nvim-lua/plenary.nvim" })
-
-	use("mfussenegger/nvim-jdtls")
-
-	use({
-		"hoob3rt/lualine.nvim",
-		requires = { "kyazdani42/nvim-web-devicons", opt = true },
-	})
-
 	use({ "folke/lua-dev.nvim" })
-	use("https://github.com/kmonad/kmonad-vim")
 
+	--lsp
+	-- use("jose-elias-alvarez/nvim-lsp-ts-utils")
+	use("folke/nvim-lsp-ts-utils")
+	use({ "ray-x/lsp_signature.nvim" })
+	use("neovim/nvim-lspconfig")
+	use({ "mfussenegger/nvim-jdtls", requires = "mfussenegger/nvim-fzy" })
+	use("kshenoy/vim-signature")
+	use({ "tjdevries/nlua.nvim", config = function() end })
+	use("RishabhRD/popfix")
+	use("RishabhRD/nvim-lsputils")
+	use("simrat39/rust-tools.nvim")
 	use({
-		"rcarriga/nvim-notify",
+		"simrat39/symbols-outline.nvim",
 		config = function()
-			vim.notify = require("notify")
+			local opts = {
+				highlight_hovered_item = true,
+				show_guides = true,
+			}
+			require("symbols-outline").setup(opts)
 		end,
 	})
 
+	--tpope
+	use("tpope/vim-eunuch")
+	use("tpope/vim-surround")
+	use("tpope/vim-fugitive")
+	use("tpope/vim-scriptease")
+	use("tpope/vim-commentary")
+	use("JoosepAlviste/nvim-ts-context-commentstring")
+	--dap
+	--TODO need to set this up
+	use("mfussenegger/nvim-dap")
+	use("mfussenegger/nvim-dap-python")
+
+	--treesitter
+	use({ "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" })
+	use({ "nvim-treesitter/playground", opt = true })
+
+	-- ThePrimeagen plugins
+	use("ThePrimeagen/harpoon")
+	use("ThePrimeagen/git-worktree.nvim")
 	use({
 		"ThePrimeagen/refactoring.nvim",
 		requires = {
@@ -172,8 +137,55 @@ require("packer").startup(function(use)
 			{ "nvim-treesitter/nvim-treesitter" },
 		},
 	})
-	use({ "windwp/nvim-autopairs", config = require("nvim-autopairs").setup({}) })
-	use({ "tamago324/lir.nvim" })
-  use 'https://github.com/mbbill/undotree'
-  -- use { 'ms-jpq/coq.artifacts', branch= 'artifacts'} -- 9000+ Snippets
+
+	--other helpers
+	use("junegunn/rainbow_parentheses.vim")
+	use("sbdchd/neoformat")
+	use("mhinz/vim-startify")
+	use({ "hoob3rt/lualine.nvim", requires = { "kyazdani42/nvim-web-devicons", opt = true } })
+	use({
+		"rcarriga/nvim-notify",
+		config = function()
+			require("notify").setup({
+
+				background_colour = "#000000",
+			})
+			vim.notify = require("notify")
+		end,
+	})
+	use({
+		"windwp/nvim-autopairs",
+		config = function()
+			require("nvim-autopairs").setup({})
+		end,
+	})
+	use("mbbill/undotree")
+	use("ggandor/lightspeed.nvim")
+	use({ "tjdevries/cyclist.vim" })
+	use("jeffkreeftmeijer/vim-numbertoggle")
+	use({ "sindrets/diffview.nvim", requires = "nvim-lua/plenary.nvim" })
+	use("nacro90/numb.nvim")
+	use("jose-elias-alvarez/null-ls.nvim")
+	use({ "norcalli/nvim-colorizer.lua", config = require("colorizer").setup() })
+	-- use({
+	-- 	"weilbith/nvim-code-action-menu",
+	-- 	config = function()
+	-- 		require("tools.utils").nnoremap(
+	-- 			"<leader>ct",
+	-- 			"<esc>:lua require('code_action_menu').open_code_action_menu()<cr>"
+	-- 		)
+	-- 	end,
+	-- })
+	-- use {'stevearc/dressing.nvim'}
+	use({ "potatoesmaster/i3-vim-syntax" })
+	use({
+		"lewis6991/gitsigns.nvim",
+		requires = {
+			"nvim-lua/plenary.nvim",
+		},
+		config = function()
+			require("gitsigns").setup()
+		end,
+	})
+	use({ "windwp/nvim-ts-autotag", config = require("nvim-ts-autotag").setup() })
 end)

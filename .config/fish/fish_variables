@@ -11,6 +11,14 @@ SETUVAR __fish_classic_git_prompt_initialized:\x1d
 SETUVAR __fish_init_2_3_0:\x1d
 SETUVAR __fish_initialized:3100
 SETUVAR _fish_abbr_mux:tmuxinator
+SETUVAR _fish_abbr_za:zoxide\x20add
+SETUVAR _fish_abbr_zq:zoxide\x20query
+SETUVAR _fish_abbr_zqi:zoxide\x20query\x20\x2di
+SETUVAR _fish_abbr_zr:zoxide\x20remove
+SETUVAR _fisher_edc_2F_bass_files:/home/adgai/\x2econfig/fish/functions/__bass\x2epy\x1e/home/adgai/\x2econfig/fish/functions/bass\x2efish
+SETUVAR _fisher_jorgebucaran_2F_fisher_files:/home/adgai/\x2econfig/fish/functions/fisher\x2efish\x1e/home/adgai/\x2econfig/fish/completions/fisher\x2efish
+SETUVAR _fisher_plugins:jorgebucaran/fisher\x1ewfxr/forgit\x1eedc/bass
+SETUVAR _fisher_wfxr_2F_forgit_files:/home/adgai/\x2econfig/fish/conf\x2ed/forgit\x2eplugin\x2efish
 SETUVAR fish_color_autosuggestion:BD93F9
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:F8F8F2

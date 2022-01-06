@@ -120,7 +120,7 @@ export QSYS_ROOTDIR="/home/adgai/intelFPGA_lite/18.1/quartus/sopc_builder/bin"
 #easy shortcut to exit gnome x11 or wayland
 alias gsq=gnome-session-quit
 #to add matlab to executable
-PATH=$PATH:/usr/local/MATLAB/R2018a/bin:/snap/bin
+PATH=$PATH:/usr/local/MATLAB/R2018a/bin:/snap/bin ~/.cargo/bin
 #enable root access for gnome on wayland
 alias raxh="xhost+SI:localuser:root"
 #pyenv settings
@@ -185,3 +185,6 @@ export NVM_DIR="$HOME/.nvm"
 # >>>> Vagrant command completion (start)
 . /opt/vagrant/embedded/gems/2.2.16/gems/vagrant-2.2.16/contrib/bash/completion.sh
 # <<<<  Vagrant command completion (end)
+. "$HOME/.cargo/env"
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
