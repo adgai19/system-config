@@ -1,6 +1,7 @@
 alias cat="bat"
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 #alias vlc="devour vlc"
+alias grep="rg"
 alias ls="exa"
 alias l="exa -lahF"
 alias ssh="kitty +kitten ssh"
@@ -18,6 +19,7 @@ alias ga="git add -A"
 alias xclip="xclip -sel clip"
 alias workman="setxkbmap -layout us workman"
 alias qwerty="setxkbmap -layout us "
+alias dockerkill="docker ps|tail -n+2|fzf|awk'{print $1;}'|xargs docker rm -f"
 set fish_greeting
 export DENO_INSTALL="/home/adgai/.deno"
 set PATH /root/.cargo/bin /home/adgai/.cargo/bin /home/adgai/.local/bin /usr/local/sbin /usr/local/bin /usr/sbin /usr/bin /sbin /bin /usr/games /usr/local/games /snap/bin $HOME/script /home/adgai/.local/apache-maven-3.8.3/bin $HOME/go/bin $DENO_INSTALL/bin ~/script
