@@ -204,7 +204,7 @@ exec_always --no-startup-id numlockx on #numlock setting
 
 
 #ss commands
-bindsym Print exec gnome-screenshot -i
+bindsym Print exec flameshot gui
 
 # general theme for gruvbox
 client.focused #3b1261 #3b1261 #ffffff #662b9c

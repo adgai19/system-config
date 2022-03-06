@@ -40,7 +40,16 @@ function ToggleWrap()
   endif
 endfunction
 
+" augroup fmt
+"   autocmd!
+"   autocmd BufWritePre * undojoin | Neoformat
+" augroup END
 augroup fmt
   autocmd!
-  autocmd BufWritePre * undojoin | Neoformat
+  au BufWritePre * try | undojoin | Neoformat | catch /^Vim\%((\a\+)\)\=:E790/ | finally | silent Neoformat | endtry
+augroup END
+
+augroup qflist
+  autocmd!
+  au BufReadPost quickfix lua require('adgai.cyclekeymaps').change_mode()
 augroup END

@@ -19,10 +19,9 @@ alias ga="git add -A"
 alias xclip="xclip -sel clip"
 alias workman="setxkbmap -layout us workman"
 alias qwerty="setxkbmap -layout us "
-alias dockerkill="docker ps|tail -n+2|fzf|awk'{print $1;}'|xargs docker rm -f"
+alias dockerkill="docker ps|tail -n+2|fzf|awk '{print $1;}'|xargs docker rm -f"
 set fish_greeting
 export DENO_INSTALL="/home/adgai/.deno"
-set PATH /root/.cargo/bin /home/adgai/.cargo/bin /home/adgai/.local/bin /usr/local/sbin /usr/local/bin /usr/sbin /usr/bin /sbin /bin /usr/games /usr/local/games /snap/bin $HOME/script /home/adgai/.local/apache-maven-3.8.3/bin $HOME/go/bin $DENO_INSTALL/bin ~/script
 #set fish_function_path $fish_function_path " /home/adgai/.local/lib/python3.8/site-packages/powerline/bindings/fish"
 set fish_function_path $fish_function_path ~/.local/lib/python3.8/site-packages/powerline/bindings/fish/
 #powerline-setup
@@ -75,7 +74,6 @@ export EDITOR='nvim'
 #export LD_LIBRARY_PATH=/usr/local/cuda-10.1/lib64:$LD_LIBRARY_PATH
 #export LD_LIBRARY_PATH=/usr/local/cuda-10.1/include:$LD_LIBRARY_PATH
 zoxide init fish | source
-#alias cd="z"
 starship init fish | source
 
 
@@ -88,3 +86,8 @@ set -gx VOLTA_HOME "$HOME/.volta"
 set -gx PATH "$VOLTA_HOME/bin" $PATH
 #/* export NODE_OPTIONS=--openssl-legacy-provider */
 export FZF_DEFAULT_COMMAND='rg --files --follow --no-ignore-vcs --hidden -g "!{node_modules/*,.git/*}"'
+
+export GOPATH=$HOME/go
+# export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+
+set PATH /root/.cargo/bin /home/adgai/.cargo/bin /home/adgai/.local/bin /usr/local/sbin /usr/local/bin /usr/sbin /usr/bin /sbin /bin /usr/games /usr/local/games /snap/bin $HOME/script /home/adgai/.local/apache-maven-3.8.3/bin $HOME/go/bin $DENO_INSTALL/bin ~/script GOROOT/bin $GOPATH/bin

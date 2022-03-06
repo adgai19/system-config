@@ -35,6 +35,7 @@
 	changeHunkIndicators = false
 [init]
 	defaultBranc = main
+	defaultBranch = main
 [pull]
 	rebase = false
 [merge]

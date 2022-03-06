@@ -1,5 +1,4 @@
 local present, packer = pcall(require, "plugins.packerInit")
-
 if not present then
 	return false
 end
@@ -21,9 +20,10 @@ return packer.startup(function()
 	use("nvim-lua/popup.nvim")
 	-- use("haringsrob/nvim_context_vt")
 	use("https://github.com/airblade/vim-rooter")
+	use("nyngwang/NeoRoot.lua")
 
 	-- completion
-	use({ "rafamadriz/friendly-snippets" })
+	-- use({ "rafamadriz/friendly-snippets" })
 	use({ "hrsh7th/nvim-cmp" })
 	use({ "tzachar/cmp-tabnine", run = "./install.sh", requires = "hrsh7th/nvim-cmp" })
 	use({ "L3MON4D3/LuaSnip", wants = "friendly-snippets", after = "nvim-cmp" })
@@ -33,10 +33,10 @@ return packer.startup(function()
 	use({ "hrsh7th/cmp-nvim-lsp" })
 	use({ "hrsh7th/cmp-buffer", after = "cmp-nvim-lsp" })
 	use({ "hrsh7th/cmp-path", after = "cmp-buffer" })
-	use({ "mlaursen/vim-react-snippets", after = "cmp-path" })
+	-- use({ "mlaursen/vim-react-snippets", after = "cmp-path" })
 	use("onsails/lspkind-nvim")
-	use("glepnir/lspsaga.nvim")
-	-- use("hrsh7th/cmp-nvim-lsp-signature-help")
+	-- use("glepnir/lspsaga.nvim")
+	use("hrsh7th/cmp-nvim-lsp-signature-help")
 
 	-- telescope
 	use("nvim-telescope/telescope.nvim")
@@ -48,9 +48,9 @@ return packer.startup(function()
 	})
 	use("nvim-telescope/telescope-dap.nvim")
 	use({ "nvim-telescope/telescope-ui-select.nvim" })
-	-- use({ "nvim-telescope/telescope-file-browser.nvim" })
 
 	-- folke stuff
+	-- cool guy with cool plugins
 	use({
 		"folke/todo-comments.nvim",
 		requires = "nvim-lua/plenary.nvim",
@@ -58,14 +58,13 @@ return packer.startup(function()
 			require("todo-comments").setup({})
 		end,
 	})
-
 	use("folke/lsp-colors.nvim")
-	-- use({
-	-- 	"folke/which-key.nvim",
-	-- 	config = function()
-	-- 		require("which-key").setup({})
-	-- 	end,
-	-- })
+	use({
+		"folke/which-key.nvim",
+		config = function()
+			require("which-key").setup({})
+		end,
+	})
 	use({
 		"folke/tokyonight.nvim",
 		config = function()
@@ -79,6 +78,7 @@ hi Normal guibg=NONE ctermbg=NONE
 ]])
 		end,
 	})
+	-- not working till some plenary stuff works itself out
 	use({
 		"folke/trouble.nvim",
 		requires = "kyazdani42/nvim-web-devicons",
@@ -90,13 +90,12 @@ hi Normal guibg=NONE ctermbg=NONE
 	use({ "folke/lua-dev.nvim" })
 
 	--lsp
-	-- use("jose-elias-alvarez/nvim-lsp-ts-utils")
 	use("folke/nvim-lsp-ts-utils")
 	use({ "ray-x/lsp_signature.nvim" })
 	use("neovim/nvim-lspconfig")
-	use({ "mfussenegger/nvim-jdtls", requires = "mfussenegger/nvim-fzy" })
+	use({ "mfussenegger/nvim-jdtls" })
 	use("kshenoy/vim-signature")
-	use({ "tjdevries/nlua.nvim", config = function() end })
+	-- use({ "tjdevries/nlua.nvim", config = function() end })
 	use("RishabhRD/popfix")
 	use("RishabhRD/nvim-lsputils")
 	use("simrat39/rust-tools.nvim")
@@ -116,7 +115,12 @@ hi Normal guibg=NONE ctermbg=NONE
 	use("tpope/vim-surround")
 	use("tpope/vim-fugitive")
 	use("tpope/vim-scriptease")
-	use("tpope/vim-commentary")
+	use({
+		"numToStr/Comment.nvim",
+		config = function()
+			require("Comment").setup()
+		end,
+	})
 	use("JoosepAlviste/nvim-ts-context-commentstring")
 	--dap
 	--TODO need to set this up
@@ -130,18 +134,19 @@ hi Normal guibg=NONE ctermbg=NONE
 	-- ThePrimeagen plugins
 	use("ThePrimeagen/harpoon")
 	use("ThePrimeagen/git-worktree.nvim")
-	use({
-		"ThePrimeagen/refactoring.nvim",
-		requires = {
-			{ "nvim-lua/plenary.nvim" },
-			{ "nvim-treesitter/nvim-treesitter" },
-		},
-	})
+	-- use({
+	-- 	"ThePrimeagen/refactoring.nvim",
+	-- 	requires = {
+	-- 		{ "nvim-lua/plenary.nvim" },
+	-- 		{ "nvim-treesitter/nvim-treesitter" },
+	-- 	},
+	-- })
 
 	--other helpers
 	use("junegunn/rainbow_parentheses.vim")
 	use("sbdchd/neoformat")
 	use("mhinz/vim-startify")
+	use("mfussenegger/nvim-treehopper")
 	use({ "hoob3rt/lualine.nvim", requires = { "kyazdani42/nvim-web-devicons", opt = true } })
 	use({
 		"rcarriga/nvim-notify",
@@ -159,7 +164,7 @@ hi Normal guibg=NONE ctermbg=NONE
 			require("nvim-autopairs").setup({})
 		end,
 	})
-	use("mbbill/undotree")
+	-- use("mbbill/undotree")
 	use("ggandor/lightspeed.nvim")
 	use({ "tjdevries/cyclist.vim" })
 	use("jeffkreeftmeijer/vim-numbertoggle")
@@ -188,4 +193,15 @@ hi Normal guibg=NONE ctermbg=NONE
 		end,
 	})
 	use({ "windwp/nvim-ts-autotag", config = require("nvim-ts-autotag").setup() })
+	use({ "j-hui/fidget.nvim", config = require("fidget").setup({}) })
+
+	use("jremmen/vim-ripgrep")
+	use("windwp/nvim-spectre")
+	use({
+		"nvim-neorg/neorg",
+		requires = "nvim-lua/plenary.nvim",
+		after = "nvim-treesitter",
+	})
+	use("chrisbra/matchit")
+	use("romainl/vim-qf")
 end)
