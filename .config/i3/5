@@ -159,7 +159,35 @@ bindsym $mod+Shift+r restart
 bindsym $mod+q kill
 bindsym $mod+Shift+a exec i3-msg exit
 
+# resize window (you can also use the mouse for that)
+# mode "resize" {
+# # These bindings trigger as soon as you enter the resize mode
 
+# # Pressing left will shrink the window’s width.
+# # Pressing right will grow the window’s width.
+# # Pressing up will shrink the window’s height.
+# # Pressing down will grow the window’s height.
+#   bindsym j resize shrink width 10 px or 10 ppt
+#     bindsym k resize grow height 10 px or 10 ppt
+#     bindsym l resize shrink height 10 px or 10 ppt
+#     bindsym semicolon resize grow width 10 px or 10 ppt
+
+# # same bindings, but for the arrow keys
+#     bindsym Left resize shrink width 10 px or 10 ppt
+#     bindsym Down resize grow height 10 px or 10 ppt
+#     bindsym Up resize shrink height 10 px or 10 ppt
+#     bindsym Right resize grow width 10 px or 10 ppt
+
+# # back to normal: Enter or Escape or $mod+r
+#     bindsym Return mode "default"
+#     bindsym Caps_Lock mode "default"
+#     bindsym $mod+r mode "default"
+# }
+
+# bindsym $mod+r mode "resize"
+
+# Start i3bar to display a workspace bar (plus the system information i3status
+# finds out, if available)
 bar {
   font pango:Fira Code 5
     status_command bumblebee-status  -m  speedtest disk load cpu memory battery date time pasink system  -p interval=1 time.format="%H:%M IST " date.format="%a, %b %d %Y" home.path=/home system.lock="i3lock && xset dpms 5" system.logout="i3 msg exit" -t night-powerline
@@ -191,6 +219,7 @@ bar {
         inactive_workspace #000000 #000000 #888888 #928374
         urgent_workspace #2f343a #900000 #ffffff #ebdbb2
 
+#HDMI-1
 
         separator #666666
     }
@@ -204,7 +233,7 @@ exec_always --no-startup-id numlockx on #numlock setting
 
 
 #ss commands
-bindsym Print exec flameshot gui
+bindsym Print exec gnome-screenshot -i
 
 # general theme for gruvbox
 client.focused #3b1261 #3b1261 #ffffff #662b9c
@@ -229,7 +258,6 @@ exec_always --no-startup-id nitrogen --restore
 exec --no-startup-id /usr/bin/kitty
 exec --no-startup-id /usr/bin/google-chrome-stable
 exec --no-startup-id '/snap/bin/firefox' #
-exec --no-startup-id /usr/bin/notion-app-enhanced
 exec_always --no-startup-id ~/script/kbsettings.sh
 exec_always --no-startup-id i3-workspace-names-daemon
 
@@ -272,7 +300,7 @@ assign [class="Chromium"]  number 1
 assign [class="Google-chrome"]  number 1
 
 # primary browser
-assign [class="firefox"]  number 2
+assign [class="Firefox"]  number 2
 
 # secondary tools
 assign [class="Code"]  number 3
@@ -284,15 +312,13 @@ assign [class="Evince"]  number 3
 
 # extra applications
 assign [class="PacketTracer7"]  number 4
-assign [class="notion-app-enhanced"]  number 4
-
 assign [class="Org.gnome.Nautilus"]  number 4
 
 assign [class="vlc"]  number 5
 assign [class="Transmission"]  number 5
 assign [class="openSCAD"]  number 5
 
-assign [class="Steam"]  number 6
+assign [class="Steam"]  number 5
 #
 # screen recording
 assign [class="SimpleScreenRecorder"]  number 8

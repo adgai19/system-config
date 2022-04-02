@@ -1,0 +1,10 @@
+
+kubeadm init --apiserver-advertise-address=192.168.0.101 --pod-network-cidr=192.168.1.0/24  --ignore-preflight-errors=all
+{
+  curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add -
+  echo "deb https://apt.kubernetes.io/ kubernetes-focal main" > /etc/apt/sources.list.d/kubernetes.list
+}
+
+kubeadm join 192.168.0.101:6443 --token g7vwlc.b70j5hx6samqwcxg     --discovery-token-ca-cert-hash sha256:1141e89905889e33c4ffea51166ece99808acc64993615fd7ff3afb5664d2a49
+
+https://kubernetes.io/docs/setup/cri/

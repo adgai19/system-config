@@ -2,6 +2,8 @@ alias cat="bat"
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 #alias vlc="devour vlc"
 alias grep="rg"
+alias pbar="watch -n 0.5 progress"
+alias proxmoxkill="ssh proxmox -t shutdown now"
 alias ls="exa"
 alias l="exa -lahF"
 alias ssh="kitty +kitten ssh"
@@ -82,12 +84,15 @@ starship init fish | source
 export JAVA_HOME=(readlink -f /usr/bin/java | sed "s:/bin/java::")
 #export JDTLS_CONFIG=/path/to/eclipse.jdt.ls/org.eclipse.jdt.ls.product/target/repository/config_linux
 #export WORKSPACE=$HOME/workspace
-set -gx VOLTA_HOME "$HOME/.volta"
-set -gx PATH "$VOLTA_HOME/bin" $PATH
 #/* export NODE_OPTIONS=--openssl-legacy-provider */
 export FZF_DEFAULT_COMMAND='rg --files --follow --no-ignore-vcs --hidden -g "!{node_modules/*,.git/*}"'
 
 export GOPATH=$HOME/go
 # export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
-set PATH /root/.cargo/bin /home/adgai/.cargo/bin /home/adgai/.local/bin /usr/local/sbin /usr/local/bin /usr/sbin /usr/bin /sbin /bin /usr/games /usr/local/games /snap/bin $HOME/script /home/adgai/.local/apache-maven-3.8.3/bin $HOME/go/bin $DENO_INSTALL/bin ~/script GOROOT/bin $GOPATH/bin
+set PATH /root/.cargo/bin /home/adgai/.cargo/bin /home/adgai/.local/bin /usr/local/sbin /usr/local/bin /usr/sbin /usr/bin /sbin /bin /usr/games /usr/local/games /snap/bin $HOME/script /home/adgai/.local/apache-maven-3.8.3/bin $HOME/go/bin $DENO_INSTALL/bin ~/script GOROOT/bin $GOPATH/bin ~/.pulumi/bin
+
+set -gx VOLTA_HOME "$HOME/.volta"
+set -gx PATH "$VOLTA_HOME/bin" $PATH
+# Generated for envman. Do not edit.
+test -s "$HOME/.config/envman/load.fish"; and source "$HOME/.config/envman/load.fish"
