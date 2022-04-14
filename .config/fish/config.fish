@@ -78,6 +78,22 @@ export EDITOR='nvim'
 zoxide init fish | source
 starship init fish | source
 
+# kubectl context stuff
+# set DEFAULT_KUBE_CONTEXTS "$HOME/.kube/config"
+# if test -f "{DEFAULT_KUBE_CONTEXTS}"
+#     export KUBECONFIG="DEFAULT_KUBE_CONTEXTS"
+# end
+# # Additional contexts should be in ~/.kube/custom-contexts/ 
+# set CUSTOM_KUBE_CONTEXTS "$HOME/.kube/custom-contexts"
+# mkdir -p "{CUSTOM_KUBE_CONTEXTS}"
+#
+# set OIFS "$IFS"
+# set IFS '\n'
+# for contextFile in ( find "$CUSTOM_KUBE_CONTEXTS" -type f -name "*.yml" )
+#     printf '%s' (contextFile)
+#     export KUBECONFIG="$contextFile:$KUBECONFIG"
+# end
+# set IFS "$OIFS"
 
 #export JAR=~/eclipse/java-2021-06/eclipse/plugins/org.eclipse.equinox.launcher_1.6.200.v20210416-2027.jar
 #export GRADLE_HOME=$HOME/gradle
@@ -91,6 +107,7 @@ export GOPATH=$HOME/go
 # export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
 set PATH /root/.cargo/bin /home/adgai/.cargo/bin /home/adgai/.local/bin /usr/local/sbin /usr/local/bin /usr/sbin /usr/bin /sbin /bin /usr/games /usr/local/games /snap/bin $HOME/script /home/adgai/.local/apache-maven-3.8.3/bin $HOME/go/bin $DENO_INSTALL/bin ~/script GOROOT/bin $GOPATH/bin ~/.pulumi/bin
+
 
 set -gx VOLTA_HOME "$HOME/.volta"
 set -gx PATH "$VOLTA_HOME/bin" $PATH

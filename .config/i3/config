@@ -286,13 +286,13 @@ assign [class="Evince"]  number 3
 assign [class="PacketTracer7"]  number 4
 assign [class="notion-app-enhanced"]  number 4
 
-assign [class="Org.gnome.Nautilus"]  number 4
 
 assign [class="vlc"]  number 5
 assign [class="Transmission"]  number 5
 assign [class="openSCAD"]  number 5
 
 assign [class="Steam"]  number 6
+assign [class="Org.gnome.Nautilus"]  number 6
 #
 # screen recording
 assign [class="SimpleScreenRecorder"]  number 8

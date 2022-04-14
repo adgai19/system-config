@@ -1,14 +1,15 @@
 configuration {
-      /*  width: 50;*/
+       width: 80;
 modi: "drun,run,ssh,combi";
 font: "Fira Code 8";
       /*  bw: 1;*/
-      /*  location: 0;*/
+       location: 0;
       /*  padding: 5;*/
       /*  yoffset: 0;*/
       /*  xoffset: 0;*/
-        fixed-num-lines: false;
+        fixed-num-lines: true;
       show-icons: true;
+      lines: 5;
 terminal: "kitty";
           /*  ssh-client: "ssh";*/
           /*  ssh-command: "{terminal} -e {ssh-client} {host}";*/
@@ -24,7 +25,7 @@ terminal: "kitty";
           /*  levenshtein-sort: false;*/
           /*  case-sensitive: false;*/
           /*  cycle: true;*/
-          sidebar-mode: true;
+          /* sidebar-mode: true; */
           /*  eh: 1;*/
           /*  auto-select: false;*/
           /*  parse-hosts: false;*/
@@ -48,12 +49,7 @@ matching: "fuzzy";
           /*  window-format: "{w}    {i}{c}   {t}";*/
           /*  click-to-exit: true;*/
           /*  show-match: true;*/
-          /*  theme: ;*/
-          /*  color-normal: ;*/
-          /*  color-urgent: ;*/
-          /*  color-active: ;*/
-          /*  color-window: ;*/
-          /*  max-history-size: 25;*/
+           max-history-size: 25;
           /*  combi-hide-mode-prefix: false;*/
           /*  pid: "/run/user/1000/rofi.pid";*/
           /*  display-window: ;*/
@@ -137,5 +133,5 @@ matching: "fuzzy";
           /*  menu: rofi;
 menu_arguments: [-dmenu,-i]*/
 }
-@import "/home/adgai/.local/share/rofi/themes/onedark.rasi"
 
+@theme "/home/adgai/.local/share/rofi/themes/slate.rasi"
