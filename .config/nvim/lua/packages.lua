@@ -1,8 +1,4 @@
-local present, packer = pcall(require, "plugins.packerInit")
-if not present then
-	return false
-end
-
+local packer = require("plugins.packerInit")
 local use = packer.use
 return packer.startup(function()
 	use("lewis6991/impatient.nvim")
@@ -33,21 +29,30 @@ return packer.startup(function()
 	use({ "hrsh7th/cmp-nvim-lsp" })
 	use({ "hrsh7th/cmp-buffer", after = "cmp-nvim-lsp" })
 	use({ "hrsh7th/cmp-path", after = "cmp-buffer" })
+	use({ "petertriho/cmp-git", requires = "nvim-lua/plenary.nvim" })
 	-- use({ "mlaursen/vim-react-snippets", after = "cmp-path" })
-	use("onsails/lspkind-nvim")
+	-- use("onsails/lspkind-nvim")
 	-- use("glepnir/lspsaga.nvim")
 	use("hrsh7th/cmp-nvim-lsp-signature-help")
+	use({
+		"stevearc/aerial.nvim",
+		config = function()
+			require("aerial").setup()
+		end,
+	})
 
 	-- telescope
 	use("nvim-telescope/telescope.nvim")
-	use({ "nvim-telescope/telescope-fzf-native.nvim", run = "make" })
-	use("nvim-telescope/telescope-project.nvim")
+	use({ "nvim-telescope/telescope-fzf-native.nvim", run = "make", after = "telescope.nvim" })
+	use({ "nvim-telescope/telescope-project.nvim", after = "telescope.nvim" })
 	use({
 		"nvim-telescope/telescope-frecency.nvim",
 		requires = { "tami5/sqlite.lua" },
+		after = "telescope.nvim",
 	})
-	use("nvim-telescope/telescope-dap.nvim")
-	use({ "nvim-telescope/telescope-ui-select.nvim" })
+	use({ "nvim-telescope/telescope-dap.nvim" })
+	use({ "nvim-telescope/telescope-packer.nvim", after = "telescope.nvim" })
+	use({ "nvim-telescope/telescope-ui-select.nvim", after = "telescope.nvim" })
 
 	-- folke stuff
 	-- cool guy with cool plugins
@@ -67,16 +72,6 @@ return packer.startup(function()
 	})
 	use({
 		"folke/tokyonight.nvim",
-		config = function()
-			-- code
-			vim.g.tokyonight_style = "night"
-			vim.g.tokyonight_italic_functions = true
-			vim.g.tokyonight_sidebars = { "qf", "vista_kind", "terminal", "packer" }
-			vim.cmd([[colorscheme tokyonight]])
-			vim.cmd([[
-hi Normal guibg=NONE ctermbg=NONE
-]])
-		end,
 	})
 	-- not working till some plenary stuff works itself out
 	use({
@@ -99,6 +94,7 @@ hi Normal guibg=NONE ctermbg=NONE
 	use("RishabhRD/popfix")
 	use("RishabhRD/nvim-lsputils")
 	use("simrat39/rust-tools.nvim")
+	use("fatih/vim-go")
 	use({
 		"simrat39/symbols-outline.nvim",
 		config = function()
@@ -109,6 +105,7 @@ hi Normal guibg=NONE ctermbg=NONE
 			require("symbols-outline").setup(opts)
 		end,
 	})
+	use("mfussenegger/nvim-lint")
 
 	--tpope
 	use("tpope/vim-eunuch")
@@ -125,7 +122,11 @@ hi Normal guibg=NONE ctermbg=NONE
 	--dap
 	--TODO need to set this up
 	use("mfussenegger/nvim-dap")
+	use("Pocco81/DAPInstall.nvim")
 	use("mfussenegger/nvim-dap-python")
+	use("theHamsta/nvim-dap-virtual-text")
+	use("David-Kunz/jester")
+	use("rcarriga/nvim-dap-ui")
 
 	--treesitter
 	use({ "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" })
@@ -134,6 +135,7 @@ hi Normal guibg=NONE ctermbg=NONE
 	-- ThePrimeagen plugins
 	use("ThePrimeagen/harpoon")
 	use("ThePrimeagen/git-worktree.nvim")
+	use("theprimeagen/jvim.nvim")
 	-- use({
 	-- 	"ThePrimeagen/refactoring.nvim",
 	-- 	requires = {
@@ -171,16 +173,10 @@ hi Normal guibg=NONE ctermbg=NONE
 	use({ "sindrets/diffview.nvim", requires = "nvim-lua/plenary.nvim" })
 	use("nacro90/numb.nvim")
 	use("jose-elias-alvarez/null-ls.nvim")
-	use({ "norcalli/nvim-colorizer.lua", config = require("colorizer").setup() })
-	-- use({
-	-- 	"weilbith/nvim-code-action-menu",
-	-- 	config = function()
-	-- 		require("tools.utils").nnoremap(
-	-- 			"<leader>ct",
-	-- 			"<esc>:lua require('code_action_menu').open_code_action_menu()<cr>"
-	-- 		)
-	-- 	end,
-	-- })
+	-- use({ "norcalli/nvim-colorizer.lua", config = require("colorizer").setup() })
+	use({
+		"weilbith/nvim-code-action-menu",
+	})
 	-- use {'stevearc/dressing.nvim'}
 	use({ "potatoesmaster/i3-vim-syntax" })
 	use({
@@ -192,8 +188,8 @@ hi Normal guibg=NONE ctermbg=NONE
 			require("gitsigns").setup()
 		end,
 	})
-	use({ "windwp/nvim-ts-autotag", config = require("nvim-ts-autotag").setup() })
-	use({ "j-hui/fidget.nvim", config = require("fidget").setup({}) })
+	-- use({ "windwp/nvim-ts-autotag", config = require("nvim-ts-autotag").setup() })
+	use({ "j-hui/fidget.nvim" })
 
 	use("jremmen/vim-ripgrep")
 	use("windwp/nvim-spectre")
@@ -204,4 +200,5 @@ hi Normal guibg=NONE ctermbg=NONE
 	})
 	use("chrisbra/matchit")
 	use("romainl/vim-qf")
+	--	end
 end)

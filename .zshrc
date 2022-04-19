@@ -70,7 +70,7 @@ export ZSH="/home/adgai/.oh-my-zsh"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git rust zsh-autosuggestions)
+plugins=(git rust zsh-autosuggestions vi-mode)
 fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
 source $ZSH/oh-my-zsh.sh
 
@@ -103,6 +103,7 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vi ="nvim"
+bindkey -v
 
 alias cat="bat"
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
@@ -222,4 +223,5 @@ eval "$(zoxide init zsh)"
 # test -s "$HOME/.config/envman/load.fish"; && source "$HOME/.config/envman/load.fish"
 # # Generated for envman. Do not edit.
 # [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
+
 
