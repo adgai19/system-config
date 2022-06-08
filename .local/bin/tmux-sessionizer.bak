@@ -1,0 +1,41 @@
+#!/usr/bin/env bash
+
+# if [[ $# -eq 1 ]]; then
+#     selected=$1
+# else
+#     items=`find ~/projects/ -maxdepth 1 -mindepth 1 -type d`
+#     items+=`find ~/snap/exercism/current/exercism/ -maxdepth 2 -mindepth 2 -type d`
+#     # items+=("~/.config/nvim/")
+#     # items+=("$HOME/pro")
+#     # items+=("$HOME/.dotfiles")
+#     selected=`echo "$items" | fzfp`
+# fi
+#
+# dirname=`basename $selected`
+#
+# tmux switch-client -t $dirname
+# if [[ $? -eq 0 ]]; then
+#     exit 0
+# fi
+#
+# tmux new-session -c $selected -d -s $dirname && tmux switch-client -t $dirname || tmux new -c $selected -A -s $dirname
+#
+# tmuxinator list |tail --lines 1|xargs -n 1|fzfp|xargs -I {} tmuxinator start {} #--suppress-tmux-version-warning=SUPPRESS-TMUX-VERSION-WARNING
+
+# if [[ $# -eq 1 ]]; then
+#     selected=$1
+# else
+items=`find ~/pers ~/../ -maxdepth 2 -mindepth 1 -type d`
+#items+=("$HOME/.config/nvim")
+#items+=("$HOME/pers")
+#items+=("$HOME/.config/awesome")
+selected=`echo "$items" | fzf`
+
+tmux_session_name=`basename $selected | tr . _`
+
+tmux switch-client -t $tmux_session_name
+if [[ $? -eq 0 ]]; then
+    exit 0
+fi
+
+tmux new-session -c $selected -d -s $tmux_session_name && tmux switch-client -t $tmux_session_name || tmux new -c $selected -A -s $tmux_session_name
