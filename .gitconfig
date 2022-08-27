@@ -46,3 +46,20 @@
     
 [mergetool "vimdiff"]
 	cmd = nvim -d $LOCAL $REMOTE $MERGED -c '$wincmd w' -c 'wincmd J'
+[safe]
+	directory = /mnt/data/github/helix/runtime/grammars/sources/rust
+	directory = /mnt/data/github/helix/
+	directory = /mnt/data/github/helix
+	directory = /mnt/data/temp/worker-testing
+[alias]
+  lol = log --graph --decorate --pretty=oneline --abbrev-commit
+  lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+  log2 = log --graph --decorate --pretty=format:'------------------------------%n[%C(magenta)%h%Creset] %C(yellow)%cn <%ce>%Creset %C(cyan)%d%Creset %n%cd %n%Cgreen%s%Creset%n------------------------------' --abbrev-commit
+# - patchlog (shows the diff)
+  lg = log -p
+# - date log (commit age oriented)
+  dlog = log --graph --decorate --abbrev-commit --date=short --date-order --pretty=format:'%Cred%h %C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%ad>%Creset'
+# - changelog (user oriented)
+  clog = log --date-order --pretty=format:'<%C(cyan)%an%Creset> [%ad] (%C(yellow)%h%Creset) %s'
+# - lieutenant changelog (author and committer both shown)
+  lclog = log --date-order --pretty=format:'<%C(cyan)%an%Creset (%C(cyan)%ad%Creset)> [%C(bold blue)%cn%Creset (%C(bold blue)%cd%Creset)] (%C(yellow)%h%Creset) %s'

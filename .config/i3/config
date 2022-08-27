@@ -82,9 +82,9 @@ bindsym $mod+v split v
 bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym $mod+s layout stacking
-bindsym $mod+w layout tabbed
-bindsym $mod+Shift+e layout toggle split
+# bindsym $mod+s layout stacking
+# bindsym $mod+w layout tabbed
+# bindsym $mod+Shift+e layout toggle split
 
 # toggle tiling / floating
 # bindsym $mod+Shift+space floating toggle
@@ -93,7 +93,7 @@ bindsym $mod+Shift+e layout toggle split
 # bindsym $mod+space focus mode_toggle
 
 # focus the parent container
-bindsym $mod+a focus parent
+# bindsym $mod+a focus parent
 
 # focus the child container
 #bindsym $mod+d focus child
@@ -181,7 +181,7 @@ bar {
     position top
     tray_output none
     workspace_buttons no
-    status_command bumblebee-status  -m xrandr amixer brightness nic indicator -p xrandr.autotoggle=true interval=1 nic.left-click="nmcli device wifi rescan" -t night-powerline
+    status_command bumblebee-status  -m xrandr amixer brightness time nic indicator -p xrandr.autotoggle=true interval=1 nic.left-click="nmcli device wifi rescan" -t night-powerline
     colors {
 
       background #000000
@@ -228,16 +228,11 @@ exec_always --no-startup-id picom -e 0.1
 exec_always --no-startup-id nitrogen --restore
 exec --no-startup-id /usr/bin/kitty
 exec --no-startup-id /usr/bin/google-chrome-stable
-exec --no-startup-id '/snap/bin/firefox' #
 exec --no-startup-id /usr/bin/notion-app-enhanced
 exec_always --no-startup-id ~/script/kbsettings.sh
 exec_always --no-startup-id i3-workspace-names-daemon
 
-# exec_always --no-startup-id kmonad ~/.config/kbd/mymod.kbd
 exec_always --no-startup-id touchpad-indicator
-#exec --no-startup-id /snap/bin/slack
-#exec --no-startup-id /snap/bin/spotify
-#exec --no-startup-id google-drive-ocamlfuse ~/google-drive
 
 #pulseeffect shourcuts. useful for hiding and showing pulseeffect
 bindsym $mod+Shift+minus [class="Pulseeffect"] move scratchpad
@@ -252,7 +247,7 @@ bindsym $mod+F5 exec brightness.sh - DP-4
 bindsym $mod+F6 exec brightness.sh + DP-4
 
 # bindings to start applications that I do not always but on fairly regular basis 
-bindsym $mod+e exec nautilus; workspace number $ws4
+bindsym $mod+e exec nautilus; workspace number $ws6
 bindsym $mod+p exec evince; workspace number $ws3
 bindsym $mod+Shift+v exec vlc; workspace number $ws5
 bindsym $mod+Ctrl+a exec pavucontrol
@@ -286,14 +281,14 @@ assign [class="Evince"]  number 3
 assign [class="PacketTracer7"]  number 4
 assign [class="notion-app-enhanced"]  number 4
 
-
 assign [class="vlc"]  number 5
 assign [class="Transmission"]  number 5
 assign [class="openSCAD"]  number 5
 
 assign [class="Steam"]  number 6
 assign [class="Org.gnome.Nautilus"]  number 6
-#
+assign [class="Bitwarden"]  number 6
+
 # screen recording
 assign [class="SimpleScreenRecorder"]  number 8
 assign [class="obs"]  number 8

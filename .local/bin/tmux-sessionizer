@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 
-selected=$({find ~/ ~/.config/ ~/Documents/ /mnt/data/ ~/github/ -mindepth 1 -maxdepth 1 -type d & echo "/home/adgai/" & find ~/pers/ -mindepth 1 -maxdepth 3 -type d }| fzf)
+selected=$({find ~/ ~/.config/ ~/Documents/ /mnt/data/ ~/github/ ~/learn -mindepth 1 -maxdepth 1 -type d & echo "/home/adgai/" & find ~/pers/ -mindepth 1 -maxdepth 3 -type d }| fzf)
 
 if [[ -z $selected ]]; then
     exit 0
@@ -22,3 +22,4 @@ if [[ -z $TMUX ]]; then
 else
     tmux switch-client -t $selected_name
 fi
+exit
